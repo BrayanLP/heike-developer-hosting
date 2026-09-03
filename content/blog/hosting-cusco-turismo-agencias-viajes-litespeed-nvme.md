@@ -14,7 +14,7 @@ tags:
   - "hosting agencias viajes cusco"
   - "wordpress litespeed cusco"
   - "hosting nvme"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "6 min de lectura"
 ---
 
@@ -32,7 +32,7 @@ Muchos operadores turísticos en Cusco sufren con **hostings antiguos y lentos**
 
 ## 2. Comparativa para Agencias de Viajes en Cusco
 
-| Característica | Hosting Compartido Convencional | Heike Developer Hosting (Cusco) |
+| Característica | Hosting Compartido Convencional | Brenda Developer Hosting (Cusco) |
 | :--- | :--- | :--- |
 | **Tiempo de Carga de Imágenes** | Lento (> 2.5 seg en galerías) | **Instantáneo con LiteSpeed y NVMe (< 0.8 seg)** |
 | **Concurrencia de Usuarios** | Caídas con más de 20 visitas simultáneas | **Soporta cientos de visitas concurrentes con LSCache** |

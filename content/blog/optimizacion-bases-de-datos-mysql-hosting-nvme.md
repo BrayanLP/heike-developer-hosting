@@ -14,7 +14,7 @@ tags:
   - "bases de datos"
   - "optimizacion sql"
   - "nvme"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "6 min de lectura"
 ---
 
@@ -29,7 +29,7 @@ A diferencia del procesamiento en memoria, las operaciones de bases de datos rel
 - Escritura y sincronización de transacciones ACID (`ibdata1` y `redo logs`).
 - Creación de tablas temporales en disco durante operaciones `JOIN` y `GROUP BY` masivas.
 
-Con los discos **NVMe PCIe 4.0** de **Heike Developer Hosting**, las operaciones de I/O se ejecutan a una velocidad hasta **10 veces superior** a los discos duros mecánicos y 4 veces más rápido que SSD SATA, eliminando las demoras de bloqueo de tablas.
+Con los discos **NVMe PCIe 4.0** de **Brenda Developer Hosting**, las operaciones de I/O se ejecutan a una velocidad hasta **10 veces superior** a los discos duros mecánicos y 4 veces más rápido que SSD SATA, eliminando las demoras de bloqueo de tablas.
 
 ---
 
@@ -84,7 +84,7 @@ OPTIMIZE TABLE pedidos, detalles_pedidos, productos;
 
 ---
 
-## 5. Parámetros del Servidor en Heike Developer Hosting
+## 5. Parámetros del Servidor en Brenda Developer Hosting
 
 Nuestros servidores MySQL y MariaDB vienen preconfigurados con parámetros optimizados para alto rendimiento:
 - **`innodb_buffer_pool_size`**: Tamaño de búfer generoso para mantener las tablas más consultadas en memoria RAM.

@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center">
               <img 
                 src="/logo.png" 
-                alt="Heike Developer Hosting" 
+                alt="Brenda Developer Hosting" 
                 className="h-8 w-auto brightness-0 invert"
               />
             </div>
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-zinc-900 text-center">
-          <p className="text-xs text-zinc-500">© {new Date().getFullYear()} Heike Developer Hosting. Todos los derechos reservados.</p>
+          <p className="text-xs text-zinc-500">© {new Date().getFullYear()} Brenda Developer Hosting. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

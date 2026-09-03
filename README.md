@@ -1,6 +1,6 @@
-# 🚀 Heike Developer Hosting
+# 🚀 Brenda Developer Hosting
 
-**Heike Developer Hosting** es una plataforma web moderna para servicios de alojamiento de alto rendimiento en Perú y Latinoamérica, optimizada con discos NVMe PCIe 4.0, servidores web LiteSpeed Enterprise, integración de pagos en Soles (Yape, Plin, BCP) y facturación electrónica SUNAT.
+**Brenda Developer Hosting** es una plataforma web moderna para servicios de alojamiento de alto rendimiento en Perú y Latinoamérica, optimizada con discos NVMe PCIe 4.0, servidores web LiteSpeed Enterprise, integración de pagos en Soles (Yape, Plin, BCP) y facturación electrónica SUNAT.
 
 ---
 

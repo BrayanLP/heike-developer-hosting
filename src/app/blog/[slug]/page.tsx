@@ -29,19 +29,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: "Artículo no encontrado | Heike Developer Hosting",
+      title: "Artículo no encontrado | Brenda Developer Hosting",
     };
   }
 
   const postUrl = `https://brenda.dev/blog/${post.slug}`;
 
   return {
-    title: `${post.title} | Heike Developer Hosting`,
+    title: `${post.title} | Brenda Developer Hosting`,
     description: post.excerpt,
     keywords: [
       ...post.categories,
       ...post.tags,
-      "Heike Developer Hosting",
+      "Brenda Developer Hosting",
       "Hosting NVMe",
       "Hosting Perú",
     ],
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       modifiedTime: post.modified || post.date,
       authors: [post.author],
       images: post.coverImage ? [{ url: post.coverImage }] : [],
-      siteName: "Heike Developer Hosting",
+      siteName: "Brenda Developer Hosting",
     },
     twitter: {
       card: "summary_large_image",
@@ -111,7 +111,7 @@ export default async function BlogPostPage({ params }: PageProps) {
         "isPartOf": {
           "@type": "WebSite",
           "@id": "https://brenda.dev/#website",
-          "name": "Heike Developer Hosting",
+          "name": "Brenda Developer Hosting",
           "url": "https://brenda.dev"
         },
         "headline": post.title,
@@ -125,12 +125,12 @@ export default async function BlogPostPage({ params }: PageProps) {
         "dateModified": post.modified || post.date,
         "author": {
           "@type": "Organization",
-          "name": post.author || "Heike Developer Hosting",
+          "name": post.author || "Brenda Developer Hosting",
           "url": "https://brenda.dev"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Heike Developer Hosting",
+          "name": "Brenda Developer Hosting",
           "url": "https://brenda.dev",
           "logo": {
             "@type": "ImageObject",
@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hola Heike Developer Hosting, leí su artículo "${post.title}" y deseo consultar sobre sus planes de hosting NVMe.`
+    `Hola Brenda Developer Hosting, leí su artículo "${post.title}" y deseo consultar sobre sus planes de hosting NVMe.`
   );
 
   return (

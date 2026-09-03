@@ -16,7 +16,7 @@ tags:
 - cpanel nodejs passenger
 - cloudlinux nodejs
 - hosting desarrolladores peru
-author: Heike Developer Hosting
+author: Brenda Developer Hosting
 readingTime: 8 min de lectura
 intentStage: THINK
 targetKeyword: hosting nodejs lima nextjs
@@ -26,11 +26,11 @@ targetKeyword: hosting nodejs lima nextjs
 
 ![Hosting para Node.js y Next.js en Lima](/images/blog/hosting-nodejs-nextjs-lima-despliegue-passenger-cloudlinux.svg)
 
-En este tutorial te mostramos la configuración exacta para correr aplicaciones Node.js 18, 20 o 22 en la infraestructura de alta velocidad de **Heike Developer Hosting**.
+En este tutorial te mostramos la configuración exacta para correr aplicaciones Node.js 18, 20 o 22 en la infraestructura de alta velocidad de **Brenda Developer Hosting**.
 
 ---
 
-## 1. Ventajas de Desplegar Node.js en Heike Developer Hosting
+## 1. Ventajas de Desplegar Node.js en Brenda Developer Hosting
 
 * **Selector de Versiones Múltiples:** Cambia entre Node.js 18.x, 20.x y 22.x LTS con un solo clic.
 * **Aislamiento CloudLinux (LVE):** Tu aplicación cuenta con memoria RAM (de 2 a 3 GB) y núcleos de CPU dedicados que impiden que otros procesos saturen tu entorno.
@@ -113,4 +113,4 @@ app.prepare().then(() => {
 
 Deja de pagar facturas sorpresa en dólares por servidores en la nube para proyectos de clientes locales.
 
-En **Heike Developer Hosting** obtienes un entorno optimizado para Node.js, Next.js, Python y PHP con discos NVMe ultrarrápidos desde **S/ 60 al año**. **Contrata tu plan hoy por WhatsApp al +51 924 081 817 pagando en Soles con Yape o Plin** y recibe asesoría técnica directa en Lima.
+En **Brenda Developer Hosting** obtienes un entorno optimizado para Node.js, Next.js, Python y PHP con discos NVMe ultrarrápidos desde **S/ 60 al año**. **Contrata tu plan hoy por WhatsApp al +51 924 081 817 pagando en Soles con Yape o Plin** y recibe asesoría técnica directa en Lima.

@@ -14,7 +14,7 @@ tags:
   - "FastAPI"
   - "CloudLinux"
   - "APIs"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "5 min de lectura"
 ---
 
@@ -26,7 +26,7 @@ readingTime: "5 min de lectura"
 
 **FastAPI** es uno de los frameworks web más rápidos para Python, ofreciendo validación automática de datos con Pydantic, documentación interactiva Swagger (`/docs`) y soporte nativo asíncrono (`async/await`).
 
-En **Heike Developer Hosting**, cuentas con el selector de aplicaciones **Python Setup App** en paneles como DirectAdmin y cPanel, permitiéndote aislar librerías y versiones sin interferir con otros proyectos.
+En **Brenda Developer Hosting**, cuentas con el selector de aplicaciones **Python Setup App** en paneles como DirectAdmin y cPanel, permitiéndote aislar librerías y versiones sin interferir con otros proyectos.
 
 ---
 
@@ -40,7 +40,7 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 
 app = FastAPI(
-    title="Heike Hosting API Service",
+    title="Brenda Hosting API Service",
     description="Microservicio rápido en Python con FastAPI y CloudLinux",
     version="1.0.0"
 )
@@ -54,7 +54,7 @@ class Item(BaseModel):
 def read_root():
     return {
         "status": "success",
-        "message": "API de alto rendimiento corriendo en Heike Developer Hosting",
+        "message": "API de alto rendimiento corriendo en Brenda Developer Hosting",
         "storage": "NVMe SSD PCIe 4.0"
     }
 
@@ -132,4 +132,4 @@ Una vez reiniciada la aplicación:
 
 ## 6. Conclusión
 
-Publicar APIs y servicios backend en Python es fácil, seguro y económico con **Heike Developer Hosting**. No necesitas gestionar un servidor Linux desde cero para contar con la máxima velocidad y estabilidad.
+Publicar APIs y servicios backend en Python es fácil, seguro y económico con **Brenda Developer Hosting**. No necesitas gestionar un servidor Linux desde cero para contar con la máxima velocidad y estabilidad.

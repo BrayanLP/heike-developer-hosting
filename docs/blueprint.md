@@ -1,13 +1,13 @@
-# **App Name**: Heike Hosting
+# **App Name**: Brenda Hosting
 
 ## Core Features:
 
-- Comprehensive Hosting Information Display: Present all provided content including the header, hero section, benefits, 'Why Choose Us,' and FAQ, ensuring clear and structured information about Heike Hosting's services.
+- Comprehensive Hosting Information Display: Present all provided content including the header, hero section, benefits, 'Why Choose Us,' and FAQ, ensuring clear and structured information about Brenda Hosting's services.
 - Interactive Hosting Plan Viewer: A modern, responsive table showcasing annual hosting plans (Basic to Ultimate) with their respective storage, pricing, and detailed feature lists (RAM, CPU, SSL, Softaculous, Emails, Web Builder, Support).
 - Direct Call-to-Action Integration: Strategically placed 'Contratar ahora' and 'Ver planes' buttons throughout the site to guide users towards purchasing decisions.
 - SEO-Friendly Content Structuring: Implementation of clear titles, semantic HTML, and well-organized content sections as described in the user request to ensure good search engine visibility.
 - Responsive Design Adaptation: Ensuring the entire website adjusts seamlessly to various screen sizes and devices, providing an optimal viewing experience on desktops, tablets, and mobile phones.
-- AI-powered Plan Recommender Tool: An interactive tool that uses generative AI to analyze user-specified business needs (e.g., website type, expected traffic) and recommends the most suitable Heike Hosting plan.
+- AI-powered Plan Recommender Tool: An interactive tool that uses generative AI to analyze user-specified business needs (e.g., website type, expected traffic) and recommends the most suitable Brenda Hosting plan.
 
 ## Style Guidelines:
 

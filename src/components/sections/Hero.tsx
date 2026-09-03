@@ -18,7 +18,7 @@ export default function Hero() {
           
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight text-zinc-900 leading-tight">
             Potencia tus Proyectos con <br className="hidden sm:block" />
-            <span className="text-primary italic">Heike Developer Hosting</span>
+            <span className="text-primary italic">Brenda Developer Hosting</span>
           </h1>
           
           <p className="text-sm md:text-lg text-muted-foreground max-w-xl leading-relaxed">

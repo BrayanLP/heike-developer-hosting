@@ -5,8 +5,8 @@ import './globals.css';
 export const metadata: Metadata = {
   metadataBase: new URL('https://brenda.dev'),
   title: {
-    default: 'Heike Developer Hosting | Hosting NVMe Ultrarrápido en Perú',
-    template: '%s | Heike Developer Hosting',
+    default: 'Brenda Developer Hosting | Hosting NVMe Ultrarrápido en Perú',
+    template: '%s | Brenda Developer Hosting',
   },
   description:
     'Hosting anual de alto rendimiento para desarrolladores en Perú. Servidores con tecnología NVMe SSD, NodeJS, Python, PHP 8.x, LiteSpeed, SSL Gratis y soporte 24/7. ¡Desde S/ 60 al año!',
@@ -21,12 +21,12 @@ export const metadata: Metadata = {
     'cpanel hosting peru',
     'directadmin hosting',
     'hosting barato peru',
-    'heike developer hosting',
+    'brenda developer hosting',
     'hosting rapido peru',
   ],
-  authors: [{ name: 'Heike Developer Hosting', url: 'https://brenda.dev' }],
-  creator: 'Heike Developer Hosting',
-  publisher: 'Heike Developer Hosting',
+  authors: [{ name: 'Brenda Developer Hosting', url: 'https://brenda.dev' }],
+  creator: 'Brenda Developer Hosting',
+  publisher: 'Brenda Developer Hosting',
   alternates: {
     canonical: 'https://brenda.dev',
     languages: {
@@ -49,22 +49,22 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'es_PE',
     url: 'https://brenda.dev',
-    title: 'Heike Developer Hosting | Hosting NVMe Ultrarrápido en Perú',
+    title: 'Brenda Developer Hosting | Hosting NVMe Ultrarrápido en Perú',
     description:
       'Potencia tus proyectos y aplicaciones web con almacenamiento NVMe de última generación, LiteSpeed, NodeJS, Python y soporte 24/7.',
-    siteName: 'Heike Developer Hosting',
+    siteName: 'Brenda Developer Hosting',
     images: [
       {
         url: 'https://brenda.dev/logo.png',
         width: 1200,
         height: 630,
-        alt: 'Heike Developer Hosting - Servidores NVMe y Hosting Anual en Perú',
+        alt: 'Brenda Developer Hosting - Servidores NVMe y Hosting Anual en Perú',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Heike Developer Hosting | Hosting NVMe en Perú',
+    title: 'Brenda Developer Hosting | Hosting NVMe en Perú',
     description:
       'Servidores ultrarrápidos con almacenamiento NVMe para desarrolladores y empresas en Perú.',
     images: ['https://brenda.dev/logo.png'],
@@ -74,7 +74,7 @@ export const metadata: Metadata = {
     'geo.placename': 'Callao, Lima, Perú',
     'geo.position': '-12.056598;-77.118146',
     ICBM: '-12.056598, -77.118146',
-    'DC.title': 'Heike Developer Hosting | Hosting NVMe en Perú',
+    'DC.title': 'Brenda Developer Hosting | Hosting NVMe en Perú',
     'geo.country': 'PE',
   },
 };

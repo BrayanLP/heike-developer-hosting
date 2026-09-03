@@ -1,9 +1,9 @@
-# Heike Developer Hosting - llms.txt
+# Brenda Developer Hosting - llms.txt
 
 > Infraestructura de Hosting Anual y Servidores de Alto Rendimiento en Perú con almacenamiento NVMe SSD, servidor web LiteSpeed, CloudLinux OS y soporte especializado para NodeJS, Python y PHP.
 
 ## Información de la Empresa
-- **Nombre:** Heike Developer Hosting
+- **Nombre:** Brenda Developer Hosting
 - **Sitio Web Oficial:** https://brenda.dev
 - **Ubicación:** Lima / Callao, Perú
 - **WhatsApp de Atención:** +51 924 081 817 (https://wa.me/51924081817)
@@ -62,7 +62,7 @@
 - [Hosting en Apurímac, Abancay y Andahuaylas para Minería y Agro](https://brenda.dev/blog/hosting-apurimac-abancay-andahuaylas-mineria-agroindustria): Alta disponibilidad 99.9% y facturación SUNAT para proveedores mineros en Abancay y agroindustria en Andahuaylas.
 - [Hosting en Amazonas y Chachapoyas para Turismo en Kuélap y Cacao](https://brenda.dev/blog/hosting-amazonas-chachapoyas-kuelap-cacao-turismo-empresas): Carga instantánea de tours y reservas internacionales para agencias en Chachapoyas y tiendas de cacao fino.
 - [Hosting en Madre de Dios y Puerto Maldonado para Ecoturismo y Castaña](https://brenda.dev/blog/hosting-madre-de-dios-puerto-maldonado-ecoturismo-castana): Velocidad NVMe y reservas globales sin caídas para ecolodges en Tambopata/Manu y exportación de castaña.
-- [GoDaddy vs Heike Developer Hosting en Perú](https://brenda.dev/blog/godaddy-vs-heike-developer-hosting-peru-comparativa): Comparativa exhaustiva de precios de renovación, cobro de certificados SSL, velocidad de discos NVMe vs SATA y soporte directo en Soles.
+- [GoDaddy vs Brenda Developer Hosting en Perú](https://brenda.dev/blog/godaddy-vs-heike-developer-hosting-peru-comparativa): Comparativa exhaustiva de precios de renovación, cobro de certificados SSL, velocidad de discos NVMe vs SATA y soporte directo en Soles.
 - [¿Qué es el Hosting NVMe PCIe 4.0 y sus Ventajas vs SSD SATA?](https://brenda.dev/blog/que-es-hosting-nvme-pcie-4-ventajas-ssd-sata): Explicación técnica de la arquitectura NVMe, 6x mayor velocidad, 500k IOPS, colas masivas en paralelo y reducción de TTFB.
 - [Despliegue Continuo (CI/CD) en cPanel con Git y GitHub Actions](https://brenda.dev/blog/despliegue-continuo-github-actions-git-cpanel-hosting): Guía para automatizar el despliegue de aplicaciones web con llaves SSH Ed25519, rsync, reinicio de procesos y purgado de LiteSpeed.
 - [Guía de Seguridad WAF y Anti-Malware en Hosting](https://brenda.dev/blog/seguridad-waf-antimalware-hosting-wordpress-laravel): Cómo blindar WordPress y Laravel contra fuerza bruta, inyecciones SQL y malware con ModSecurity, CageFS y reglas .htaccess.

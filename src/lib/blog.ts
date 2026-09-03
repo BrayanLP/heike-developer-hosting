@@ -313,7 +313,7 @@ export async function getAllPosts(): Promise<BlogPost[]> {
         const coverImage = data.coverImage || '';
         const categories = Array.isArray(data.categories) ? data.categories : [];
         const tags = Array.isArray(data.tags) ? data.tags : [];
-        const author = data.author || 'Heike Developer Hosting';
+        const author = data.author || 'Brenda Developer Hosting';
         const originalUrl = `https://brenda.dev/blog/${slug}`;
 
         return {
@@ -380,7 +380,7 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       coverImage,
       categories: Array.isArray(data.categories) ? data.categories : [],
       tags: Array.isArray(data.tags) ? data.tags : [],
-      author: data.author || 'Heike Developer Hosting',
+      author: data.author || 'Brenda Developer Hosting',
       originalUrl: `https://brenda.dev/blog/${slug}`,
       readingTime: calculateReadingTime(content),
       contentHtml,

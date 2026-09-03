@@ -1,6 +1,6 @@
-# Ecosistema de Agentes Especializados - Heike Developer Hosting
+# Ecosistema de Agentes Especializados - Brenda Developer Hosting
 
-Este directorio contiene las definiciones, stacks tecnológicos, responsabilidades y mejores prácticas de los agentes diseñados para operar, desarrollar y hacer crecer la plataforma **Heike Developer Hosting** (Hosting NVMe de alto rendimiento en Perú con LiteSpeed, soporte en Soles y activación por WhatsApp).
+Este directorio contiene las definiciones, stacks tecnológicos, responsabilidades y mejores prácticas de los agentes diseñados para operar, desarrollar y hacer crecer la plataforma **Brenda Developer Hosting** (Hosting NVMe de alto rendimiento en Perú con LiteSpeed, soporte en Soles y activación por WhatsApp).
 
 ---
 
@@ -8,7 +8,7 @@ Este directorio contiene las definiciones, stacks tecnológicos, responsabilidad
 
 | Agente | Nombre de Invocación | Especialidad Principal | Stack / Herramientas Clave |
 | :--- | :--- | :--- | :--- |
-| **Copy & SEO Marketer** | `copy_heike_hosting` | Redacción SEO Local Perú (24 regiones), comparativas y framework SEE-THINK-DO-CARE | Frontmatter YAML, `copy_validator.py`, SVG vector covers |
+| **Copy & SEO Marketer** | `copy_brenda_hosting` | Redacción SEO Local Perú (24 regiones), comparativas y framework SEE-THINK-DO-CARE | Frontmatter YAML, `copy_validator.py`, SVG vector covers |
 | **Hosting Infrastructure Architect** | `hosting_infrastructure_architect` | Servidores web, cPanel/WHM, LiteSpeed, CloudLinux, DNS y seguridad | LiteSpeed Enterprise, LSCache, NVMe PCIe 4.0, cPanel, Passenger, SPF/DKIM/DMARC |
 | **Frontend UI Designer** | `frontend_ui_designer` | Interfaces de usuario, tablas comparativas, planes de precios y checkout | Next.js, React, Radix UI, Tailwind CSS, Lucide Icons |
 | **Genkit AI Consultant** | `genkit_ai_consultant` | Asistente inteligente de recomendación de planes y búsqueda semántica de dominios | `@genkit-ai/google-genai`, Genkit Flows, Google Gemini API |
@@ -24,7 +24,7 @@ Puedes invocar cualquiera de estos agentes mediante la herramienta `invoke_subag
 {
   "Subagents": [
     {
-      "TypeName": "copy_heike_hosting",
+      "TypeName": "copy_brenda_hosting",
       "Role": "Copy & SEO Marketer",
       "Prompt": "Redactar un artículo de comparativa sobre Hosting NVMe en Arequipa enfocado en agencias de turismo y comercio local."
     }

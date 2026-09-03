@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { recommendHeikeHostingPlan, type AiPlanRecommenderOutput } from "@/ai/flows/ai-plan-recommender-flow";
+import { recommendBrendaHostingPlan, type AiPlanRecommenderOutput } from "@/ai/flows/ai-plan-recommender-flow";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/components/ui/card";
@@ -17,7 +17,7 @@ export default function PlanRecommender() {
     if (!description.trim()) return;
     setLoading(true);
     try {
-      const result = await recommendHeikeHostingPlan({ websiteDescription: description });
+      const result = await recommendBrendaHostingPlan({ websiteDescription: description });
       setRecommendation(result);
     } catch (error) {
       console.error("Failed to get recommendation:", error);

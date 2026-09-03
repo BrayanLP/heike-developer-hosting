@@ -16,7 +16,7 @@ tags:
 - dmarc correo corporativo
 - evitar spam hosting
 - dns cpanel peru
-author: Heike Developer Hosting
+author: Brenda Developer Hosting
 readingTime: 9 min de lectura
 intentStage: CARE
 targetKeyword: configurar dkim spf dmarc cpanel
@@ -26,7 +26,7 @@ targetKeyword: configurar dkim spf dmarc cpanel
 
 ![Configuración de SPF, DKIM y DMARC en cPanel](/images/blog/configurar-registros-dns-dkim-spf-dmarc-cpanel-evitar-spam.svg)
 
-En esta guía práctica para clientes de **Heike Developer Hosting**, aprenderás a configurar correctamente estos tres registros DNS en tu cPanel para garantizar que tus cotizaciones y correos lleguen directamente a la bandeja de entrada principal.
+En esta guía práctica para clientes de **Brenda Developer Hosting**, aprenderás a configurar correctamente estos tres registros DNS en tu cPanel para garantizar que tus cotizaciones y correos lleguen directamente a la bandeja de entrada principal.
 
 ---
 
@@ -40,7 +40,7 @@ En esta guía práctica para clientes de **Heike Developer Hosting**, aprenderá
 
 ## 2. Paso 1: Activar SPF y DKIM en cPanel en 1 Clic
 
-En todos los servidores de Heike Developer Hosting, cPanel incluye la herramienta **Email Deliverability (Capacidad de Entrega del Correo)**:
+En todos los servidores de Brenda Developer Hosting, cPanel incluye la herramienta **Email Deliverability (Capacidad de Entrega del Correo)**:
 
 ```bash
 Ruta en cPanel:
@@ -90,7 +90,7 @@ Para verificar que tus registros están activos globalmente:
 
 ---
 
-## 5. Soporte Directo para Clientes de Heike Developer Hosting
+## 5. Soporte Directo para Clientes de Brenda Developer Hosting
 
 ¿Tienes dudas al configurar tus registros DNS o tus correos continúan cayendo en spam debido a malas configuraciones pasadas?
 

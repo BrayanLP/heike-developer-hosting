@@ -1,10 +1,10 @@
 'use server';
 /**
- * @fileOverview An AI agent that recommends a Heike Hosting plan based on user's website needs.
+ * @fileOverview An AI agent that recommends a Brenda Hosting plan based on user's website needs.
  *
- * - recommendHeikeHostingPlan - A function that handles the hosting plan recommendation process.
- * - AiPlanRecommenderInput - The input type for the recommendHeikeHostingPlan function.
- * - AiPlanRecommenderOutput - The return type for the recommendHeikeHostingPlan function.
+ * - recommendBrendaHostingPlan - A function that handles the hosting plan recommendation process.
+ * - AiPlanRecommenderInput - The input type for the recommendBrendaHostingPlan function.
+ * - AiPlanRecommenderOutput - The return type for the recommendBrendaHostingPlan function.
  */
 
 import { ai } from '@/ai/genkit';
@@ -18,7 +18,7 @@ const AiPlanRecommenderInputSchema = z.object({
 export type AiPlanRecommenderInput = z.infer<typeof AiPlanRecommenderInputSchema>;
 
 const AiPlanRecommenderOutputSchema = z.object({
-  recommendedPlan: z.string().describe("The name of the Heike Hosting plan recommended based on the user's needs."),
+  recommendedPlan: z.string().describe("The name of the Brenda Hosting plan recommended based on the user's needs."),
   space: z.string().describe("The storage space included with the recommended plan, e.g., '5 GB'."),
   price: z.string().describe("The annual price of the recommended plan, e.g., 'S/ 60'."),
   reasoning: z.string().describe("A detailed explanation of why this specific plan was recommended for the user's website needs."),
@@ -26,7 +26,7 @@ const AiPlanRecommenderOutputSchema = z.object({
 });
 export type AiPlanRecommenderOutput = z.infer<typeof AiPlanRecommenderOutputSchema>;
 
-export async function recommendHeikeHostingPlan(input: AiPlanRecommenderInput): Promise<AiPlanRecommenderOutput> {
+export async function recommendBrendaHostingPlan(input: AiPlanRecommenderInput): Promise<AiPlanRecommenderOutput> {
   return aiPlanRecommenderFlow(input);
 }
 
@@ -34,9 +34,9 @@ const prompt = ai.definePrompt({
   name: 'aiPlanRecommenderPrompt',
   input: { schema: AiPlanRecommenderInputSchema },
   output: { schema: AiPlanRecommenderOutputSchema },
-  prompt: `You are an expert sales assistant for Heike Hosting, specializing in recommending the best hosting plans to potential customers based on their specific website needs. Your goal is to help the user find the most suitable annual hosting plan from the following options:
+  prompt: `You are an expert sales assistant for Brenda Hosting, specializing in recommending the best hosting plans to potential customers based on their specific website needs. Your goal is to help the user find the most suitable annual hosting plan from the following options:
 
-Heike Hosting Plans (Specifications):
+Brenda Hosting Plans (Specifications):
 - Plans from 5GB up to 100GB: 2 GB RAM, 2 CPU.
 - Plans from 150GB and above: 3 GB RAM, 3 CPU.
 
@@ -76,7 +76,7 @@ Heike Hosting Plans (Specifications):
 The user has described their website needs as follows:
 {{{websiteDescription}}}
 
-Please analyze this description and recommend the single most suitable Heike Hosting plan. Provide your recommendation in the specified JSON format, making sure to include the exact plan name, space, price, a detailed reasoning, and a list of key features from the plan. Ensure the features list accurately reflects the plan's offerings.`,
+Please analyze this description and recommend the single most suitable Brenda Hosting plan. Provide your recommendation in the specified JSON format, making sure to include the exact plan name, space, price, a detailed reasoning, and a list of key features from the plan. Ensure the features list accurately reflects the plan's offerings.`,
 });
 
 const aiPlanRecommenderFlow = ai.defineFlow(

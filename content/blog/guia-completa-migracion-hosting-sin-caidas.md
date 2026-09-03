@@ -14,7 +14,7 @@ tags:
   - "DirectAdmin"
   - "Bases de Datos"
   - "SSL Gratis"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "6 min de lectura"
 ---
 
@@ -29,7 +29,7 @@ Para cualquier negocio, tienda online o plataforma SaaS, estar offline durante v
 - Penalizaciones temporales en el posicionamiento orgánico de Google.
 - Mala experiencia para clientes que intentan acceder a sus cuentas.
 
-En **Heike Developer Hosting**, realizamos **migraciones gratuitas** para todos nuestros clientes. Si prefieres conocer el proceso técnico o realizarlo tú mismo, te explicamos el flujo exacto a continuación.
+En **Brenda Developer Hosting**, realizamos **migraciones gratuitas** para todos nuestros clientes. Si prefieres conocer el proceso técnico o realizarlo tú mismo, te explicamos el flujo exacto a continuación.
 
 ---
 
@@ -61,8 +61,8 @@ En **Heike Developer Hosting**, realizamos **migraciones gratuitas** para todos 
 
 ---
 
-### Paso 3: Importación en Heike Developer Hosting
-1. Ingresa a tu nuevo panel de **cPanel / DirectAdmin** en Heike Developer Hosting.
+### Paso 3: Importación en Brenda Developer Hosting
+1. Ingresa a tu nuevo panel de **cPanel / DirectAdmin** en Brenda Developer Hosting.
 2. Sube y descomprime tu archivo ZIP en la carpeta `public_html`.
 3. Crea una nueva base de datos en **MySQL Databases**, crea un usuario con contraseña segura y asígnale todos los privilegios.
 4. Entra a **phpMyAdmin**, abre la base de datos recién creada e importa el archivo `.sql`.
@@ -85,18 +85,18 @@ Antes de cambiar los DNS mundiales, puedes verificar que todo funcione al 100% e
 123.45.67.89  tudominio.com  www.tudominio.com
 ```
 
-*(Reemplaza `123.45.67.89` por la IP de tu nuevo servidor en Heike Hosting)*. Abre tu navegador y navega por el sitio. Si todo carga rápido y sin errores, ¡estás listo para el paso final!
+*(Reemplaza `123.45.67.89` por la IP de tu nuevo servidor en Brenda Hosting)*. Abre tu navegador y navega por el sitio. Si todo carga rápido y sin errores, ¡estás listo para el paso final!
 
 ---
 
 ### Paso 5: Cambio de DNS y Emisión de Certificado SSL
-1. Actualiza los registros DNS en tu registrador para que apunten a la nueva IP de Heike Developer Hosting.
+1. Actualiza los registros DNS en tu registrador para que apunten a la nueva IP de Brenda Developer Hosting.
 2. El sistema **AutoSSL / Let's Encrypt** de nuestro servidor emitirá e instalará automáticamente el certificado SSL HTTPS sin que tengas que intervenir.
 
 ---
 
 ## 3. ¿Prefieres que lo hagamos por ti? ¡Es 100% Gratis!
 
-En **Heike Developer Hosting**, nuestro equipo de ingenieros se encarga de transferir todos tus sitios web, bases de datos y correos electrónicos sin ningún costo adicional al contratar cualquiera de nuestros planes anuales.
+En **Brenda Developer Hosting**, nuestro equipo de ingenieros se encarga de transferir todos tus sitios web, bases de datos y correos electrónicos sin ningún costo adicional al contratar cualquiera de nuestros planes anuales.
 
 Solo indícanos los accesos a tu proveedor anterior por WhatsApp y nosotros nos encargamos del resto sin que tu web se desconecte ni un solo segundo.

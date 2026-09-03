@@ -14,7 +14,7 @@ tags:
   - "composer"
   - "cpanel"
   - "desarrollo web"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "6 min de lectura"
 ---
 
@@ -81,7 +81,7 @@ $app = require_once __DIR__.'/../laravel-app/bootstrap/app.php';
 Edita `/home/usuario/laravel-app/.env` con tus datos de producción:
 
 ```dotenv
-APP_NAME="Heike Developer App"
+APP_NAME="Brenda Developer App"
 APP_ENV=production
 APP_DEBUG=false
 APP_URL=https://tudominio.com
@@ -126,4 +126,4 @@ Para que funcionen las tareas en segundo plano (`Schedule`), colas de correos y 
 
 ## 5. Conclusión
 
-Con **Heike Developer Hosting**, disfrutas de la estabilidad y elegancia de Laravel con la máxima velocidad de procesamiento en PHP 8.x y discos NVMe, ahorrando costos significativos en servidores dedicados.
+Con **Brenda Developer Hosting**, disfrutas de la estabilidad y elegancia de Laravel con la máxima velocidad de procesamiento en PHP 8.x y discos NVMe, ahorrando costos significativos en servidores dedicados.

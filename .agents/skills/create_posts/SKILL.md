@@ -1,14 +1,14 @@
 ---
 name: create_posts
 description: >
-  Genera artículos de blog y guías optimizadas para Heike Developer Hosting aplicando el framework
+  Genera artículos de blog y guías optimizadas para Brenda Developer Hosting aplicando el framework
   de intención de búsqueda SEO (SEE - THINK - DO - CARE), comparativas directas contra competidores,
   estrategia de SEO local para los 24 departamentos del Perú y Callao, generación de portada IA,
   sincronización con LLMs (llms.txt), sitemap estático y publicación automatizada vía Git y PR.
 ---
 
 # Scope of Services & Expertise
-Heike Developer Hosting ofrece infraestructura de hosting y servidores de alto rendimiento optimizados para desarrolladores, agencias y empresas en Perú y Latinoamérica:
+Brenda Developer Hosting ofrece infraestructura de hosting y servidores de alto rendimiento optimizados para desarrolladores, agencias y empresas en Perú y Latinoamérica:
 - **Hosting NVMe de Alto Rendimiento:** Servidores ultrarrápidos con almacenamiento NVMe SSD PCIe 4.0 de última generación (hasta 6x más rápidos que SSD SATA tradicionales), servidor web LiteSpeed y aislamiento de recursos por cuenta con CloudLinux OS.
 - **Entorno Multi-Lenguaje para Desarrolladores:** Soporte y selectores dedicados para **Node.js (v18, v20, v22), Python (v3.10, v3.11, v3.12), Ruby y PHP 8.x**, ideal para APIs, microservicios, facturación electrónica SUNAT y frameworks modernos (Next.js, FastAPI, Laravel, Express).
 - **Paneles de Control y Gestión Flexible:** Administración mediante **cPanel, DirectAdmin, Webuzo y Plesk**, con instalador de aplicaciones 1-Click (WordPress, Laravel, Prestashop) y SitePad Web Builder.
@@ -60,14 +60,14 @@ Todo artículo generado debe clasificarse y redactarse estrictamente según el *
 - **Keywords y Consultas Típicas:**
   - `Mejor hosting en Arequipa para empresas y desarrolladores`
   - `Hosting NVMe vs SSD tradicional: comparativa de velocidad`
-  - `GoDaddy vs Heike Developer Hosting Perú comparativa 2026`
+  - `GoDaddy vs Brenda Developer Hosting Perú comparativa 2026`
   - `Hosting para Node.js y Next.js en Lima Perú`
   - `Hosting barato para WordPress con LiteSpeed Perú`
   - `Mejor hosting en Trujillo para tiendas virtuales WooCommerce`
 - **Estructura y Tono del Contenido THINK:**
   1. *H1 Geolocalizado o Comparativo:* Ej. *"El Mejor Hosting en Arequipa para Empresas (Comparativa vs GoDaddy y HostGator 2026)"*.
   2. *Análisis de la Problemática:* Costos inflados de renovación, lentitud de discos SATA, falta de soporte local.
-  3. *Tabla Comparativa Directa:* Heike Developer Hosting vs Competidores Tradicionales.
+  3. *Tabla Comparativa Directa:* Brenda Developer Hosting vs Competidores Tradicionales.
   4. *Ventajas Técnicas Diferenciadoras:* NVMe PCIe 4.0, LiteSpeed Cache, CloudLinux aislado, soporte NodeJS/Python, SSL gratis.
   5. *Contexto Regional o Tecnológico:* Enfoque en los sectores productivos de la región o del stack.
   6. *CTA de Evaluación / Cotización:* Enlace a la tabla de planes y botón directo a WhatsApp para asesoría técnica personalizada.
@@ -78,7 +78,7 @@ Todo artículo generado debe clasificarse y redactarse estrictamente según el *
 - **Keywords y Consultas Típicas:**
   - `Comprar hosting Perú en Soles con Yape y Plin`
   - `Contratar hosting anual NVMe desde S/ 60 al año`
-  - `Migrar hosting gratis a Heike Developer Hosting sin caídas`
+  - `Migrar hosting gratis a Brenda Developer Hosting sin caídas`
   - `Comprar hosting cPanel barato en Perú con SSL gratis`
   - `Hosting Node.js Perú activación inmediata`
 - **Estructura y Tono del Contenido DO:**
@@ -92,7 +92,7 @@ Todo artículo generado debe clasificarse y redactarse estrictamente según el *
 - **Definición:** Audiencia que vuelve a comprarnos o clientes activos (desarrolladores o empresas que ya usan el servicio y buscan guías técnicas avanzadas de despliegue, optimización, solución de errores, upgrades de recursos o contratar hosting para nuevos proyectos/clientes).
 - **Intención de Búsqueda:** Navegacional / Soporte Técnico Especializado / Optimización Avanzada / Upgrades.
 - **Keywords y Consultas Típicas:**
-  - `Cómo configurar Node.js 22 y Express en cPanel Heike Hosting`
+  - `Cómo configurar Node.js 22 y Express en cPanel Brenda Hosting`
   - `Optimización avanzada de LiteSpeed Cache y Redis para WooCommerce`
   - `Configurar registros SPF, DKIM y DMARC en DirectAdmin para evitar spam`
   - `Desplegar API en Python FastAPI con entorno virtual en hosting compartido`
@@ -108,9 +108,9 @@ Todo artículo generado debe clasificarse y redactarse estrictamente según el *
 ---
 
 # ⚔️ Directiva de Comparación con Competidores
-Cada artículo comparativo o de consideración (**THINK / DO**) debe resaltar las ventajas competitivas de **Heike Developer Hosting** frente a competidores tradicionales (GoDaddy, HostGator, Bluehost, Webempresa y revendedores locales obsoletos):
+Cada artículo comparativo o de consideración (**THINK / DO**) debe resaltar las ventajas competitivas de **Brenda Developer Hosting** frente a competidores tradicionales (GoDaddy, HostGator, Bluehost, Webempresa y revendedores locales obsoletos):
 
-| Característica / Beneficio | Heike Developer Hosting | Competidores Tradicionales (GoDaddy, HostGator, etc.) |
+| Característica / Beneficio | Brenda Developer Hosting | Competidores Tradicionales (GoDaddy, HostGator, etc.) |
 | :--- | :--- | :--- |
 | **Tecnología de Disco** | **100% NVMe SSD Ultrarrápido** (Lectura/Escritura > 3500 MB/s) | SATA SSD o HDD mecánicos compartidos y lentos |
 | **Servidor Web** | **LiteSpeed Web Server + LSCache** nativo | Apache tradicional con alto consumo de RAM y lentitud |
@@ -188,7 +188,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
 ### Estructura de Contenido para Artículos de SEO Local:
 1. **H1 Geolocalizado:** Ej. *"El Mejor Hosting en Arequipa para Empresas y Desarrolladores (Comparativa 2026)"*.
 2. **Contexto Regional:** Identificar las necesidades del departamento (ej. velocidad para portales turísticos en Cusco o tiendas e-commerce en Trujillo).
-3. **Tabla Comparativa vs Competidores:** Comparar Heike Developer Hosting vs GoDaddy/HostGator destacando soporte en Soles y WhatsApp.
+3. **Tabla Comparativa vs Competidores:** Comparar Brenda Developer Hosting vs GoDaddy/HostGator destacando soporte en Soles y WhatsApp.
 4. **Ventajas Técnicas NVMe + LiteSpeed:** Explicar cómo la velocidad mejora el posicionamiento SEO en Google y reduce la tasa de rebote.
 5. **Soporte de Facturación Electrónica y Multi-Lenguaje:** Mención de compatibilidad con APIs de SUNAT, Node.js, Python y PHP 8.x.
 6. **CTA Directo a WhatsApp Local:** Botón o enlace con mensaje prellenado mencionando el departamento (ej. `wa.me/51924081817?text=Hola,%20deseo%20contratar%20hosting%20en%20Arequipa`).
@@ -206,7 +206,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
    - `categories` – Lista de categorías (ej. `["Hosting Perú", "Comparativas", "SEO Local", "NodeJS", "WordPress"]`).
    - `tags` – Lista de etiquetas LSI agrupadas de acuerdo a la intención.
    - `region` (Opcional) – Departamento de Perú al que se enfoca el post (`Lima`, `Arequipa`, `Cusco`, etc.).
-   - `author` – Nombre del autor (*Heike Developer Hosting*).
+   - `author` – Nombre del autor (*Brenda Developer Hosting*).
    - `coverPrompt` – Prompt en inglés para generar la portada con IA (16:9, estética tecnológica moderna, oscura y representativa).
 
 2. **Paso 0: Sincronización Previa de Main (OBLIGATORIO)**
@@ -246,7 +246,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
      - "comparativa hosting"
    intentStage: "THINK" # SEE | THINK | DO | CARE
    targetKeyword: "<targetKeyword>"
-   author: "Heike Developer Hosting"
+   author: "Brenda Developer Hosting"
    readingTime: "6 min de lectura"
    ---
    ```
@@ -304,7 +304,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
   "excerpt": "Descubre qué es la tecnología de almacenamiento NVMe SSD, cómo reduce el tiempo de respuesta (TTFB) y por qué es clave para el rendimiento y SEO de tu sitio web.",
   "categories": ["Hosting Perú", "Tecnología", "Rendimiento Web"],
   "tags": ["que es hosting nvme", "hosting nvme vs ssd", "velocidad web", "rendimiento hosting", "hosting peru"],
-  "author": "Heike Developer Hosting",
+  "author": "Brenda Developer Hosting",
   "coverPrompt": "Close up high-tech view of an ultra fast glowing NVMe M.2 SSD circuit board with bright amber light streams emitting lightning speed data pulses, dark obsidian background, 16:9 aspect ratio"
 }
 ```
@@ -316,11 +316,11 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
   "targetKeyword": "mejor hosting arequipa",
   "title": "El Mejor Hosting en Arequipa para Empresas y Agencias: Comparativa vs GoDaddy y HostGator",
   "slug": "mejor-hosting-arequipa-empresas-comparativa",
-  "excerpt": "Descubre por qué las empresas y desarrolladores en Arequipa eligen Heike Developer Hosting: discos NVMe 6x más rápidos, LiteSpeed, SSL gratis y soporte directo en Soles vía WhatsApp.",
+  "excerpt": "Descubre por qué las empresas y desarrolladores en Arequipa eligen Brenda Developer Hosting: discos NVMe 6x más rápidos, LiteSpeed, SSL gratis y soporte directo en Soles vía WhatsApp.",
   "categories": ["Hosting Perú", "Comparativas", "SEO Local"],
   "tags": ["hosting arequipa", "hosting peru", "godaddy peru", "hostgator peru", "hosting nvme arequipa"],
   "region": "Arequipa",
-  "author": "Heike Developer Hosting",
+  "author": "Brenda Developer Hosting",
   "coverPrompt": "A futuristic glowing server room overlooking a digital hologram of Arequipa's Misti volcano and city skyline with high speed neon fiber optic lines, dark tech aesthetic with amber glow, 16:9 aspect ratio"
 }
 ```
@@ -335,7 +335,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
   "excerpt": "Adquiere tu plan de hosting anual desde S/ 60/año en Soles con Yape o Plin. Activación instantánea, discos NVMe, cPanel, SSL de por vida y migración gratuita sin caídas.",
   "categories": ["Hosting Perú", "Planes y Precios", "Guías de Compra"],
   "tags": ["comprar hosting peru", "hosting yape", "hosting plin", "hosting anual barato peru", "migracion hosting gratis"],
-  "author": "Heike Developer Hosting",
+  "author": "Brenda Developer Hosting",
   "coverPrompt": "A modern smartphone displaying a sleek mobile banking Yape and Plin transaction confirmation with glowing gold coins connecting to high speed cloud hosting servers, dark theme with warm amber lighting, 16:9 aspect ratio"
 }
 ```
@@ -350,7 +350,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
   "excerpt": "Tutorial paso a paso para configurar aplicaciones Node.js 22 y Express en cPanel: gestión de puertos, variables de entorno .env, reinicio con Passenger y caché LiteSpeed.",
   "categories": ["Hosting Perú", "NodeJS", "Desarrollo Web"],
   "tags": ["nodejs cpanel", "nodejs 22 hosting", "litespeed nodejs", "cloudlinux nodejs", "despliegue backend peru"],
-  "author": "Heike Developer Hosting",
+  "author": "Brenda Developer Hosting",
   "coverPrompt": "High-tech developer workstation with Node.js and TypeScript syntax glowing on dual monitors connected to luminous green and amber server racks, dark futuristic cyberpunk aesthetic, 16:9 aspect ratio"
 }
 ```

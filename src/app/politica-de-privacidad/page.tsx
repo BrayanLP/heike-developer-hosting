@@ -3,9 +3,9 @@ import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad | Heike Developer Hosting",
+  title: "Política de Privacidad | Brenda Developer Hosting",
   description:
-    "Conoce cómo Heike Developer Hosting protege y gestiona tus datos personales y privacidad con total transparencia y seguridad.",
+    "Conoce cómo Brenda Developer Hosting protege y gestiona tus datos personales y privacidad con total transparencia y seguridad.",
   alternates: {
     canonical: "https://brenda.dev/politica-de-privacidad",
   },
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
         
         <section className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            En <strong>Heike Developer Hosting</strong>, valoramos su privacidad y estamos comprometidos con la protección de sus datos personales. Esta política describe cómo recopilamos, utilizamos y protegemos su información.
+            En <strong>Brenda Developer Hosting</strong>, valoramos su privacidad y estamos comprometidos con la protección de sus datos personales. Esta política describe cómo recopilamos, utilizamos y protegemos su información.
           </p>
 
           <h2 className="text-xl font-bold text-foreground">1. Información que recopilamos</h2>

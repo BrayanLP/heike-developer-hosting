@@ -15,14 +15,14 @@ tags:
 - autossl let encrypt peru
 - https gratis hosting
 - configurar certificado ssl
-- heike developer hosting
-author: Heike Developer Hosting
+- brenda developer hosting
+author: Brenda Developer Hosting
 readingTime: 7 min de lectura
 intentStage: CARE
 targetKeyword: configurar ssl wildcard gratis cpanel
 ---
 
-> Mantener un sitio web seguro con el candado verde HTTPS es indispensable no solo para proteger los datos de tus usuarios, sino para evitar advertencias de *'Sitio no seguro'* en Google Chrome y caídas en el posicionamiento SEO. **En los servidores de Heike Developer Hosting, el protocolo AutoSSL instala y renueva automáticamente certificados SSL de por vida sin costo extra.**
+> Mantener un sitio web seguro con el candado verde HTTPS es indispensable no solo para proteger los datos de tus usuarios, sino para evitar advertencias de *'Sitio no seguro'* en Google Chrome y caídas en el posicionamiento SEO. **En los servidores de Brenda Developer Hosting, el protocolo AutoSSL instala y renueva automáticamente certificados SSL de por vida sin costo extra.**
 
 ![Configurar Certificados SSL en cPanel](/images/blog/como-configurar-certificados-ssl-wildcard-gratis-cpanel.svg)
 

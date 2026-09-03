@@ -13,7 +13,7 @@ export default function Home() {
       {
         "@type": "ProfessionalService",
         "@id": "https://brenda.dev/#hosting-service",
-        name: "Heike Developer Hosting",
+        name: "Brenda Developer Hosting",
         url: "https://brenda.dev",
         telephone: "+51924081817",
         priceRange: "PEN S/ 60 - S/ 900",
@@ -110,7 +110,7 @@ export default function Home() {
         "@type": "WebSite",
         "@id": "https://brenda.dev/#website",
         url: "https://brenda.dev",
-        name: "Heike Developer Hosting",
+        name: "Brenda Developer Hosting",
         description: "Hosting anual ultrarrápido con tecnología NVMe SSD en Perú",
         publisher: { "@id": "https://brenda.dev/#hosting-service" },
         inLanguage: "es-PE",
@@ -163,7 +163,7 @@ export default function Home() {
             name: "¿Incluye soporte para aplicaciones en NodeJS y Python?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sí, todos los planes de Heike Developer Hosting incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux.",
+              text: "Sí, todos los planes de Brenda Developer Hosting incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux.",
             },
           },
         ],

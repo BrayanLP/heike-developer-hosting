@@ -7,7 +7,7 @@ import Footer from "@/components/sections/Footer";
 import { Badge } from "@/components/ui/badge";
 
 export const metadata: Metadata = {
-  title: "Blog & Guías Técnicas de Hosting NVMe, Servidores y Web | Heike Developer Hosting",
+  title: "Blog & Guías Técnicas de Hosting NVMe, Servidores y Web | Brenda Developer Hosting",
   description:
     "Aprende a desplegar NodeJS, Python y WordPress con LiteSpeed en servidores NVMe de alto rendimiento. Guías prácticas de DevOps, optimización web y seguridad en Perú.",
   keywords: [
@@ -16,13 +16,13 @@ export const metadata: Metadata = {
     "WordPress LiteSpeed Cache",
     "Hosting NVMe Perú",
     "DirectAdmin cPanel tutoriales",
-    "Heike Developer Hosting",
+    "Brenda Developer Hosting",
   ],
   alternates: {
     canonical: "https://brenda.dev/blog",
   },
   openGraph: {
-    title: "Blog & Guías de Servidores y Hosting NVMe | Heike Developer Hosting",
+    title: "Blog & Guías de Servidores y Hosting NVMe | Brenda Developer Hosting",
     description:
       "Tutoriales técnicos para desarrolladores: despliegue de NodeJS, Python, aceleración WordPress y servidores de alta velocidad.",
     url: "https://brenda.dev/blog",
@@ -42,13 +42,13 @@ export default async function BlogPage() {
         "@type": "CollectionPage",
         "@id": "https://brenda.dev/blog#page",
         url: "https://brenda.dev/blog",
-        name: "Blog & Guías Técnicas de Hosting NVMe y Servidores | Heike Developer Hosting",
+        name: "Blog & Guías Técnicas de Hosting NVMe y Servidores | Brenda Developer Hosting",
         description:
           "Tutoriales y guías paso a paso para desarrolladores: NodeJS, Python, WordPress con LiteSpeed y servidores NVMe de alto rendimiento en Perú.",
         isPartOf: {
           "@type": "WebSite",
           "@id": "https://brenda.dev/#website",
-          name: "Heike Developer Hosting",
+          name: "Brenda Developer Hosting",
           url: "https://brenda.dev",
         },
       },

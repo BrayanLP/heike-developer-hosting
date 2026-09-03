@@ -14,7 +14,7 @@ tags:
   - "hosting pymes peru"
   - "hosting smp"
   - "hosting barato peru"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "5 min de lectura"
 ---
 
@@ -32,7 +32,7 @@ Sin embargo, muchos caen en la trampa de proveedores internacionales con "oferta
 
 ## 2. Comparativa de Costos Reales para Pymes en Lima Norte
 
-| Concepto | Proveedor Tradicional (HostGator / GoDaddy) | Heike Developer Hosting |
+| Concepto | Proveedor Tradicional (HostGator / GoDaddy) | Brenda Developer Hosting |
 | :--- | :--- | :--- |
 | **Precio Primer Año** | S/ 90 - S/ 120 (precio gancho) | **Desde S/ 60 / año (Tarifa real)** |
 | **Precio de Renovación** | S/ 320 - S/ 450 / año (Aumento del 300%) | **Mismo precio fijo (S/ 60 - S/ 120/año)** |

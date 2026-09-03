@@ -8,19 +8,19 @@ import { Zap, Clock, ShieldCheck, Play } from "lucide-react";
 
 export default function SpeedComparison() {
   const [loading, setLoading] = useState(false);
-  const [heikeProgress, setHeikeProgress] = useState(0);
+  const [brendaProgress, setBrendaProgress] = useState(0);
   const [oldProgress, setOldProgress] = useState(0);
 
   const startTest = () => {
     setLoading(true);
-    setHeikeProgress(0);
+    setBrendaProgress(0);
     setOldProgress(0);
   };
 
   useEffect(() => {
     if (loading) {
       const brayanInterval = setInterval(() => {
-        setHeikeProgress((prev) => {
+        setBrendaProgress((prev) => {
           if (prev >= 100) return 100;
           return prev + 5;
         });
@@ -33,7 +33,7 @@ export default function SpeedComparison() {
         });
       }, 40);
 
-      if (heikeProgress >= 100 && oldProgress >= 100) {
+      if (brendaProgress >= 100 && oldProgress >= 100) {
         setLoading(false);
         clearInterval(brayanInterval);
         clearInterval(oldInterval);
@@ -44,7 +44,7 @@ export default function SpeedComparison() {
         clearInterval(oldInterval);
       };
     }
-  }, [loading, heikeProgress, oldProgress]);
+  }, [loading, brendaProgress, oldProgress]);
 
   return (
     <section className="py-24 bg-foreground text-white overflow-hidden border-y border-zinc-800">
@@ -52,7 +52,7 @@ export default function SpeedComparison() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 tracking-tight sm:text-4xl">Siente la potencia del almacenamiento NVMe</h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Comparamos el tiempo de carga promedio de un sitio web complejo entre un hosting tradicional y la infraestructura de Heike Developer Hosting.
+            Comparamos el tiempo de carga promedio de un sitio web complejo entre un hosting tradicional y la infraestructura de Brenda Developer Hosting.
           </p>
         </div>
 
@@ -68,11 +68,11 @@ export default function SpeedComparison() {
           <div className="space-y-4">
             <div className="flex justify-between items-end">
               <span className="text-xs font-bold text-primary flex items-center gap-2 uppercase tracking-widest">
-                <Zap className="h-4 w-4 fill-primary animate-pulse" /> Heike Developer Hosting (NVMe Gen4)
+                <Zap className="h-4 w-4 fill-primary animate-pulse" /> Brenda Developer Hosting (NVMe Gen4)
               </span>
-              <span className="text-sm font-mono text-primary font-bold">{Math.floor(heikeProgress)}%</span>
+              <span className="text-sm font-mono text-primary font-bold">{Math.floor(brendaProgress)}%</span>
             </div>
-            <Progress value={heikeProgress} className="h-4 bg-zinc-800" />
+            <Progress value={brendaProgress} className="h-4 bg-zinc-800" />
           </div>
 
           <div className="flex flex-col items-center gap-4 pt-8">

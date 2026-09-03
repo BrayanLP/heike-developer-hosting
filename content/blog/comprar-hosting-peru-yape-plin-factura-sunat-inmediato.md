@@ -16,11 +16,11 @@ tags:
   - "hosting anual barato peru"
 intentStage: "DO"
 targetKeyword: "comprar hosting peru yape plin sunat"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "5 min de lectura"
 ---
 
-> Contratar un hosting web en el Perú suele ser un dolor de cabeza cuando las empresas extranjeras exigen tarjetas de crédito internacionales en dólares, aplican comisiones bancarias imprevistas y duplican el precio al renovar. En **Heike Developer Hosting**, comprar hosting anual de alto rendimiento es 100% transparente y accesible en Soles peruanos (PEN).
+> Contratar un hosting web en el Perú suele ser un dolor de cabeza cuando las empresas extranjeras exigen tarjetas de crédito internacionales en dólares, aplican comisiones bancarias imprevistas y duplican el precio al renovar. En **Brenda Developer Hosting**, comprar hosting anual de alto rendimiento es 100% transparente y accesible en Soles peruanos (PEN).
 
 ![Portada](/images/blog/comprar-hosting-peru-yape-plin-factura-sunat-inmediato.svg)
 

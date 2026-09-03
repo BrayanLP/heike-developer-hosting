@@ -14,7 +14,7 @@ tags:
   - "dkim"
   - "dmarc"
   - "email marketing"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "5 min de lectura"
 ---
 
@@ -38,7 +38,7 @@ Para que los servidores receptores confíen en tus correos (`contacto@tuempresa.
 
 El registro SPF es un registro DNS de tipo **TXT** en la raíz de tu dominio (`@`).
 
-### Formato recomendado para clientes de Heike Hosting:
+### Formato recomendado para clientes de Brenda Hosting:
 ```text
 Tipo: TXT
 Nombre: @
@@ -96,4 +96,4 @@ Antes de enviar cotizaciones o campañas comerciales, prueba tu puntuación de r
 
 Configurar adecuadamente los registros de correo electrónico garantiza que tus comunicaciones comerciales lleguen siempre a la **Bandeja de Entrada principal** de tus clientes.
 
-En **Heike Developer Hosting**, configuramos automáticamente estos registros en tu zona DNS desde el primer día para que tu empresa proyecte la máxima seriedad y profesionalismo.
+En **Brenda Developer Hosting**, configuramos automáticamente estos registros en tu zona DNS desde el primer día para que tu empresa proyecte la máxima seriedad y profesionalismo.

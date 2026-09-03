@@ -16,7 +16,7 @@ tags:
   - "NodeJS"
   - "PHP"
   - "Hosting Perú"
-author: "Heike Developer Hosting"
+author: "Brenda Developer Hosting"
 readingTime: "8 min de lectura"
 ---
 
@@ -35,7 +35,7 @@ A diferencia del sondeo continuo (*polling*), el webhook es asíncrono y eficien
 - **Procesamiento I/O sin cuello de botella:** Las escrituras en base de datos deben ser instantáneas para evitar bloquear el hilo del servidor web cuando ocurren picos de compras simultáneas.
 
 > [!IMPORTANT]
-> En **Heike Developer Hosting**, todos los planes cuentan con discos **NVMe SSD** de más de 3500 MB/s de lectura/escritura y servidores **LiteSpeed Web Server**, asegurando tiempos de latencia inferiores a 50 ms en respuestas de Webhooks.
+> En **Brenda Developer Hosting**, todos los planes cuentan con discos **NVMe SSD** de más de 3500 MB/s de lectura/escritura y servidores **LiteSpeed Web Server**, asegurando tiempos de latencia inferiores a 50 ms en respuestas de Webhooks.
 
 ---
 
@@ -179,7 +179,7 @@ app.listen(PORT, () => console.log(`Servidor de Webhooks escuchando en puerto ${
 ## 6. Buenas Prácticas de Rendimiento y Prevención de Fallos
 
 1. **Idempotencia Obligatoria:** Un webhook puede recibirse más de una vez por cortes temporales de red. Guarda siempre el `event_id` o `payment_id` en una tabla de MySQL con índice `UNIQUE` para no despachar dos veces la misma orden.
-2. **Evitar Bloqueos por ModSecurity:** Asegúrate de que las peticiones POST de la pasarela no sean bloqueadas por reglas genéricas del Firewall WAF. En **Heike Developer Hosting**, nuestras reglas ModSecurity están preoptimizadas para pasarelas de pago peruanas e internacionales.
+2. **Evitar Bloqueos por ModSecurity:** Asegúrate de que las peticiones POST de la pasarela no sean bloqueadas por reglas genéricas del Firewall WAF. En **Brenda Developer Hosting**, nuestras reglas ModSecurity están preoptimizadas para pasarelas de pago peruanas e internacionales.
 3. **Rotación de Logs de Transacciones:** Guarda logs detallados en archivos locales en disco NVMe para auditar discrepancias contables sin ralentizar la respuesta web.
 
 ---
@@ -188,6 +188,6 @@ app.listen(PORT, () => console.log(`Servidor de Webhooks escuchando en puerto ${
 
 La configuración adecuada de webhooks con validación de firmas HMAC y respuesta asíncrona garantiza que ninguna venta se pierda en tu tienda virtual o plataforma SaaS. 
 
-En **Heike Developer Hosting**, dispones de servidores con soporte nativo para **Node.js, Python, PHP 8.x**, bases de datos MySQL en discos NVMe de ultra velocidad y SSL Let's Encrypt automatizado desde solo **S/ 60/año**.
+En **Brenda Developer Hosting**, dispones de servidores con soporte nativo para **Node.js, Python, PHP 8.x**, bases de datos MySQL en discos NVMe de ultra velocidad y SSL Let's Encrypt automatizado desde solo **S/ 60/año**.
 
 ¿Quieres desplegar tu pasarela de pagos con máxima estabilidad? Explora nuestros [planes de hosting NVMe](https://brenda.dev/#planes) o contáctanos por WhatsApp para asistencia técnica inmediata.

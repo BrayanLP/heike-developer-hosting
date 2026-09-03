@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" width="620" height="180">
+  <defs>
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c" />
+      <stop offset="100%" stop-color="#ea580c" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316" />
+      <stop offset="50%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#c2410c" />
+    </linearGradient>
+    <linearGradient id="serverGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+    <filter id="subtleGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.15" />
+    </filter>
+  </defs>
+
+  <!-- ICON SECTION -->
+  <g transform="translate(10, 12)">
+    <!-- Code Bracket Left -->
+    <path d="M 22 88 L 10 100 L 22 112 M 28 84 L 16 116" stroke="#f97316" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+
+    <!-- Orange Cloud Behind Server -->
+    <path d="M 68 62 C 60 62 52 68 50 76 C 44 76 38 82 38 88 C 38 96 44 102 52 102 L 148 102 C 156 102 162 96 162 88 C 162 81 156 75 149 75 C 148 62 136 52 122 52 C 114 52 107 56 102 62 C 96 52 84 46 72 48 C 70 52 68 57 68 62 Z" fill="url(#cloudGrad)" />
+
+    <!-- Server Rack Structure -->
+    <!-- Base Tray/Stand -->
+    <path d="M 44 152 C 75 164 125 164 156 152 L 152 142 C 125 152 75 152 48 142 Z" fill="#18181b" />
+
+    <!-- Server Chassis 3 (Bottom) -->
+    <rect x="52" y="118" width="96" height="24" rx="3" fill="url(#serverGrad)" stroke="#3f3f46" stroke-width="1.5" filter="url(#subtleGlow)" />
+    <circle cx="136" cy="130" r="3.5" fill="#f97316" />
+    <rect x="62" y="125" width="22" height="10" rx="1.5" fill="#3f3f46" />
+    <line x1="92" y1="125" x2="92" y2="135" stroke="#f97316" stroke-width="2" />
+    <line x1="97" y1="125" x2="97" y2="135" stroke="#f97316" stroke-width="2" />
+
+    <!-- Server Chassis 2 (Middle) -->
+    <rect x="52" y="88" width="96" height="24" rx="3" fill="url(#serverGrad)" stroke="#3f3f46" stroke-width="1.5" filter="url(#subtleGlow)" />
+    <circle cx="136" cy="100" r="3.5" fill="#f97316" />
+    <rect x="62" y="95" width="22" height="10" rx="1.5" fill="#3f3f46" />
+    <line x1="92" y1="95" x2="92" y2="105" stroke="#f97316" stroke-width="2" />
+    <line x1="97" y1="95" x2="97" y2="105" stroke="#f97316" stroke-width="2" />
+
+    <!-- Server Chassis 1 (Top) -->
+    <rect x="52" y="58" width="96" height="24" rx="3" fill="url(#serverGrad)" stroke="#3f3f46" stroke-width="1.5" filter="url(#subtleGlow)" />
+    <circle cx="136" cy="70" r="3.5" fill="#f97316" />
+    <rect x="62" y="65" width="22" height="10" rx="1.5" fill="#3f3f46" />
+    <line x1="92" y1="65" x2="92" y2="75" stroke="#f97316" stroke-width="2" />
+    <line x1="97" y1="65" x2="97" y2="75" stroke="#f97316" stroke-width="2" />
+
+    <!-- Code Bracket Right -->
+    <path d="M 178 88 L 190 100 L 178 112 M 172 116 L 184 84" stroke="#f97316" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+
+  <!-- TEXT SECTION: "Brenda" -->
+  <text x="215" y="105" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="82" font-weight="900" letter-spacing="-1.5">Brenda</text>
+
+  <!-- BADGE SECTION: "DEVELOPER HOSTING" -->
+  <g transform="translate(215, 120)">
+    <!-- Dark Trapezoid/Pill Ribbon with Slanted Divider -->
+    <path d="M 0 0 L 390 0 C 394 0 396 3 395 7 L 390 32 C 389 36 386 38 382 38 L 4 38 C 1 38 -1 35 0 31 Z" fill="#18181b" />
+    
+    <!-- Accent Orange Slash Accent -->
+    <polygon points="214,0 226,0 216,38 204,38" fill="#ea580c" />
+
+    <text x="18" y="26" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="3.5">DEVELOPER</text>
+    <text x="236" y="26" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="3.5">HOSTING</text>
+  </g>
+</svg>

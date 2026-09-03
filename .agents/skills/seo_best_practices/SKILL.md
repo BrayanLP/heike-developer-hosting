@@ -2,13 +2,13 @@
 name: seo_best_practices
 description: >-
   Guía integral y reglas de mejores prácticas de SEO (On-Page, Técnico, Local, Schema.org de Servicios/Hosting y GEO/LLMO)
-  aplicadas en Heike Developer Hosting. Úsalo al crear nuevas secciones, páginas de aterrizaje, redactar guías y artículos,
+  aplicadas en Brenda Developer Hosting. Úsalo al crear nuevas secciones, páginas de aterrizaje, redactar guías y artículos,
   configurar metadatos, estructurar datos JSON-LD de planes y optimizar la indexación para buscadores y motores de IA.
 ---
 
-# Guía Maestra de SEO y GEO para Heike Developer Hosting
+# Guía Maestra de SEO y GEO para Brenda Developer Hosting
 
-Esta habilidad recopila **todas las directivas, patrones de código, arquitecturas y buenas prácticas de SEO y GEO (Generative Engine Optimization)** diseñadas para posicionar a **Heike Developer Hosting** como la opción líder de hosting anual de alto rendimiento (NVMe, LiteSpeed, Node.js, Python, PHP 8.x) en Perú y Latinoamérica.
+Esta habilidad recopila **todas las directivas, patrones de código, arquitecturas y buenas prácticas de SEO y GEO (Generative Engine Optimization)** diseñadas para posicionar a **Brenda Developer Hosting** como la opción líder de hosting anual de alto rendimiento (NVMe, LiteSpeed, Node.js, Python, PHP 8.x) en Perú y Latinoamérica.
 
 ---
 
@@ -21,8 +21,8 @@ Cada página (`page.tsx`) o layout (`layout.tsx`) debe implementar la API de Met
 - **`title` con plantilla**:
   ```typescript
   title: {
-    default: "Heike Developer Hosting | Hosting NVMe Ultrarrápido en Perú",
-    template: "%s | Heike Developer Hosting",
+    default: "Brenda Developer Hosting | Hosting NVMe Ultrarrápido en Perú",
+    template: "%s | Brenda Developer Hosting",
   }
   ```
 - **`description`**: Longitud recomendada entre 140 y 160 caracteres. Debe comunicar de forma clara el almacenamiento NVMe, soporte multi-lenguaje (NodeJS, Python, PHP), SSL gratuito y precio anual accesible (desde S/ 60/año).
@@ -39,7 +39,7 @@ Cada página (`page.tsx`) o layout (`layout.tsx`) debe implementar la API de Met
     "cpanel hosting peru",
     "directadmin hosting",
     "hosting barato peru",
-    "heike developer hosting"
+    "brenda developer hosting"
   ]
   ```
 - **`alternates`**:
@@ -64,13 +64,13 @@ Cada página (`page.tsx`) o layout (`layout.tsx`) debe implementar la API de Met
 - **OpenGraph**:
   - `type`: `"website"` para la landing y páginas de planes, o `"article"` para guías del blog.
   - `locale`: `"es_PE"`.
-  - `title`: `"Heike Developer Hosting | Hosting NVMe de Alto Rendimiento en Perú"`.
+  - `title`: `"Brenda Developer Hosting | Hosting NVMe de Alto Rendimiento en Perú"`.
   - `description`: `"Potencia tus proyectos y aplicaciones web con almacenamiento NVMe de última generación, LiteSpeed y soporte 24/7."`.
-  - `siteName`: `"Heike Developer Hosting"`.
+  - `siteName`: `"Brenda Developer Hosting"`.
   - `images`: Array con imagen optimizada de portada (1200x630 o 800x600 px) y texto `alt` representativo.
 - **Twitter Card**:
   - `card`: `"summary_large_image"`.
-  - `title`: `"Heike Developer Hosting | Hosting NVMe en Perú"`.
+  - `title`: `"Brenda Developer Hosting | Hosting NVMe en Perú"`.
   - `description`: `"Servidores ultrarrápidos para desarrolladores y empresas peruanas."`.
 
 ### 1.3 SEO Local y Geo-Tags
@@ -81,7 +81,7 @@ other: {
   "geo.placename": "Callao, Lima, Perú",
   "geo.position": "-12.056598;-77.118146",
   ICBM: "-12.056598, -77.118146",
-  "DC.title": "Heike Developer Hosting | Hosting NVMe en Perú",
+  "DC.title": "Brenda Developer Hosting | Hosting NVMe en Perú",
   "geo.country": "PE",
 }
 ```
@@ -100,7 +100,7 @@ Implementar marcado semántico mediante `<script type="application/ld+json">` ut
     {
       "@type": "ProfessionalService",
       "@id": "https://brenda.dev/#hosting-service",
-      "name": "Heike Developer Hosting",
+      "name": "Brenda Developer Hosting",
       "url": "https://brenda.dev",
       "telephone": "+51924081817",
       "priceRange": "PEN S/ 60 - S/ 900",
@@ -146,7 +146,7 @@ Implementar marcado semántico mediante `<script type="application/ld+json">` ut
       "@type": "WebSite",
       "@id": "https://brenda.dev/#website",
       "url": "https://brenda.dev",
-      "name": "Heike Developer Hosting",
+      "name": "Brenda Developer Hosting",
       "publisher": { "@id": "https://brenda.dev/#hosting-service" }
     }
   ]
@@ -172,7 +172,7 @@ Para lograr fragmentos enriquecidos (Rich Snippets) en los resultados de búsque
       "name": "¿Incluye soporte para aplicaciones en NodeJS y Python?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Sí, todos los planes de Heike Developer Hosting incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux."
+        "text": "Sí, todos los planes de Brenda Developer Hosting incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux."
       }
     }
   ]
@@ -180,7 +180,7 @@ Para lograr fragmentos enriquecidos (Rich Snippets) en los resultados de búsque
 ```
 
 ### 2.3 Esquema para Artículos y Guías Técnicas (`BlogPosting` & `BreadcrumbList`)
-- **`BlogPosting`**: Incluye `headline`, `description`, `image`, `datePublished`, `dateModified`, `author` (`Heike Developer Hosting`), `publisher` y `mainEntityOfPage`.
+- **`BlogPosting`**: Incluye `headline`, `description`, `image`, `datePublished`, `dateModified`, `author` (`Brenda Developer Hosting`), `publisher` y `mainEntityOfPage`.
 - **`BreadcrumbList`**: Estructura jerárquica: `Inicio` (1) &rarr; `Blog / Guías` (2) &rarr; `Título de la Guía` (3).
 
 ---
@@ -209,12 +209,12 @@ Para lograr fragmentos enriquecidos (Rich Snippets) en los resultados de búsque
 
 ## 4. GEO (Generative Engine Optimization) y LLM Readiness
 
-Para posicionar a Heike Developer Hosting en recomendaciones y respuestas de asistentes inteligentes (ChatGPT, Perplexity, Claude, Gemini, Copilot):
+Para posicionar a Brenda Developer Hosting en recomendaciones y respuestas de asistentes inteligentes (ChatGPT, Perplexity, Claude, Gemini, Copilot):
 
 ### 4.1 Archivos `llms.txt` y `llms-full.txt` (`public/`)
 - Ubicación: `/public/llms.txt` y `/public/llms-full.txt`.
 - Estructura obligatoria:
-  1. **Resumen Ejecutivo:** Presentación de Heike Developer Hosting, foco en tecnología NVMe, LiteSpeed, soporte de NodeJS/Python/PHP y precios anuales competitivos en Perú.
+  1. **Resumen Ejecutivo:** Presentación de Brenda Developer Hosting, foco en tecnología NVMe, LiteSpeed, soporte de NodeJS/Python/PHP y precios anuales competitivos en Perú.
   2. **Tabla de Planes y Precios:** Resumen claro de planes (Básico S/ 60, Intermedio S/ 90, Pro S/ 120, etc.) con recursos asignados (RAM, CPU, NVMe).
   3. **Stack Tecnológico y Características:** LiteSpeed, CloudLinux, cPanel/DirectAdmin, SSL gratuito, 99.9% Uptime.
   4. **Canales de Atención:** WhatsApp directo (+51 924 081 817) y soporte 24/7.
@@ -242,7 +242,7 @@ Para posicionar a Heike Developer Hosting en recomendaciones y respuestas de asi
 ### 5.4 Estrategia de Contenidos por Intención de Búsqueda (SEE - THINK - DO - CARE)
 Agrupar y redactar artículos, guías y landing pages según el público objetivo y la etapa del usuario:
 - **SEE (Descubrimiento / TOFU):** Audiencia amplia que busca conceptos, aprendizaje y diagnóstico (`¿Qué es hosting NVMe?`, `Diferencias entre Apache y LiteSpeed`). *Enfoque pedagógico, tono divulgativo y CTA suave.*
-- **THINK (Consideración / MOFU):** Audiencia evaluando alternativas, especificaciones y proveedores (`Mejor hosting en Arequipa`, `GoDaddy vs Heike Hosting`). *Enfoque comparativo, tablas directas de ventajas y CTA de cotización.*
+- **THINK (Consideración / MOFU):** Audiencia evaluando alternativas, especificaciones y proveedores (`Mejor hosting en Arequipa`, `GoDaddy vs Brenda Hosting`). *Enfoque comparativo, tablas directas de ventajas y CTA de cotización.*
 - **DO (Conversión / BOFU):** Audiencia lista para comprar por primera vez (`Comprar hosting Perú Soles Yape`, `Contratar hosting anual NVMe`). *Enfoque transaccional, planes claros, medios de pago en Soles y Hard CTA a WhatsApp.*
 - **CARE (Fidelización / Post-Venta):** Audiencia activa que busca soporte avanzado, optimización y upgrades (`Configurar Node.js 22 cPanel`, `Optimizar LiteSpeed WooCommerce`, `Registros SPF/DKIM`). *Tutoriales técnicos paso a paso con código y soporte 24/7.*
 
@@ -250,7 +250,7 @@ Agrupar y redactar artículos, guías y landing pages según el público objetiv
 
 ## 6. Checklist de Verificación SEO para Nuevas Páginas y Guías
 
-Antes de desplegar una nueva página, sección o artículo en Heike Developer Hosting, verificar:
+Antes de desplegar una nueva página, sección o artículo en Brenda Developer Hosting, verificar:
 
 - [ ] **Intención de Búsqueda Definida:** Clasificado correctamente en SEE, THINK, DO o CARE con tono y CTA coherentes.
 - [ ] **Título Optimizado:** Contiene "Hosting", la tecnología específica y el ámbito geográfico (ej. "Perú").
