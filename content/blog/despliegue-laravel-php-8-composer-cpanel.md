@@ -14,7 +14,7 @@ tags:
   - "composer"
   - "cpanel"
   - "desarrollo web"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "6 min de lectura"
 ---
 
@@ -126,4 +126,4 @@ Para que funcionen las tareas en segundo plano (`Schedule`), colas de correos y 
 
 ## 5. Conclusión
 
-Con **Brenda Developer Hosting**, disfrutas de la estabilidad y elegancia de Laravel con la máxima velocidad de procesamiento en PHP 8.x y discos NVMe, ahorrando costos significativos en servidores dedicados.
+Con **PROISO Tech & Software Solutions**, disfrutas de la estabilidad y elegancia de Laravel con la máxima velocidad de procesamiento en PHP 8.x y discos NVMe, ahorrando costos significativos en servidores dedicados.

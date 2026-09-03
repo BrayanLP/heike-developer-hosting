@@ -15,14 +15,14 @@ tags:
 - autossl let encrypt peru
 - https gratis hosting
 - configurar certificado ssl
-- brenda developer hosting
-author: Brenda Developer Hosting
+- proiso tech & software solutions
+author: PROISO Tech & Software Solutions
 readingTime: 7 min de lectura
 intentStage: CARE
 targetKeyword: configurar ssl wildcard gratis cpanel
 ---
 
-> Mantener un sitio web seguro con el candado verde HTTPS es indispensable no solo para proteger los datos de tus usuarios, sino para evitar advertencias de *'Sitio no seguro'* en Google Chrome y caídas en el posicionamiento SEO. **En los servidores de Brenda Developer Hosting, el protocolo AutoSSL instala y renueva automáticamente certificados SSL de por vida sin costo extra.**
+> Mantener un sitio web seguro con el candado verde HTTPS es indispensable no solo para proteger los datos de tus usuarios, sino para evitar advertencias de *'Sitio no seguro'* en Google Chrome y caídas en el posicionamiento SEO. **En los servidores de PROISO Tech & Software Solutions, el protocolo AutoSSL instala y renueva automáticamente certificados SSL de por vida sin costo extra.**
 
 ![Configurar Certificados SSL en cPanel](/images/blog/como-configurar-certificados-ssl-wildcard-gratis-cpanel.svg)
 
@@ -82,4 +82,4 @@ Si el candado de seguridad aparece con un triángulo amarillo, significa que tu 
 
 Olvídate de pagar suscripciones anuales de $50 o $100 dólares por certificados SSL que deberían ser un estándar gratuito.
 
-**Aloja tus proyectos en [hosting.brayan.es](https://brenda.dev) y disfruta de SSL de alta seguridad y renovaciones automáticas garantizadas**.
+**Aloja tus proyectos en [hosting.brayan.es](https://proiso.pe) y disfruta de SSL de alta seguridad y renovaciones automáticas garantizadas**.

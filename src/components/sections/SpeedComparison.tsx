@@ -52,7 +52,7 @@ export default function SpeedComparison() {
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4 tracking-tight sm:text-4xl">Siente la potencia del almacenamiento NVMe</h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Comparamos el tiempo de carga promedio de un sitio web complejo entre un hosting tradicional y la infraestructura de Brenda Developer Hosting.
+            Comparamos el tiempo de carga promedio de un sitio web complejo entre un hosting tradicional y la infraestructura de PROISO Tech & Software Solutions.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ export default function SpeedComparison() {
           <div className="space-y-4">
             <div className="flex justify-between items-end">
               <span className="text-xs font-bold text-primary flex items-center gap-2 uppercase tracking-widest">
-                <Zap className="h-4 w-4 fill-primary animate-pulse" /> Brenda Developer Hosting (NVMe Gen4)
+                <Zap className="h-4 w-4 fill-primary animate-pulse" /> PROISO Tech & Software Solutions (NVMe Gen4)
               </span>
               <span className="text-sm font-mono text-primary font-bold">{Math.floor(brendaProgress)}%</span>
             </div>

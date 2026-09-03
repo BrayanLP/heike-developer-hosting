@@ -1,6 +1,6 @@
-# Ecosistema de Agentes Especializados - Brenda Developer Hosting
+# Ecosistema de Agentes Especializados - PROISO Tech & Software Solutions
 
-Este directorio contiene las definiciones, stacks tecnológicos, responsabilidades y mejores prácticas de los agentes diseñados para operar, desarrollar y hacer crecer la plataforma **Brenda Developer Hosting** (Hosting NVMe de alto rendimiento en Perú con LiteSpeed, soporte en Soles y activación por WhatsApp).
+Este directorio contiene las definiciones, stacks tecnológicos, responsabilidades y mejores prácticas de los agentes diseñados para operar, desarrollar y hacer crecer la plataforma **PROISO Tech & Software Solutions** (Hosting NVMe de alto rendimiento en Perú con LiteSpeed, soporte en Soles y activación por WhatsApp).
 
 ---
 

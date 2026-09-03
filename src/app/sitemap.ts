@@ -4,7 +4,7 @@ import { getAllPosts } from "@/lib/blog";
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://brenda.dev";
+  const baseUrl = "https://proiso.pe";
   const posts = await getAllPosts();
 
   const postUrls: MetadataRoute.Sitemap = posts.map((post) => ({

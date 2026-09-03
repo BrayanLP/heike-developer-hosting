@@ -80,7 +80,7 @@ export default function PricingPlans() {
     const plan = allPlans.find(p => p.name === selectedPlan);
     const priceDisplay = `${getCurrencySymbol()} ${formatPrice(plan?.penPrice || 0)}`;
     const phoneNumber = "51924081817";
-    const message = `Hola Brenda Developer Hosting, mi nombre es ${formData.name}, mi correo es ${formData.email} y deseo contratar el Plan ${selectedPlan} por el precio anual de ${priceDisplay}.`;
+    const message = `Hola PROISO Tech & Software Solutions, mi nombre es ${formData.name}, mi correo es ${formData.email} y deseo contratar el Plan ${selectedPlan} por el precio anual de ${priceDisplay}.`;
     const encodedMessage = encodeURIComponent(message);
     window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
     setIsOpen(false);

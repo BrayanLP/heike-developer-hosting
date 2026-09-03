@@ -15,8 +15,8 @@ tags:
 - migrar hosting peru
 - litespeed vs godaddy
 - transferir correos cpanel
-- brenda developer hosting
-author: Brenda Developer Hosting
+- proiso tech & software solutions
+author: PROISO Tech & Software Solutions
 readingTime: 8 min de lectura
 intentStage: THINK
 targetKeyword: migrar hosting godaddy a litespeed peru
@@ -38,14 +38,14 @@ Antes de modificar cualquier apunte DNS:
 3. Ingresa a **phpMyAdmin**, selecciona la base de datos de tu sitio y exporta el archivo `.sql`.
 4. Descarga ambos archivos a tu computadora local.
 
-> **¿No quieres hacerlo manualmente?** En Brenda Developer Hosting realizamos la **migración completa 100% gratuita** para todos nuestros clientes de planes anuales.
+> **¿No quieres hacerlo manualmente?** En PROISO Tech & Software Solutions realizamos la **migración completa 100% gratuita** para todos nuestros clientes de planes anuales.
 
 ---
 
 ## 2. Paso 2: Migración de Cuentas de Correo Corporativo
 
 El mayor temor de una empresa al cambiar de hosting es perder el historial de correos de sus ejecutivos:
-- Crea las mismas cuentas de correo en tu nuevo cPanel de Brenda Developer Hosting (mismo usuario y contraseña).
+- Crea las mismas cuentas de correo en tu nuevo cPanel de PROISO Tech & Software Solutions (mismo usuario y contraseña).
 - Si usas IMAP, los mensajes se sincronizan mediante la herramienta gratuita `imapsync` o transfiriendo la carpeta `mail/` del servidor original.
 - Tus clientes seguirán enviándote mensajes sin interrupciones gracias al período de propagación TTL.
 
@@ -72,7 +72,7 @@ Al migrar a nuestra plataforma, activa el plugin **LiteSpeed Cache**:
 
 ## 5. Tabla de Ganancia de Rendimiento Post-Migración
 
-| Métrica de Desempeño | En GoDaddy (Servidor Compartido) | En Brenda Developer Hosting |
+| Métrica de Desempeño | En GoDaddy (Servidor Compartido) | En PROISO Tech & Software Solutions |
 | :--- | :--- | :--- |
 | **Tiempo de Carga Completa (LCP)** | 4.8 segundos | **0.9 segundos** |
 | **Time to First Byte (TTFB)** | 1.8 segundos | **180 milisegundos** |

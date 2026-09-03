@@ -13,17 +13,17 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center max-w-3xl mx-auto space-y-3 md:space-y-6">
           <Badge variant="outline" className="py-0.5 px-3 border-primary/20 bg-primary/5 text-primary text-[10px] md:text-xs font-bold tracking-wider uppercase rounded-full">
-            Hosting Anual de Alto Rendimiento
+            Cloud, Hosting & Software • Liderado por Brenda Developer
           </Badge>
           
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-extrabold tracking-tight text-zinc-900 leading-tight">
             Potencia tus Proyectos con <br className="hidden sm:block" />
-            <span className="text-primary italic">Brenda Developer Hosting</span>
+            <span className="text-primary italic">PROISO Tech & Software Solutions</span>
           </h1>
           
           <p className="text-sm md:text-lg text-muted-foreground max-w-xl leading-relaxed">
-            Servidores ultrarrápidos en Perú con almacenamiento NVMe de última generación. 
-            Optimizado para NodeJS, PHP y Python con soporte 24/7.
+            Infraestructura cloud de alto rendimiento y desarrollo de software a medida en Perú. 
+            Servidores NVMe PCIe 4.0, LiteSpeed Enterprise y soporte directo por WhatsApp.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 pt-2 w-full sm:w-auto">

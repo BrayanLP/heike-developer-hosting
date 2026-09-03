@@ -1,16 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" width="620" height="180">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 180" width="640" height="180">
   <defs>
-    <!-- Feminine Tech Gradients: Rose, Fuchsia & Electric Amethyst -->
     <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f472b6" />
+      <stop offset="0%" stop-color="#f43f5e" />
       <stop offset="50%" stop-color="#ec4899" />
-      <stop offset="100%" stop-color="#db2777" />
+      <stop offset="100%" stop-color="#8b5cf6" />
     </linearGradient>
 
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="proisoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f43f5e" />
-      <stop offset="45%" stop-color="#ec4899" />
-      <stop offset="80%" stop-color="#d946ef" />
+      <stop offset="35%" stop-color="#ec4899" />
+      <stop offset="70%" stop-color="#d946ef" />
       <stop offset="100%" stop-color="#a855f7" />
     </linearGradient>
 
@@ -19,20 +18,20 @@
       <stop offset="100%" stop-color="#150a1c" />
     </linearGradient>
 
-    <linearGradient id="slashGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f43f5e" />
-      <stop offset="100%" stop-color="#d946ef" />
+      <stop offset="100%" stop-color="#a855f7" />
     </linearGradient>
 
     <filter id="subtleGlow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#ec4899" flood-opacity="0.25" />
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#ec4899" flood-opacity="0.3" />
     </filter>
   </defs>
 
-  <!-- ICON SECTION -->
-  <g transform="translate(10, 12)">
+  <!-- ISOTIPO SECTION -->
+  <g transform="translate(14, 15)">
     <!-- Code Bracket Left -->
-    <path d="M 22 88 L 10 100 L 22 112 M 28 84 L 16 116" stroke="#f43f5e" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 22 88 L 10 100 L 22 112 M 28 84 L 16 116" stroke="#f43f5e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
 
     <!-- Stylized Cloud Behind Server -->
     <path d="M 68 62 C 60 62 52 68 50 76 C 44 76 38 82 38 88 C 38 96 44 102 52 102 L 148 102 C 156 102 162 96 162 88 C 162 81 156 75 149 75 C 148 62 136 52 122 52 C 114 52 107 56 102 62 C 96 52 84 46 72 48 C 70 52 68 57 68 62 Z" fill="url(#cloudGrad)" />
@@ -62,21 +61,22 @@
     <line x1="97" y1="65" x2="97" y2="75" stroke="#a855f7" stroke-width="2.2" stroke-linecap="round" />
 
     <!-- Code Bracket Right -->
-    <path d="M 178 88 L 190 100 L 178 112 M 172 116 L 184 84" stroke="#f43f5e" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+    <path d="M 178 88 L 190 100 L 178 112 M 172 116 L 184 84" stroke="#8b5cf6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
   </g>
 
-  <!-- TEXT SECTION: "Brenda" -->
-  <text x="215" y="105" fill="url(#textGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="82" font-weight="900" letter-spacing="-1.5">Brenda</text>
+  <!-- TEXT SECTION: "PROISO" -->
+  <text x="220" y="100" fill="url(#proisoGrad)" font-family="system-ui, -apple-system, sans-serif" font-size="82" font-weight="900" letter-spacing="-1.5">PROISO</text>
+  <circle cx="566" cy="92" r="7" fill="#f43f5e" />
 
-  <!-- BADGE SECTION: "DEVELOPER HOSTING" -->
-  <g transform="translate(215, 120)">
-    <!-- Dark Violet Obsidian Pill Ribbon -->
-    <path d="M 0 0 L 390 0 C 394 0 396 3 395 7 L 390 32 C 389 36 386 38 382 38 L 4 38 C 1 38 -1 35 0 31 Z" fill="#150a1c" stroke="#3b194f" stroke-width="1" />
+  <!-- BADGE SECTION: "TECH & CLOUD • BY BRENDA DEVELOPER" -->
+  <g transform="translate(220, 116)">
+    <!-- Dark Violet Ribbon Background -->
+    <path d="M 0 0 L 404 0 C 408 0 410 3 409 7 L 404 34 C 403 38 400 40 396 40 L 4 40 C 1 40 -1 37 0 33 Z" fill="#150a1c" stroke="#4a1d63" stroke-width="1.2" />
     
-    <!-- Accent Rose/Fuchsia Slash Accent -->
-    <polygon points="214,0 226,0 216,38 204,38" fill="url(#slashGrad)" />
+    <!-- Diagonal Gradient Divider -->
+    <polygon points="230,0 242,0 232,40 220,40" fill="url(#badgeGrad)" />
 
-    <text x="18" y="26" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="3.5">DEVELOPER</text>
-    <text x="236" y="26" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="800" letter-spacing="3.5">HOSTING</text>
+    <text x="16" y="26" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="800" letter-spacing="2.5">TECH &amp; CLOUD</text>
+    <text x="250" y="26" fill="#fbcfe8" font-family="system-ui, -apple-system, sans-serif" font-size="14.5" font-weight="700" letter-spacing="1.5">BY BRENDA DEV</text>
   </g>
 </svg>

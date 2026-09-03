@@ -12,12 +12,12 @@ export default function Home() {
     "@graph": [
       {
         "@type": "ProfessionalService",
-        "@id": "https://brenda.dev/#hosting-service",
-        name: "Brenda Developer Hosting",
-        url: "https://brenda.dev",
+        "@id": "https://proiso.pe/#hosting-service",
+        name: "PROISO Tech & Software Solutions",
+        url: "https://proiso.pe",
         telephone: "+51924081817",
         priceRange: "PEN S/ 60 - S/ 900",
-        image: "https://brenda.dev/logo.png",
+        image: "https://proiso.pe/logo.png",
         description:
           "Servicio de hosting anual de alto rendimiento con discos NVMe SSD, LiteSpeed Web Server, CloudLinux y soporte para NodeJS, Python y PHP en Perú.",
         address: {
@@ -45,7 +45,7 @@ export default function Home() {
               price: "60.00",
               priceCurrency: "PEN",
               description: "5 GB NVMe SSD, 2 GB RAM, 2 Core CPU, SSL Gratis, Node.js y Python",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -53,7 +53,7 @@ export default function Home() {
               price: "90.00",
               priceCurrency: "PEN",
               description: "7 GB NVMe SSD, 2 GB RAM, 2 Core CPU, SSL Gratis, Node.js y Python",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -61,7 +61,7 @@ export default function Home() {
               price: "120.00",
               priceCurrency: "PEN",
               description: "10 GB NVMe SSD, 2 GB RAM, 2 Core CPU, LiteSpeed, SSL Gratis y soporte prioritario",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -69,7 +69,7 @@ export default function Home() {
               price: "180.00",
               priceCurrency: "PEN",
               description: "20 GB NVMe SSD, 2 GB RAM, 2 Core CPU, LiteSpeed, SSL Gratis",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -77,7 +77,7 @@ export default function Home() {
               price: "300.00",
               priceCurrency: "PEN",
               description: "50 GB NVMe SSD, 2 GB RAM, 2 Core CPU, LiteSpeed, soporte empresarial",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -85,7 +85,7 @@ export default function Home() {
               price: "500.00",
               priceCurrency: "PEN",
               description: "100 GB NVMe SSD, 2 GB RAM, 2 Core CPU, LiteSpeed y recursos dedicados",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -93,7 +93,7 @@ export default function Home() {
               price: "750.00",
               priceCurrency: "PEN",
               description: "150 GB NVMe SSD, 3 GB RAM, 3 Core CPU, LiteSpeed y máximo rendimiento",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
             {
               "@type": "Offer",
@@ -101,18 +101,18 @@ export default function Home() {
               price: "900.00",
               priceCurrency: "PEN",
               description: "200 GB NVMe SSD, 3 GB RAM, 3 Core CPU, LiteSpeed y capacidad premium",
-              url: "https://brenda.dev/#planes",
+              url: "https://proiso.pe/#planes",
             },
           ],
         },
       },
       {
         "@type": "WebSite",
-        "@id": "https://brenda.dev/#website",
-        url: "https://brenda.dev",
-        name: "Brenda Developer Hosting",
+        "@id": "https://proiso.pe/#website",
+        url: "https://proiso.pe",
+        name: "PROISO Tech & Software Solutions",
         description: "Hosting anual ultrarrápido con tecnología NVMe SSD en Perú",
-        publisher: { "@id": "https://brenda.dev/#hosting-service" },
+        publisher: { "@id": "https://proiso.pe/#hosting-service" },
         inLanguage: "es-PE",
       },
       {
@@ -163,7 +163,7 @@ export default function Home() {
             name: "¿Incluye soporte para aplicaciones en NodeJS y Python?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sí, todos los planes de Brenda Developer Hosting incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux.",
+              text: "Sí, todos los planes de PROISO Tech & Software Solutions incluyen selector de versiones de NodeJS, Python, Ruby y PHP con entorno aislado CloudLinux.",
             },
           },
         ],

@@ -14,7 +14,7 @@ tags:
   - "lets encrypt"
   - "autossl"
   - "seguridad web"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "5 min de lectura"
 ---
 
@@ -29,7 +29,7 @@ Cuando un sitio web no tiene SSL activo:
 - El algoritmo de Google degrada el posicionamiento en los resultados de búsqueda.
 - La información viaja en texto plano y puede ser interceptada en redes Wi-Fi públicas.
 
-En **Brenda Developer Hosting**, todos los dominios y subdominios incluyen **certificados SSL gratuitos e ilimitados de por vida** a través de AutoSSL y Let's Encrypt.
+En **PROISO Tech & Software Solutions**, todos los dominios y subdominios incluyen **certificados SSL gratuitos e ilimitados de por vida** a través de AutoSSL y Let's Encrypt.
 
 ---
 
@@ -88,4 +88,4 @@ Asegúrate de usar URLs relativas (`/images/logo.png`) o enlaces seguros con `ht
 
 ## 5. Conclusión
 
-Proteger la identidad digital de tu proyecto es rápido, seguro y totalmente gratuito con la infraestructura automatizada de **Brenda Developer Hosting**.
+Proteger la identidad digital de tu proyecto es rápido, seguro y totalmente gratuito con la infraestructura automatizada de **PROISO Tech & Software Solutions**.

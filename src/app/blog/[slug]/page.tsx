@@ -29,19 +29,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!post) {
     return {
-      title: "Artículo no encontrado | Brenda Developer Hosting",
+      title: "Artículo no encontrado | PROISO Tech & Software Solutions",
     };
   }
 
-  const postUrl = `https://brenda.dev/blog/${post.slug}`;
+  const postUrl = `https://proiso.pe/blog/${post.slug}`;
 
   return {
-    title: `${post.title} | Brenda Developer Hosting`,
+    title: `${post.title} | PROISO Tech & Software Solutions`,
     description: post.excerpt,
     keywords: [
       ...post.categories,
       ...post.tags,
-      "Brenda Developer Hosting",
+      "PROISO Tech & Software Solutions",
       "Hosting NVMe",
       "Hosting Perú",
     ],
@@ -58,7 +58,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       modifiedTime: post.modified || post.date,
       authors: [post.author],
       images: post.coverImage ? [{ url: post.coverImage }] : [],
-      siteName: "Brenda Developer Hosting",
+      siteName: "PROISO Tech & Software Solutions",
     },
     twitter: {
       card: "summary_large_image",
@@ -100,7 +100,7 @@ export default async function BlogPostPage({ params }: PageProps) {
     }
   };
 
-  const postUrl = `https://brenda.dev/blog/${post.slug}`;
+  const postUrl = `https://proiso.pe/blog/${post.slug}`;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -110,9 +110,9 @@ export default async function BlogPostPage({ params }: PageProps) {
         "@id": `${postUrl}#article`,
         "isPartOf": {
           "@type": "WebSite",
-          "@id": "https://brenda.dev/#website",
-          "name": "Brenda Developer Hosting",
-          "url": "https://brenda.dev"
+          "@id": "https://proiso.pe/#website",
+          "name": "PROISO Tech & Software Solutions",
+          "url": "https://proiso.pe"
         },
         "headline": post.title,
         "description": post.excerpt,
@@ -125,16 +125,16 @@ export default async function BlogPostPage({ params }: PageProps) {
         "dateModified": post.modified || post.date,
         "author": {
           "@type": "Organization",
-          "name": post.author || "Brenda Developer Hosting",
-          "url": "https://brenda.dev"
+          "name": post.author || "PROISO Tech & Software Solutions",
+          "url": "https://proiso.pe"
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Brenda Developer Hosting",
-          "url": "https://brenda.dev",
+          "name": "PROISO Tech & Software Solutions",
+          "url": "https://proiso.pe",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://brenda.dev/logo.png"
+            "url": "https://proiso.pe/logo.png"
           }
         },
         "image": post.coverImage ? [post.coverImage] : [],
@@ -149,13 +149,13 @@ export default async function BlogPostPage({ params }: PageProps) {
             "@type": "ListItem",
             "position": 1,
             "name": "Inicio",
-            "item": "https://brenda.dev"
+            "item": "https://proiso.pe"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Blog",
-            "item": "https://brenda.dev/blog"
+            "item": "https://proiso.pe/blog"
           },
           {
             "@type": "ListItem",
@@ -169,7 +169,7 @@ export default async function BlogPostPage({ params }: PageProps) {
   };
 
   const whatsappMessage = encodeURIComponent(
-    `Hola Brenda Developer Hosting, leí su artículo "${post.title}" y deseo consultar sobre sus planes de hosting NVMe.`
+    `Hola PROISO Tech & Software Solutions, leí su artículo "${post.title}" y deseo consultar sobre sus planes de hosting NVMe.`
   );
 
   return (

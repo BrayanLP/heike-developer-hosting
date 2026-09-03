@@ -16,11 +16,11 @@ tags:
   - "hosting desarrolladores peru"
 intentStage: "CARE"
 targetKeyword: "despliegue continuo github actions cpanel hosting"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "9 min de lectura"
 ---
 
-> Subir archivos comprimidos en un archivo ZIP a través del Administrador de Archivos de cPanel o usar clientes FTP tradicionales como FileZilla es una práctica obsoleta, lenta y propensa a errores humanos: sobrescritura accidental de configuraciones locales `.env`, caídas inesperadas del sitio y tiempo valioso perdido en cada actualización. En esta guía para desarrolladores aprenderás a configurar un flujo profesional de **Despliegue Continuo (CI/CD)** utilizando **GitHub Actions**, llaves SSH seguras y sincronización diferencial con `rsync` sobre servidores NVMe en **Brenda Developer Hosting**.
+> Subir archivos comprimidos en un archivo ZIP a través del Administrador de Archivos de cPanel o usar clientes FTP tradicionales como FileZilla es una práctica obsoleta, lenta y propensa a errores humanos: sobrescritura accidental de configuraciones locales `.env`, caídas inesperadas del sitio y tiempo valioso perdido en cada actualización. En esta guía para desarrolladores aprenderás a configurar un flujo profesional de **Despliegue Continuo (CI/CD)** utilizando **GitHub Actions**, llaves SSH seguras y sincronización diferencial con `rsync` sobre servidores NVMe en **PROISO Tech & Software Solutions**.
 
 ![Portada](/images/blog/despliegue-continuo-github-actions-git-cpanel-hosting.svg)
 
@@ -66,14 +66,14 @@ Presiona `Enter` dos veces para no asignarle *passphrase* (el runner automatizad
 - `cpanel_deploy_key.pub`: Llave pública (se importará en cPanel).
 
 ### 2. Importar y Autorizar la Llave Pública en cPanel:
-1. Inicia sesión en tu cuenta de cPanel en Brenda Developer Hosting.
+1. Inicia sesión en tu cuenta de cPanel en PROISO Tech & Software Solutions.
 2. Dirígete a la sección **Seguridad** &rarr; **Acceso SSH (SSH Access)**.
 3. Haz clic en **Importar Clave (Import Key)**.
 4. Pega el contenido de tu llave pública `cpanel_deploy_key.pub` en el campo correspondiente y asígnale un nombre (ej. `github-actions`).
 5. Vuelve a la lista de claves y haz clic en **Administrar (Manage)** al lado de la clave importada, luego presiona **Autorizar (Authorize)**.
 
 > [!IMPORTANT]
-> En **Brenda Developer Hosting**, el acceso SSH se habilita por solicitud de seguridad en todos los planes para desarrolladores. Si aún no tienes activo el acceso SSH en tu cPanel, solicítalo al instante por WhatsApp al +51 924 081 817 indicando tu nombre de dominio.
+> En **PROISO Tech & Software Solutions**, el acceso SSH se habilita por solicitud de seguridad en todos los planes para desarrolladores. Si aún no tienes activo el acceso SSH en tu cPanel, solicítalo al instante por WhatsApp al +51 924 081 817 indicando tu nombre de dominio.
 
 ---
 
@@ -157,7 +157,7 @@ jobs:
             # Ajustar permisos seguros de archivos y carpetas
             find . -type f -exec chmod 644 {} +
             find . -type d -exec chmod 755 {} +
-            echo "¡Despliegue completado con éxito en Brenda Hosting!"
+            echo "¡Despliegue completado con éxito en PROISO Cloud!"
 ```
 
 ---
@@ -218,8 +218,8 @@ touch /home/tu_usuario/public_html/.lsinstall
 
 ## 8. Conclusión: Trabaja como un Profesional en Servidores Optimizados
 
-La combinación de **GitHub Actions** y **Brenda Developer Hosting** te permite alcanzar un estándar de desarrollo de clase mundial: despliegues automatizados, historial de versiones respaldado, cero errores en producción y máxima velocidad gracias a discos NVMe PCIe 4.0.
+La combinación de **GitHub Actions** y **PROISO Tech & Software Solutions** te permite alcanzar un estándar de desarrollo de clase mundial: despliegues automatizados, historial de versiones respaldado, cero errores en producción y máxima velocidad gracias a discos NVMe PCIe 4.0.
 
 ¿Eres desarrollador, freelancer o agencia y necesitas servidores con soporte SSH, Node.js, Python y LiteSpeed?
 
-👉 **[Consulta nuestros Planes Anuales para Desarrolladores](https://brenda.dev/#planes)** o escríbenos directamente a **[WhatsApp (+51 924 081 817)](https://wa.me/51924081817?text=Hola,%20deseo%20habilitar%20acceso%20SSH%20y%20Git%20para%20despliegues%20CI/CD)** para asesorarte con la configuración de tu pipeline.
+👉 **[Consulta nuestros Planes Anuales para Desarrolladores](https://proiso.pe/#planes)** o escríbenos directamente a **[WhatsApp (+51 924 081 817)](https://wa.me/51924081817?text=Hola,%20deseo%20habilitar%20acceso%20SSH%20y%20Git%20para%20despliegues%20CI/CD)** para asesorarte con la configuración de tu pipeline.

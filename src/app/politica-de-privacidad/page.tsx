@@ -3,11 +3,11 @@ import Header from "@/components/sections/Header";
 import Footer from "@/components/sections/Footer";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad | Brenda Developer Hosting",
+  title: "Política de Privacidad | PROISO Tech & Software Solutions",
   description:
-    "Conoce cómo Brenda Developer Hosting protege y gestiona tus datos personales y privacidad con total transparencia y seguridad.",
+    "Conoce cómo PROISO Tech & Software Solutions protege y gestiona tus datos personales y privacidad con total transparencia y seguridad.",
   alternates: {
-    canonical: "https://brenda.dev/politica-de-privacidad",
+    canonical: "https://proiso.pe/politica-de-privacidad",
   },
   robots: {
     index: false,
@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
         
         <section className="space-y-6 text-muted-foreground leading-relaxed">
           <p>
-            En <strong>Brenda Developer Hosting</strong>, valoramos su privacidad y estamos comprometidos con la protección de sus datos personales. Esta política describe cómo recopilamos, utilizamos y protegemos su información.
+            En <strong>PROISO Tech & Software Solutions</strong>, valoramos su privacidad y estamos comprometidos con la protección de sus datos personales. Esta política describe cómo recopilamos, utilizamos y protegemos su información.
           </p>
 
           <h2 className="text-xl font-bold text-foreground">1. Información que recopilamos</h2>
@@ -49,7 +49,7 @@ export default function PrivacyPolicy() {
 
           <h2 className="text-xl font-bold text-foreground">4. Sus derechos</h2>
           <p>
-            Usted tiene derecho a acceder, rectificar o solicitar la eliminación de sus datos personales de nuestra base de datos enviando un correo a <strong>hosting@brenda.dev</strong>.
+            Usted tiene derecho a acceder, rectificar o solicitar la eliminación de sus datos personales de nuestra base de datos enviando un correo a <strong>hosting@proiso.pe</strong>.
           </p>
 
           <h2 className="text-xl font-bold text-foreground">5. Cambios en esta política</h2>

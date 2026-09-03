@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://brenda.dev";
+  const baseUrl = "https://proiso.pe";
 
   return {
     rules: [

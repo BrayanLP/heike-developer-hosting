@@ -9,7 +9,7 @@ export default function Header() {
           <Link href="/">
             <img 
               src="/logo.png" 
-              alt="Brenda Developer Hosting" 
+              alt="PROISO Tech & Software Solutions" 
               className="h-7 w-auto md:h-8"
             />
           </Link>

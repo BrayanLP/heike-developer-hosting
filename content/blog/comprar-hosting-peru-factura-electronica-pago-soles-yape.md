@@ -15,14 +15,14 @@ tags:
 - hosting con yape y plin
 - hosting factura electronica sunat
 - hosting ruc 20 peru
-- brenda hosting
-author: Brenda Developer Hosting
+- proiso cloud
+author: PROISO Tech & Software Solutions
 readingTime: 6 min de lectura
 intentStage: DO
 targetKeyword: comprar hosting peru soles factura
 ---
 
-> Cuando una empresa peruana contrata servicios de hosting en proveedores extranjeros, suele enfrentar dos problemas contables habituales: cargos imprevistos por tipo de cambio bancario en la tarjeta de crédito y la imposibilidad de deducir el gasto para el Impuesto a la Renta o recuperar el crédito fiscal del IGV. **En Brenda Developer Hosting puedes pagar en Soles exactos por Yape, Plin o transferencia bancaria y recibir tu factura electrónica SUNAT al instante.**
+> Cuando una empresa peruana contrata servicios de hosting en proveedores extranjeros, suele enfrentar dos problemas contables habituales: cargos imprevistos por tipo de cambio bancario en la tarjeta de crédito y la imposibilidad de deducir el gasto para el Impuesto a la Renta o recuperar el crédito fiscal del IGV. **En PROISO Tech & Software Solutions puedes pagar en Soles exactos por Yape, Plin o transferencia bancaria y recibir tu factura electrónica SUNAT al instante.**
 
 ![Contratar Hosting en Perú con Factura y Yape](/images/blog/comprar-hosting-peru-factura-electronica-pago-soles-yape.svg)
 
@@ -50,7 +50,7 @@ Aceptamos todas las vías de pago más utilizadas en el país:
 
 ## 3. Proceso de Activación en 3 Pasos (Menos de 10 Minutos)
 
-| Paso | Acción del Cliente | Respuesta de Brenda Developer Hosting |
+| Paso | Acción del Cliente | Respuesta de PROISO Tech & Software Solutions |
 | :--- | :--- | :--- |
 | **1. Elección del Plan** | Eliges el plan según tus requerimientos (Emprendedor S/ 60, Pro S/ 120 o Agencia S/ 240) | Te enviamos el importe exacto en Soles y los datos de pago |
 | **2. Pago y Envío de RUC** | Transfieres por Yape/BCP y envías captura + tu RUC por WhatsApp | Verificamos la operación en 2 minutos |

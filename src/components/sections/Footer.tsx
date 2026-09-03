@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center">
               <img 
                 src="/logo.png" 
-                alt="Brenda Developer Hosting" 
+                alt="PROISO Tech & Software Solutions" 
                 className="h-8 w-auto brightness-0 invert"
               />
             </div>
@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="space-y-4 text-sm text-zinc-400">
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <a href="mailto:hosting@brenda.dev" className="hover:text-primary transition-colors">hosting@brenda.dev</a>
+                <a href="mailto:hosting@proiso.pe" className="hover:text-primary transition-colors">hosting@proiso.pe</a>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle className="h-4 w-4 text-primary" />
@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-zinc-900 text-center">
-          <p className="text-xs text-zinc-500">© {new Date().getFullYear()} Brenda Developer Hosting. Todos los derechos reservados.</p>
+          <p className="text-xs text-zinc-500">© {new Date().getFullYear()} PROISO Tech & Software Solutions. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

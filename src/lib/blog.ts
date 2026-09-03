@@ -313,8 +313,8 @@ export async function getAllPosts(): Promise<BlogPost[]> {
         const coverImage = data.coverImage || '';
         const categories = Array.isArray(data.categories) ? data.categories : [];
         const tags = Array.isArray(data.tags) ? data.tags : [];
-        const author = data.author || 'Brenda Developer Hosting';
-        const originalUrl = `https://brenda.dev/blog/${slug}`;
+        const author = data.author || 'PROISO Tech & Software Solutions';
+        const originalUrl = `https://proiso.pe/blog/${slug}`;
 
         return {
           id: data.id,
@@ -380,8 +380,8 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
       coverImage,
       categories: Array.isArray(data.categories) ? data.categories : [],
       tags: Array.isArray(data.tags) ? data.tags : [],
-      author: data.author || 'Brenda Developer Hosting',
-      originalUrl: `https://brenda.dev/blog/${slug}`,
+      author: data.author || 'PROISO Tech & Software Solutions',
+      originalUrl: `https://proiso.pe/blog/${slug}`,
       readingTime: calculateReadingTime(content),
       contentHtml,
       contentMarkdown: content,

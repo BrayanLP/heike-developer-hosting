@@ -16,11 +16,11 @@ tags:
   - "hosting anual barato peru"
 intentStage: "DO"
 targetKeyword: "comprar hosting peru yape plin sunat"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "5 min de lectura"
 ---
 
-> Contratar un hosting web en el Perú suele ser un dolor de cabeza cuando las empresas extranjeras exigen tarjetas de crédito internacionales en dólares, aplican comisiones bancarias imprevistas y duplican el precio al renovar. En **Brenda Developer Hosting**, comprar hosting anual de alto rendimiento es 100% transparente y accesible en Soles peruanos (PEN).
+> Contratar un hosting web en el Perú suele ser un dolor de cabeza cuando las empresas extranjeras exigen tarjetas de crédito internacionales en dólares, aplican comisiones bancarias imprevistas y duplican el precio al renovar. En **PROISO Tech & Software Solutions**, comprar hosting anual de alto rendimiento es 100% transparente y accesible en Soles peruanos (PEN).
 
 ![Portada](/images/blog/comprar-hosting-peru-yape-plin-factura-sunat-inmediato.svg)
 
@@ -60,7 +60,7 @@ Para tu comodidad, aceptamos los métodos de pago más populares del Perú sin c
 └───────────────────┴───────────────────┴───────────────────┴─────────────────┘
 ```
 
-1. **Selecciona tu Plan:** Revisa nuestro [catálogo de planes](https://brenda.dev/#planes) según el tamaño de tu proyecto.
+1. **Selecciona tu Plan:** Revisa nuestro [catálogo de planes](https://proiso.pe/#planes) según el tamaño de tu proyecto.
 2. **Contáctanos por WhatsApp:** Haz clic en el botón de chat y envíanos el nombre de tu dominio y el plan elegido.
 3. **Realiza tu Pago en Soles:** Efectúa tu abono vía Yape, Plin o transferencia bancaria y envíanos la constancia.
 4. **Recepción Inmediata de Accesos:** En menos de 5 minutos recibirás tus credenciales de cPanel / DirectAdmin, DNS y configuración de correo corporativo.

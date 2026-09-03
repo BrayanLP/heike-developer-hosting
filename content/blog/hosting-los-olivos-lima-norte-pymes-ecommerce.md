@@ -14,7 +14,7 @@ tags:
   - "hosting pymes peru"
   - "hosting smp"
   - "hosting barato peru"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "5 min de lectura"
 ---
 
@@ -32,7 +32,7 @@ Sin embargo, muchos caen en la trampa de proveedores internacionales con "oferta
 
 ## 2. Comparativa de Costos Reales para Pymes en Lima Norte
 
-| Concepto | Proveedor Tradicional (HostGator / GoDaddy) | Brenda Developer Hosting |
+| Concepto | Proveedor Tradicional (HostGator / GoDaddy) | PROISO Tech & Software Solutions |
 | :--- | :--- | :--- |
 | **Precio Primer Año** | S/ 90 - S/ 120 (precio gancho) | **Desde S/ 60 / año (Tarifa real)** |
 | **Precio de Renovación** | S/ 320 - S/ 450 / año (Aumento del 300%) | **Mismo precio fijo (S/ 60 - S/ 120/año)** |

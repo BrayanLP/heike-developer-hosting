@@ -1,6 +1,6 @@
-# 🚀 Brenda Developer Hosting
+# 🚀 PROISO Tech & Software Solutions
 
-**Brenda Developer Hosting** es una plataforma web moderna para servicios de alojamiento de alto rendimiento en Perú y Latinoamérica, optimizada con discos NVMe PCIe 4.0, servidores web LiteSpeed Enterprise, integración de pagos en Soles (Yape, Plin, BCP) y facturación electrónica SUNAT.
+**PROISO Tech & Software Solutions** es una plataforma web moderna para servicios de alojamiento de alto rendimiento en Perú y Latinoamérica, optimizada con discos NVMe PCIe 4.0, servidores web LiteSpeed Enterprise, integración de pagos en Soles (Yape, Plin, BCP) y facturación electrónica SUNAT.
 
 ---
 
@@ -11,7 +11,7 @@
 - **Servidor Web LiteSpeed:** Compatibilidad nativa con LSCache y HTTP/3 / QUIC.
 - **Asistente de IA (Google Genkit):** Recomendador interactivo de planes de hosting adaptado a las necesidades de cada usuario.
 - **Ecosistema de Contenidos & Blog:** 56 artículos técnicos y guías de SEO local para las 24 regiones del Perú.
-- **Dominio Oficial:** [brenda.dev](https://brenda.dev)
+- **Dominio Oficial:** [proiso.pe](https://proiso.pe)
 - **Atención y Ventas:** WhatsApp directo [+51 924 081 817](https://wa.me/51924081817)
 
 ---

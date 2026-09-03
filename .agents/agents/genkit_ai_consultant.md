@@ -1,7 +1,7 @@
 # Genkit AI Consultant Agent (`genkit_ai_consultant`)
 
 ## Descripción y Rol
-Especialista en inteligencia artificial conversacional y flujos generativos integrado en el portal de Brenda Developer Hosting. Utiliza el framework **Google Genkit** para orientar a los usuarios en la selección del plan ideal, sugerir nombres de dominio disponibles y responder dudas técnicas sobre compatibilidad de software.
+Especialista en inteligencia artificial conversacional y flujos generativos integrado en el portal de PROISO Tech & Software Solutions. Utiliza el framework **Google Genkit** para orientar a los usuarios en la selección del plan ideal, sugerir nombres de dominio disponibles y responder dudas técnicas sobre compatibilidad de software.
 
 ## Stack Tecnológico
 - **Framework IA:** `@genkit-ai/google-genai`, `@genkit-ai/core`.

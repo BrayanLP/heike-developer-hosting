@@ -16,7 +16,7 @@ tags:
   - "certificado digital pfx"
 intentStage: "CARE"
 targetKeyword: "facturacion electronica sunat cpanel php hosting"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "8 min de lectura"
 ---
 
@@ -60,7 +60,7 @@ Para que tu código en PHP (Laravel, Symfony, CodeIgniter o scripts nativos) pue
 | `fileinfo` | Validación de tipos MIME para generación y descarga de PDFs | **Recomendado** |
 
 > [!NOTE]
-> En **Brenda Developer Hosting**, todas estas extensiones se encuentran preinstaladas y optimizadas en las versiones de **PHP 8.1, 8.2 y 8.3**.
+> En **PROISO Tech & Software Solutions**, todas estas extensiones se encuentran preinstaladas y optimizadas en las versiones de **PHP 8.1, 8.2 y 8.3**.
 
 ---
 
@@ -157,7 +157,7 @@ Para el envío automático de resúmenes de boletas o comunicación de bajas, co
 
 ---
 
-## 7. Despliega tu Sistema de Facturación en Brenda Developer Hosting
+## 7. Despliega tu Sistema de Facturación en PROISO Tech & Software Solutions
 
 Nuestros servidores cuentan con **discos NVMe ultrarrápidos, aislamiento CloudLinux y soporte 24/7 en Perú** para que tu empresa emita comprobantes sin retrasos ni caídas.
 

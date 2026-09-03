@@ -14,7 +14,7 @@ tags:
   - "Seguridad Web"
   - "Aislamiento"
   - "Protección DDoS"
-author: "Brenda Developer Hosting"
+author: "PROISO Tech & Software Solutions"
 readingTime: "5 min de lectura"
 ---
 
@@ -57,9 +57,9 @@ En un servidor Linux convencional sin aislamiento:
 
 ---
 
-## 4. Límites de Recursos Asignados en Brenda Developer Hosting
+## 4. Límites de Recursos Asignados en PROISO Tech & Software Solutions
 
-En **Brenda Developer Hosting**, configuramos límites holgados y transparentes en cada plan para que tus proyectos funcionen con fluidez profesional:
+En **PROISO Tech & Software Solutions**, configuramos límites holgados y transparentes en cada plan para que tus proyectos funcionen con fluidez profesional:
 
 | Recurso Asignado | Plan Básico / Intermedio / Pro | Plan Ultra / Ultimate |
 | --- | --- | --- |
@@ -84,4 +84,4 @@ Además de CloudLinux y CageFS, toda nuestra infraestructura incorpora:
 
 Contratar un hosting compartido no significa comprometer la seguridad ni la estabilidad de tu proyecto si está respaldado por tecnología de virtualización de vanguardia.
 
-En **Brenda Developer Hosting**, cuidamos cada detalle para que tus sitios y aplicaciones gocen de la máxima velocidad y blindaje de seguridad 24/7.
+En **PROISO Tech & Software Solutions**, cuidamos cada detalle para que tus sitios y aplicaciones gocen de la máxima velocidad y blindaje de seguridad 24/7.
