@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgHuancavelica" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="tealHuancavelica" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+    <linearGradient id="amberHuancavelica" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgHuancavelica)" />
+
+  <!-- Andean Mountain & Terrace Geometry -->
+  <g stroke="#0d9488" stroke-width="1" opacity="0.2">
+    <polygon points="100,540 360,280 620,540" fill="none" />
+    <polygon points="440,550 720,240 1000,550" fill="none" />
+    <polygon points="840,540 1060,310 1260,540" fill="none" />
+    <line x1="220" y1="0" x2="220" y2="675" />
+    <line x1="620" y1="0" x2="620" y2="675" />
+    <line x1="1020" y1="0" x2="1020" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="240" height="32" rx="16" fill="#0d9488" fill-opacity="0.2" stroke="#2dd4bf" stroke-width="1" />
+    <text x="120" y="21" fill="#99f6e4" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN HUANCAVELICA</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING HUANCAVELICA: AGRICULTURA ORGÁNICA &amp; COOPERATIVAS</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Infraestructura NVMe SSD y LiteSpeed para Productores Orgánicos, Cooperativas Andinas y Empresas</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#0d9488" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#0d9488" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">🌾</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Región Orgánica y Cooperativas Andinas</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Portales institucionales, comercio de quinua y palta Hass con alta disponibilidad</text>
+      <text x="90" y="92" fill="#2dd4bf" font-family="monospace" font-size="11">LiteSpeed + CloudLinux Aislado • Uptime 99.9% Garantizado</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Cooperativas Orgánicas -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#14b8a6" stroke-width="1.5" />
+      <text x="20" y="30" fill="#5eead4" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">COOPERATIVAS ANDINAS</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Exportación y Granos</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Quinua, palta y tubérculos</text>
+      <text x="20" y="98" fill="#5eead4" font-family="monospace" font-size="11">WooCommerce + NVMe</text>
+
+      <!-- Box 2: Instituciones y Mypes -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#fbbf24" stroke-width="1.5" />
+      <text x="290" y="30" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">INSTITUCIONES &amp; MYPES</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Correos Corporativos</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Tayacaja y Huancavelica</text>
+      <text x="290" y="98" fill="#fcd34d" font-family="monospace" font-size="11">SPF/DKIM sin Spam</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Factura Electrónica SUNAT en Soles (PEN)</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Válido para RUC 10 o 20 con soporte inmediato en Perú por WhatsApp</text>
+      <text x="470" y="50" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Por qué elegirnos en Huancavelica</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Rendimiento para empresas y cooperativas</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#0d9488" stroke-width="1" />
+      <text x="15" y="24" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ALMACENAMIENTO NVME SSD</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Unidades PCIe 4.0 hasta 6x más rápidas</text>
+      <text x="355" y="35" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Ultrarrápido</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#14b8a6" stroke-width="1" />
+      <text x="15" y="24" fill="#5eead4" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CORREOS SEGUROS SPF/DKIM</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Entregabilidad directa a bandeja de entrada</text>
+      <text x="355" y="35" fill="#5eead4" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">100% Bandeja</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PRECIOS FIJOS EN SOLES</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Pago con Yape, Plin y transferencia bancaria</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">S/ 60 Fijo</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#8b5cf6" stroke-width="1" />
+      <text x="15" y="24" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SOPORTE 24/7 EN PERÚ</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Asistencia técnica directa vía WhatsApp</text>
+      <text x="355" y="35" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Inmediato</text>
+    </g>
+  </g>
+</svg>

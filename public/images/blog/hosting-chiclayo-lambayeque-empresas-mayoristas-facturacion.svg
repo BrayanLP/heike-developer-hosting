@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgChiclayo" cx="70%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="cardGradChiclayo" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgChiclayo)" />
+
+  <!-- Header -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1" />
+    <text x="110" y="21" fill="#c7d2fe" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN LAMBAYEQUE</text>
+    <text x="0" y="70" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900">HOSTING CHICLAYO: MAYORISTAS &amp; SUNAT</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="sans-serif" font-size="15">Alta Potencia NVMe para Catálogos B2B, Distribuidoras y Emisión Masiva de Facturas</text>
+  </g>
+
+  <!-- Left: Wholesale B2B ERP &amp; SUNAT Pipeline -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="580" height="400" rx="20" fill="url(#cardGradChiclayo)" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 30)">
+      <!-- Electronic Billing Speed Box -->
+      <rect x="0" y="0" width="520" height="100" rx="14" fill="#09090b" stroke="#6366f1" stroke-width="1.5" />
+      <circle cx="45" cy="50" r="22" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1.5" />
+      <text x="45" y="56" fill="#a5b4fc" font-family="sans-serif" font-size="18" font-weight="bold" text-anchor="middle">⚡</text>
+      
+      <text x="85" y="40" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Emisión Masiva de Comprobantes SUNAT</text>
+      <text x="85" y="65" fill="#a1a1aa" font-family="sans-serif" font-size="13">Procesamiento inmediato de XML / CDR sin cuellos de botella</text>
+      <text x="85" y="85" fill="#818cf8" font-family="monospace" font-size="11">Capacidad: 10,000+ Facturas Diarias en Hosting NVMe</text>
+    </g>
+
+    <!-- Wholesale Commerce Features -->
+    <g transform="translate(30, 150)">
+      <rect x="0" y="0" width="250" height="130" rx="14" fill="#09090b" stroke="#10b981" stroke-width="1.5" />
+      <text x="20" y="32" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">E-COMMERCE &amp; CATÁLOGOS</text>
+      <text x="20" y="65" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="extrabold">&lt; 150ms</text>
+      <text x="20" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="11">TTFB ultrarrápido con LiteSpeed</text>
+      <text x="20" y="110" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold">Cero caídas en campañas</text>
+
+      <rect x="270" y="0" width="250" height="130" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="290" y="32" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">RECURSOS DEDICADOS</text>
+      <text x="290" y="65" fill="#ffffff" font-family="sans-serif" font-size="22" font-weight="extrabold">2 a 3 GB RAM</text>
+      <text x="290" y="90" fill="#a1a1aa" font-family="sans-serif" font-size="11">Aislamiento CloudLinux OS</text>
+      <text x="290" y="110" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold">2 a 3 CPU Cores Dedicados</text>
+    </g>
+
+    <!-- Bottom Location Tags -->
+    <g transform="translate(30, 310)">
+      <rect x="0" y="0" width="120" height="36" rx="8" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-width="1" />
+      <text x="60" y="22" fill="#a5b4fc" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">CHICLAYO B2B</text>
+
+      <rect x="130" y="0" width="120" height="36" rx="8" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1" />
+      <text x="190" y="22" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LAMBAYEQUE</text>
+
+      <rect x="260" y="0" width="120" height="36" rx="8" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1" />
+      <text x="320" y="22" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">DISTRIBUIDORAS</text>
+
+      <rect x="390" y="0" width="130" height="36" rx="8" fill="#ec4899" fill-opacity="0.15" stroke="#ec4899" stroke-width="1" />
+      <text x="455" y="22" fill="#f472b6" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">DESDE S/ 60/AÑO</text>
+    </g>
+  </g>
+
+  <!-- Right: Wholesale Inventory Stack Diagram -->
+  <g transform="translate(700, 200)">
+    <rect x="0" y="0" width="420" height="400" rx="20" fill="#18181b" stroke="#6366f1" stroke-width="2" />
+    
+    <g transform="translate(30, 35)">
+      <text x="180" y="20" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold" text-anchor="middle">Arquitectura Comercial Norte</text>
+      
+      <!-- Layer 1: LiteSpeed &amp; Web Engine -->
+      <rect x="0" y="50" width="360" height="60" rx="10" fill="#09090b" stroke="#6366f1" stroke-width="1.5" />
+      <text x="20" y="80" fill="#818cf8" font-family="sans-serif" font-size="14" font-weight="bold">Capas Web &amp; Tiendas Virtuales</text>
+      <text x="20" y="98" fill="#a1a1aa" font-family="monospace" font-size="11">WooCommerce • PrestaShop • Laravel</text>
+
+      <!-- Layer 2: API &amp; Billing -->
+      <rect x="0" y="130" width="360" height="60" rx="10" fill="#09090b" stroke="#10b981" stroke-width="1.5" />
+      <text x="20" y="160" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="bold">Módulo de Facturación y APIs</text>
+      <text x="20" y="178" fill="#a1a1aa" font-family="monospace" font-size="11">PHP 8.3 • Node.js • Webhooks SUNAT</text>
+
+      <!-- Layer 3: NVMe Storage -->
+      <rect x="0" y="210" width="360" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="20" y="240" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="bold">Base de Datos NVMe Ultrarrápida</text>
+      <text x="20" y="258" fill="#a1a1aa" font-family="monospace" font-size="11">MySQL / MariaDB con Redis Caching</text>
+
+      <rect x="0" y="295" width="360" height="45" rx="10" fill="#6366f1" fill-opacity="0.2" stroke="#818cf8" stroke-width="1" />
+      <text x="180" y="323" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">SOPORTE LOCAL DIRECTO VÍA WHATSAPP</text>
+    </g>
+  </g>
+</svg>

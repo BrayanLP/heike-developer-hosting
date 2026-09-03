@@ -1,0 +1,82 @@
+# Documentación Completa de Heike Developer Hosting (llms-full.txt)
+
+Heike Developer Hosting es un proveedor especializado en infraestructura cloud y hosting anual de alto rendimiento con servidores ubicados estratégicamente para ofrecer la menor latencia en Perú y Latinoamérica.
+
+## 1. Misión y Especialidad
+Nuestra misión es democratizar el acceso a servidores de grado empresarial para programadores, freelancers, agencias de desarrollo y empresas que necesitan alojar aplicaciones Node.js, Python, Ruby, PHP 8.x y tiendas WooCommerce sin pagar costosas tarifas mensuales de nubes internacionales.
+
+## 2. Tecnologías de Infraestructura
+- **Almacenamiento NVMe SSD:** Conexión PCIe directa, hasta 3500 MB/s de lectura secuencial y 500,000 IOPS.
+- **LiteSpeed Web Server Enterprise:** Manejo asíncrono basado en eventos con protocolo HTTP/3 y QUIC nativo.
+- **CloudLinux OS + CageFS:** Aislamiento a nivel de kernel para evitar consumo desmedido de recursos y proteger contra accesos no autorizados.
+- **Multi-Panel:** Soporte para cPanel, DirectAdmin, Webuzo y Plesk.
+- **SSL Gratuito:** Certificados SSL automáticos (Let's Encrypt / AutoSSL) con renovación periódica sin intervención.
+- **Instalador 1-Click:** Instalación de WordPress, Laravel, Prestashop, Joomla y más de 300 scripts en segundos.
+
+## 3. Catálogo de Planes Anuales (Precios en Soles PEN / Dólares USD)
+- **Plan Básico:** S/ 60 / año ($18 USD) - 5 GB NVMe, 2 GB RAM, 2 Core CPU.
+- **Plan Intermedio:** S/ 90 / año ($26 USD) - 7 GB NVMe, 2 GB RAM, 2 Core CPU.
+- **Plan Pro:** S/ 120 / año ($35 USD) - 10 GB NVMe, 2 GB RAM, 2 Core CPU, LiteSpeed.
+- **Plan Plus:** S/ 180 / año ($52 USD) - 20 GB NVMe, 2 GB RAM, 2 Core CPU.
+- **Plan Business:** S/ 300 / año ($86 USD) - 50 GB NVMe, 2 GB RAM, 2 Core CPU.
+- **Plan Enterprise:** S/ 500 / año ($143 USD) - 100 GB NVMe, 2 GB RAM, 2 Core CPU.
+- **Plan Ultra:** S/ 750 / año ($215 USD) - 150 GB NVMe, 3 GB RAM, 3 Core CPU.
+- **Plan Ultimate:** S/ 900 / año ($258 USD) - 200 GB NVMe, 3 GB RAM, 3 Core CPU.
+
+## 4. Guías y Documentación del Blog
+1. **Despliegue de Node.js y Next.js con cPanel:** https://brenda.dev/blog/desplegar-nodejs-nextjs-hosting-nvme-cpanel
+2. **Optimización de WordPress y WooCommerce con LiteSpeed:** https://brenda.dev/blog/optimizacion-wordpress-woocommerce-litespeed-nvme
+3. **Configuración de Entornos Virtuales Python y FastAPI en DirectAdmin:** https://brenda.dev/blog/configuracion-entornos-python-fastapi-directadmin
+4. **Guía Completa para Migrar tu Sitio Web sin Caídas:** https://brenda.dev/blog/guia-completa-migracion-hosting-sin-caidas
+5. **Seguridad Web en Hosting Compartido con CloudLinux y CageFS:** https://brenda.dev/blog/seguridad-cloudlinux-aislamiento-cuentas-hosting
+6. **Cómo Elegir el Mejor Hosting en Perú para Desarrolladores:** https://brenda.dev/blog/como-elegir-mejor-hosting-peru-desarrolladores
+7. **Guía de Configuración de Certificados SSL HTTPS Gratis:** https://brenda.dev/blog/guia-configuracion-ssl-https-gratis-hosting
+8. **Optimización de Bases de Datos MySQL y MariaDB en NVMe:** https://brenda.dev/blog/optimizacion-bases-de-datos-mysql-hosting-nvme
+9. **Despliegue de Aplicaciones Laravel con PHP 8.x en cPanel:** https://brenda.dev/blog/despliegue-laravel-php-8-composer-cpanel
+10. **Configuración de Correos Corporativos con SPF, DKIM y DMARC:** https://brenda.dev/blog/configuracion-correos-corporativos-spf-dkim-dmarc
+11. **Hosting en San Isidro y Miraflores para Startups y Agencias:** https://brenda.dev/blog/hosting-san-isidro-miraflores-startups-agencias-lima
+12. **Hosting en el Callao para Agencias de Aduana y Logística:** https://brenda.dev/blog/hosting-callao-agencias-aduana-comercio-exterior-logistica
+13. **El Mejor Hosting en Los Olivos y Lima Norte para Pymes:** https://brenda.dev/blog/hosting-los-olivos-lima-norte-pymes-ecommerce
+14. **El Mejor Hosting en Arequipa para Empresas y Desarrolladores:** https://brenda.dev/blog/mejor-hosting-arequipa-empresas-desarrolladores-comparativa
+15. **Hosting Ultrarrápido en Cusco para Agencias de Turismo y Hoteles:** https://brenda.dev/blog/hosting-cusco-turismo-agencias-viajes-litespeed-nvme
+16. **El Mejor Hosting en Trujillo y La Libertad para Tiendas Online:** https://brenda.dev/blog/hosting-trujillo-tiendas-online-empresas-comparativa
+17. **Hosting en Piura y Máncora para Hoteles, Turismo y Empresas:** https://brenda.dev/blog/hosting-piura-mancora-empresas-turismo-nvme
+18. **El Mejor Hosting en Huancayo y Junín para Empresas y Colegios:** https://brenda.dev/blog/hosting-huancayo-junin-empresas-comercio-educacion
+19. **Hosting en Chiclayo y Lambayeque para Mayoristas y Empresas:** https://brenda.dev/blog/hosting-chiclayo-lambayeque-empresas-mayoristas-facturacion
+20. **Hosting en San Juan de Lurigancho y Villa El Salvador para Mypes:** https://brenda.dev/blog/hosting-sjl-villa-el-salvador-mypes-industrias
+21. **Hosting en Ica, Chincha y Pisco para Agroexportación y Turismo:** https://brenda.dev/blog/hosting-ica-chincha-pisco-agroexportacion-turismo
+22. **Hosting en Chimbote y Huaraz para Pesca y Turismo de Montaña:** https://brenda.dev/blog/hosting-chimbote-huaraz-ancash-pesca-turismo-empresas
+23. **Hosting en Tacna para Importadoras de Zofratacna y Turismo Médico:** https://brenda.dev/blog/hosting-tacna-zofratacna-importadoras-turismo-medico
+24. **Hosting en Tarapoto y San Martín para Ecoturismo y Cooperativas:** https://brenda.dev/blog/hosting-tarapoto-san-martin-ecoturismo-cooperativas-cafe
+25. **Cómo Comprar Hosting en Perú con Yape, Plin y Factura SUNAT:** https://brenda.dev/blog/comprar-hosting-peru-yape-plin-factura-sunat-inmediato
+26. **El Mejor Hosting en Puno y Juliaca para Empresas y Turismo:** https://brenda.dev/blog/hosting-puno-juliaca-comercio-turismo-empresas
+27. **Hosting en Cajamarca para Minería, Lácteos y Turismo:** https://brenda.dev/blog/hosting-cajamarca-mineria-turismo-empresas-lacteos
+28. **Hosting Ultrarrápido en Iquitos y Loreto para Ecoturismo:** https://brenda.dev/blog/hosting-iquitos-loreto-ecoturismo-amazonia-empresas
+29. **LiteSpeed vs Apache: Comparativa Técnica de Rendimiento:** https://brenda.dev/blog/servidor-web-litespeed-vs-apache-comparativa-rendimiento
+30. **Integración de Facturación Electrónica SUNAT con PHP y cPanel:** https://brenda.dev/blog/integracion-facturacion-electronica-sunat-cpanel-php
+31. **Hosting en Pasco, Oxapampa y Villa Rica para Ecoturismo y Café:** https://brenda.dev/blog/hosting-pasco-oxapampa-villa-rica-ecoturismo-cafe
+32. **Hosting en Huancavelica para Agricultura Orgánica y Cooperativas:** https://brenda.dev/blog/hosting-huancavelica-agricultura-organica-cooperativas-empresas
+33. **Hosting en Apurímac, Abancay y Andahuaylas para Minería y Agro:** https://brenda.dev/blog/hosting-apurimac-abancay-andahuaylas-mineria-agroindustria
+34. **Hosting en Amazonas y Chachapoyas para Turismo en Kuélap y Cacao:** https://brenda.dev/blog/hosting-amazonas-chachapoyas-kuelap-cacao-turismo-empresas
+35. **Hosting en Madre de Dios y Puerto Maldonado para Ecoturismo y Castaña:** https://brenda.dev/blog/hosting-madre-de-dios-puerto-maldonado-ecoturismo-castana
+36. **GoDaddy vs Heike Developer Hosting en Perú: Comparativa 2026:** https://brenda.dev/blog/godaddy-vs-heike-developer-hosting-peru-comparativa
+37. **¿Qué es el Hosting NVMe PCIe 4.0 y sus Ventajas vs SSD SATA?:** https://brenda.dev/blog/que-es-hosting-nvme-pcie-4-ventajas-ssd-sata
+38. **Despliegue Continuo (CI/CD) en cPanel con Git y GitHub Actions:** https://brenda.dev/blog/despliegue-continuo-github-actions-git-cpanel-hosting
+39. **Guía de Seguridad WAF y Anti-Malware en Hosting:** https://brenda.dev/blog/seguridad-waf-antimalware-hosting-wordpress-laravel
+40. **Hosting Multidominio en Perú para Agencias y Desarrolladores:** https://brenda.dev/blog/hosting-multidominio-peru-agencias-desarrolladores
+
+## 5. Contacto y Soporte Técnico
+- **WhatsApp:** +51 924 081 817
+- **Email de Soporte:** hosting@brenda.dev
+- **Sitio Web:** https://brenda.dev
+
+- [¿Por qué el Servidor LiteSpeed con LSCache Supera a Nginx y Apache en WordPress?](https://brenda.dev/blog/litespeed-web-server-lscache-vs-nginx-apache-wordpress): Publicado el 2026-09-03.
+- [El Mejor Hosting en Trujillo para Tiendas Online: Comparativa vs GoDaddy y HostGator 2026](https://brenda.dev/blog/mejor-hosting-trujillo-tiendas-online-comparativa-godaddy-hostgator): Publicado el 2026-09-03.
+- [Cómo Comprar Hosting en Cusco con Facturación en Soles, Yape y Activación Inmediata](https://brenda.dev/blog/comprar-hosting-cusco-soles-yape-activacion-inmediata): Publicado el 2026-09-03.
+- [Configuración de Registros DNS, DKIM, SPF y DMARC en cPanel para Evitar Spam](https://brenda.dev/blog/configurar-registros-dns-dkim-spf-dmarc-cpanel-evitar-spam): Publicado el 2026-09-03.
+- [Hosting para Node.js y Next.js en Lima: Guía de Despliegue con Passenger y CloudLinux](https://brenda.dev/blog/hosting-nodejs-nextjs-lima-despliegue-passenger-cloudlinux): Publicado el 2026-09-03.
+- [Mejor Hosting en Piura y Sullana: Velocidad NVMe para Empresas Agroexportadoras y E-Commerce](https://brenda.dev/blog/mejor-hosting-piura-empresas-pesca-agroexportacion): Publicado el 2026-09-03.
+- [Cómo Migrar tu Sitio Web de GoDaddy a Hosting LiteSpeed en Perú sin Perder Correos ni Posicionamiento SEO](https://brenda.dev/blog/migrar-hosting-godaddy-a-litespeed-peru-paso-a-paso): Publicado el 2026-09-03.
+- [Contratar Hosting en Perú con Factura Electrónica SUNAT y Pago en Soles por Yape y Plin](https://brenda.dev/blog/comprar-hosting-peru-factura-electronica-pago-soles-yape): Publicado el 2026-09-03.
+- [Cómo Instalar y Configurar Certificados SSL Wildcard Gratuitos con AutoSSL en cPanel](https://brenda.dev/blog/como-configurar-certificados-ssl-wildcard-gratis-cpanel): Publicado el 2026-09-03.
+- [Hosting para Agencias de Marketing y Diseñadores Web en Perú: Claves para Alojar Clientes sin Caídas](https://brenda.dev/blog/hosting-para-agencias-marketing-digital-reseller-peru): Publicado el 2026-09-03.

@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgLiteSpeed" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="blueLiteSpeed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+    <linearGradient id="amberApache" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f87171" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgLiteSpeed)" />
+
+  <!-- Technical Circuit Grid -->
+  <g stroke="#3b82f6" stroke-width="1" opacity="0.15">
+    <line x1="100" y1="0" x2="100" y2="675" />
+    <line x1="300" y1="0" x2="300" y2="675" />
+    <line x1="500" y1="0" x2="500" y2="675" />
+    <line x1="700" y1="0" x2="700" y2="675" />
+    <line x1="900" y1="0" x2="900" y2="675" />
+    <line x1="1100" y1="0" x2="1100" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="230" height="32" rx="16" fill="#3b82f6" fill-opacity="0.2" stroke="#60a5fa" stroke-width="1" />
+    <text x="115" y="21" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">TECNOLOGÍA DE SERVIDORES</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">LITESPEED VS APACHE: BENCHMARK 2026</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">¿Por qué LiteSpeed multiplica x3 la velocidad y reduce un 60% el consumo de memoria RAM?</text>
+  </g>
+
+  <!-- Left: Comparison Benchmark Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="540" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Comparativa de Arquitectura</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Rendimiento bajo concurrencia real (RPS y TTFB)</text>
+
+    <!-- LiteSpeed Block -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="480" height="130" rx="14" fill="#09090b" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="20" y="32" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">⚡ LITESPEED WEB SERVER (EVENT-DRIVEN)</text>
+      
+      <text x="20" y="62" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13">• Arquitectura Asíncrona: Atiende miles de peticiones sin saturar CPU</text>
+      <text x="20" y="86" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="13">• LSCache Nativo a nivel de kernel: Acelera WordPress y WooCommerce</text>
+      <text x="20" y="110" fill="#34d399" font-family="monospace" font-size="12">Soporte HTTP/3 QUIC + Compresión Brotli Automática</text>
+    </g>
+
+    <!-- Apache Block -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="480" height="135" rx="14" fill="#09090b" stroke="#ef4444" stroke-width="1.5" />
+      <text x="20" y="32" fill="#f87171" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">🐢 APACHE TRADICIONAL (PROCESS-BASED)</text>
+      
+      <text x="20" y="62" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">• Un proceso/hilo por usuario: Alto consumo de RAM</text>
+      <text x="20" y="86" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">• Caídas por sobrecarga bajo picos de tráfico repentinos</text>
+      <text x="20" y="110" fill="#f87171" font-family="monospace" font-size="12">Caché mediante plugins pesados de PHP</text>
+    </g>
+  </g>
+
+  <!-- Right: Speed Stats Visual -->
+  <g transform="translate(650, 195)">
+    <rect x="0" y="0" width="470" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Pruebas de Rendimiento (RPS)</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Peticiones por segundo procesadas en WordPress</text>
+
+    <!-- Bar 1 LiteSpeed -->
+    <g transform="translate(30, 100)">
+      <text x="0" y="20" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">LiteSpeed + LSCache</text>
+      <text x="410" y="20" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="end">4,850 RPS</text>
+      <rect x="0" y="30" width="410" height="24" rx="6" fill="#1e3a8a" />
+      <rect x="0" y="30" width="400" height="24" rx="6" fill="url(#blueLiteSpeed)" />
+    </g>
+
+    <!-- Bar 2 Nginx FastCGI -->
+    <g transform="translate(30, 175)">
+      <text x="0" y="20" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Nginx FastCGI</text>
+      <text x="410" y="20" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="end">2,100 RPS</text>
+      <rect x="0" y="30" width="410" height="24" rx="6" fill="#27272a" />
+      <rect x="0" y="30" width="200" height="24" rx="6" fill="#52525b" />
+    </g>
+
+    <!-- Bar 3 Apache -->
+    <g transform="translate(30, 250)">
+      <text x="0" y="20" fill="#f87171" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Apache Tradicional</text>
+      <text x="410" y="20" fill="#f87171" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" text-anchor="end">850 RPS</text>
+      <rect x="0" y="30" width="410" height="24" rx="6" fill="#27272a" />
+      <rect x="0" y="30" width="85" height="24" rx="6" fill="#ef4444" />
+    </g>
+
+    <!-- Conclusion callout -->
+    <g transform="translate(30, 335)">
+      <rect x="0" y="0" width="410" height="50" rx="10" fill="#09090b" stroke="#3b82f6" stroke-width="1" />
+      <text x="15" y="30" fill="#93c5fd" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">✓ Incluido en todos los planes Pro de Brayan Hosting</text>
+    </g>
+  </g>
+</svg>

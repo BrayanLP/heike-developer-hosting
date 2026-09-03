@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#27272a"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1100" cy="100" r="300" fill="#f59e0b" opacity="0.08" filter="blur(60px)"/>
+  <circle cx="100" cy="580" r="250" fill="#f59e0b" opacity="0.06" filter="blur(50px)"/>
+  <rect x="80" y="160" width="180" height="40" rx="20" fill="#f59e0b" opacity="0.2"/>
+  <text x="170" y="186" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" text-anchor="middle" letter-spacing="2">HOSTING PERÚ</text>
+  <text x="80" y="270" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="44">¿Por qué el Servidor LiteSpeed con LSCache</text>
+  <text x="80" y="335" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="44">Supera a Nginx y Apache en WordPress?</text>
+  <line x1="80" y1="390" x2="280" y2="390" stroke="#f59e0b" stroke-width="4" stroke-linecap="round"/>
+  <text x="80" y="445" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="22">Edición Especial • Guía Profesional 2026</text>
+  <rect x="80" y="550" width="1040" height="1" fill="#334155" opacity="0.5"/>
+  <text x="80" y="590" fill="#64748b" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="16">PERÚ &amp; LATINOAMÉRICA</text>
+  <text x="1120" y="590" fill="#f59e0b" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" text-anchor="end">ESTÁNDAR EDITORIAL VERIFICADO</text>
+</svg>

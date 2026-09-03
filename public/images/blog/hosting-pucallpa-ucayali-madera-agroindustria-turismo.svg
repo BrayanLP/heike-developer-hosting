@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgPucallpa" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0d9488" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="tealPucallpa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+    <linearGradient id="amberPucallpa" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgPucallpa)" />
+
+  <!-- Amazon River & Forest Geometry -->
+  <g stroke="#0d9488" stroke-width="1" opacity="0.2">
+    <polygon points="120,530 380,300 640,530" fill="none" />
+    <polygon points="460,540 740,260 1020,540" fill="none" />
+    <polygon points="860,530 1080,330 1250,530" fill="none" />
+    <line x1="220" y1="0" x2="220" y2="675" />
+    <line x1="620" y1="0" x2="620" y2="675" />
+    <line x1="1020" y1="0" x2="1020" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#0d9488" fill-opacity="0.2" stroke="#2dd4bf" stroke-width="1" />
+    <text x="110" y="21" fill="#5eead4" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN UCAYALI</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING PUCALLPA &amp; UCAYALI: MADERA, AGRO &amp; TURISMO</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Alta Velocidad NVMe SSD para la Industria Forestal, Palma Aceitera, Transporte Fluvial y Ecoturismo</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#0d9488" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#0d9488" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">🌲</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Industria Maderera &amp; Agroindustria Amazónica</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Portales B2B de exportación y catálogos de madera certificada y palma</text>
+      <text x="90" y="92" fill="#2dd4bf" font-family="monospace" font-size="11">CloudLinux + CageFS • Recursos dedicados sin caídas de servidor</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Ecoturismo Yarinacocha -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#fbbf24" stroke-width="1.5" />
+      <text x="20" y="30" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TURISMO AMAZÓNICO</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Yarinacocha &amp; Selva</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Reservas rápidas y seguras</text>
+      <text x="20" y="98" fill="#fcd34d" font-family="monospace" font-size="11">LiteSpeed + SSL Gratis</text>
+
+      <!-- Box 2: Transporte Fluvial -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#06b6d4" stroke-width="1.5" />
+      <text x="290" y="30" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TRANSPORTE FLUVIAL</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Logística &amp; Puertos</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Correos SPF/DKIM seguros</text>
+      <text x="290" y="98" fill="#67e8f9" font-family="monospace" font-size="11">HTTP/3 + MySQL NVMe</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Facturación SUNAT Inmediata y Soporte WhatsApp 24/7</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Facturas electrónicas oficiales en Soles y activación instantánea con Yape o Plin</text>
+      <text x="470" y="50" fill="#0d9488" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Beneficios para Pucallpa y Ucayali</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Velocidad garantizada y cero trabas técnicas</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#0d9488" stroke-width="1" />
+      <text x="15" y="24" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">VELOCIDAD DE ACCESO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Discos NVMe SSD PCIe 4.0</text>
+      <text x="355" y="35" fill="#2dd4bf" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Máxima Rapidez</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#06b6d4" stroke-width="1" />
+      <text x="15" y="24" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CORREOS CORPORATIVOS</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Autenticación SPF, DKIM y DMARC</text>
+      <text x="355" y="35" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Cero Spam</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PRECIO FIJO ANUAL</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Sin subidas de tarifa en la renovación</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">S/ 60/año</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1" />
+      <text x="15" y="24" fill="#4ade80" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SOPORTE LOCAL DIRECTO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">WhatsApp directo (+51 975 521 788)</text>
+      <text x="355" y="35" fill="#22c55e" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">24/7 en Perú</text>
+    </g>
+  </g>
+</svg>

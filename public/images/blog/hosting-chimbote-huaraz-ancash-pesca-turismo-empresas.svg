@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgAncash" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="snowPeakGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.4" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgAncash)" />
+
+  <!-- Header -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="180" height="32" rx="16" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+    <text x="90" y="21" fill="#7dd3fc" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN ÁNCASH</text>
+    <text x="0" y="70" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900">HOSTING CHIMBOTE &amp; HUARAZ</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="sans-serif" font-size="15">Potencia Digital para la Industria Pesquera, Minera y Turismo de Aventura</text>
+  </g>
+
+  <!-- Left: Dual Region Card (Coast &amp; Highlands) -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="580" height="400" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 30)">
+      <!-- Chimbote Column -->
+      <rect x="0" y="0" width="250" height="240" rx="14" fill="#09090b" stroke="#0284c7" stroke-width="1.5" />
+      <rect x="15" y="15" width="80" height="26" rx="6" fill="#0284c7" fill-opacity="0.2" />
+      <text x="55" y="32" fill="#38bdf8" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">CHIMBOTE</text>
+      
+      <text x="15" y="70" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Pesca &amp; Industria</text>
+      <text x="15" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="12">Plantas harineras, exportación marítima y facturación electrónica B2B.</text>
+      <text x="15" y="145" fill="#38bdf8" font-family="monospace" font-size="11">✓ 99.9% Uptime Garantizado</text>
+      <text x="15" y="170" fill="#38bdf8" font-family="monospace" font-size="11">✓ Correos Corporativos SPF/DKIM</text>
+      <text x="15" y="195" fill="#38bdf8" font-family="monospace" font-size="11">✓ Almacenamiento NVMe PCIe 4.0</text>
+
+      <!-- Huaraz Column -->
+      <rect x="270" y="0" width="250" height="240" rx="14" fill="#09090b" stroke="#10b981" stroke-width="1.5" />
+      <rect x="285" y="15" width="80" height="26" rx="6" fill="#10b981" fill-opacity="0.2" />
+      <text x="325" y="32" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">HUARAZ</text>
+
+      <text x="285" y="70" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Turismo &amp; Hotelería</text>
+      <text x="285" y="95" fill="#a1a1aa" font-family="sans-serif" font-size="12">Portales de trekking, hoteles y reservas internacionales en tiempo real.</text>
+      <text x="285" y="145" fill="#34d399" font-family="monospace" font-size="11">✓ LiteSpeed Cache Ultrarrápido</text>
+      <text x="285" y="170" fill="#34d399" font-family="monospace" font-size="11">✓ SSL Gratuito Ilimitado</text>
+      <text x="285" y="195" fill="#34d399" font-family="monospace" font-size="11">✓ Multilenguaje WordPress / Node</text>
+    </g>
+
+    <!-- Bottom Department Badge Bar -->
+    <g transform="translate(30, 310)">
+      <rect x="0" y="0" width="520" height="50" rx="12" fill="#09090b" stroke="#334155" stroke-width="1" />
+      <text x="260" y="31" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">COBERTURA TOTAL: CHIMBOTE • HUARAZ • CASMA • HUARMEY • CARAZ</text>
+    </g>
+  </g>
+
+  <!-- Right: Mountain Peak (Huascarán) &amp; Ocean Waves Vector Fusion -->
+  <g transform="translate(700, 200)">
+    <rect x="0" y="0" width="420" height="400" rx="20" fill="#1e293b" stroke="#0284c7" stroke-width="2" />
+    
+    <!-- Mountain Silhouette (Huascaran) -->
+    <polygon points="210,50 350,230 70,230" fill="url(#snowPeakGrad)" />
+    <polygon points="210,50 250,110 220,100 190,110" fill="#ffffff" />
+    
+    <!-- Ocean Wave Overlay -->
+    <path d="M 20 280 Q 110 240 210 280 T 400 280 L 400 380 L 20 380 Z" fill="#0284c7" fill-opacity="0.4" />
+    <path d="M 0 310 Q 100 280 210 310 T 420 310 L 420 400 L 0 400 Z" fill="#0369a1" />
+
+    <!-- Center Badge -->
+    <g transform="translate(110, 160)">
+      <rect x="0" y="0" width="200" height="50" rx="12" fill="#09090b" stroke="#f59e0b" stroke-width="2" />
+      <text x="100" y="31" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="900" text-anchor="middle">100% NVMe SSD</text>
+    </g>
+
+    <text x="210" y="370" fill="#e0f2fe" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ÁNCASH CONECTADA AL MUNDO</text>
+  </g>
+</svg>

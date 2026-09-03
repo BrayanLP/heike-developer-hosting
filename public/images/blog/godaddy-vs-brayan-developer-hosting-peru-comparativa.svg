@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgGoDaddyVs" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.3" />
+      <stop offset="55%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgGoDaddyVs)" />
+
+  <!-- Subtle Grid Lines -->
+  <g stroke="#f59e0b" stroke-width="1" opacity="0.12">
+    <line x1="150" y1="0" x2="150" y2="675" />
+    <line x1="375" y1="0" x2="375" y2="675" />
+    <line x1="600" y1="0" x2="600" y2="675" />
+    <line x1="825" y1="0" x2="825" y2="675" />
+    <line x1="1050" y1="0" x2="1050" y2="675" />
+  </g>
+
+  <!-- Header Badge & Title -->
+  <g transform="translate(80, 55)">
+    <rect x="0" y="0" width="290" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+    <text x="145" y="21" fill="#fcd34d" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">COMPARATIVA DE HOSTING PERÚ 2026</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="900">GODADDY vs BRAYAN DEVELOPER HOSTING</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="15">La Verdad sobre las Renovaciones Abusivas, SSL de Pago y Rendimiento NVMe en Soles (PEN)</text>
+  </g>
+
+  <!-- Comparison Cards Grid -->
+  <!-- Left Card: GoDaddy (Red Accent / Legacy) -->
+  <g transform="translate(80, 185)">
+    <rect x="0" y="0" width="490" height="420" rx="20" fill="#18181b" stroke="#dc2626" stroke-width="1.5" stroke-opacity="0.6" />
+    <rect x="25" y="25" width="160" height="30" rx="8" fill="#dc2626" fill-opacity="0.2" />
+    <text x="105" y="45" fill="#f87171" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">GODADDY PERÚ</text>
+
+    <!-- Problem Points -->
+    <g transform="translate(25, 75)" font-family="system-ui, sans-serif">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="12" cy="18" r="10" fill="#dc2626" fill-opacity="0.2" />
+        <text x="12" y="23" fill="#f87171" font-size="13" font-weight="bold" text-anchor="middle">✕</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Renovación con Subida del 300% - 500%</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Precio gancho de S/ 49 que pasa a más de S/ 450/año</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 65)">
+        <circle cx="12" cy="18" r="10" fill="#dc2626" fill-opacity="0.2" />
+        <text x="12" y="23" fill="#f87171" font-size="13" font-weight="bold" text-anchor="middle">✕</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Certificado SSL se Cobra por Separado</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Hasta S/ 320 anuales adicionales solo por HTTPS</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 130)">
+        <circle cx="12" cy="18" r="10" fill="#dc2626" fill-opacity="0.2" />
+        <text x="12" y="23" fill="#f87171" font-size="13" font-weight="bold" text-anchor="middle">✕</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Discos SATA / HDD Lentos y Saturados</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">TTFB superior a 900 ms con servidores Apache viejos</text>
+      </g>
+
+      <!-- Item 4 -->
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="18" r="10" fill="#dc2626" fill-opacity="0.2" />
+        <text x="12" y="23" fill="#f87171" font-size="13" font-weight="bold" text-anchor="middle">✕</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Cobros en USD con Comisiones Ocultas</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Sin Yape ni Plin, soporte internacional por tickets</text>
+      </g>
+
+      <!-- Item 5 -->
+      <g transform="translate(0, 260)">
+        <circle cx="12" cy="18" r="10" fill="#dc2626" fill-opacity="0.2" />
+        <text x="12" y="23" fill="#f87171" font-size="13" font-weight="bold" text-anchor="middle">✕</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Sin Soporte para Node.js ni Python</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Entornos restringidos para desarrollo moderno</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Card: Brayan Developer Hosting (Green/Amber Accent) -->
+  <g transform="translate(630, 185)">
+    <rect x="0" y="0" width="490" height="420" rx="20" fill="#18181b" stroke="#f59e0b" stroke-width="2" />
+    <rect x="25" y="25" width="250" height="30" rx="8" fill="#f59e0b" fill-opacity="0.25" />
+    <text x="150" y="45" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">BRAYAN DEVELOPER HOSTING</text>
+
+    <!-- Advantage Points -->
+    <g transform="translate(25, 75)" font-family="system-ui, sans-serif">
+      <!-- Item 1 -->
+      <g transform="translate(0, 0)">
+        <circle cx="12" cy="18" r="10" fill="#059669" fill-opacity="0.25" />
+        <text x="12" y="23" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle">✓</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Precios Claros desde S/ 60 al Año</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Renovación fija y transparente garantizada de por vida</text>
+      </g>
+
+      <!-- Item 2 -->
+      <g transform="translate(0, 65)">
+        <circle cx="12" cy="18" r="10" fill="#059669" fill-opacity="0.25" />
+        <text x="12" y="23" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle">✓</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Certificados SSL Gratis e Ilimitados</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">AutoSSL Let's Encrypt incluido en todos los planes</text>
+      </g>
+
+      <!-- Item 3 -->
+      <g transform="translate(0, 130)">
+        <circle cx="12" cy="18" r="10" fill="#059669" fill-opacity="0.25" />
+        <text x="12" y="23" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle">✓</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">100% NVMe PCIe 4.0 + LiteSpeed</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Velocidades 6x mayores y latencia TTFB inferior a 150 ms</text>
+      </g>
+
+      <!-- Item 4 -->
+      <g transform="translate(0, 195)">
+        <circle cx="12" cy="18" r="10" fill="#059669" fill-opacity="0.25" />
+        <text x="12" y="23" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle">✓</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Pago en Soles (Yape, Plin y SUNAT)</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Factura electrónica deducible + WhatsApp local 24/7</text>
+      </g>
+
+      <!-- Item 5 -->
+      <g transform="translate(0, 260)">
+        <circle cx="12" cy="18" r="10" fill="#059669" fill-opacity="0.25" />
+        <text x="12" y="23" fill="#34d399" font-size="13" font-weight="bold" text-anchor="middle">✓</text>
+        <text x="34" y="16" fill="#ffffff" font-size="15" font-weight="bold">Soporte Nativo Node.js, Python y PHP 8.x</text>
+        <text x="34" y="34" fill="#a1a1aa" font-size="12">Selectores de versión con aislamiento CloudLinux</text>
+      </g>
+    </g>
+  </g>
+</svg>

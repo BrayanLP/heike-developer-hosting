@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgIquitos" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="cyanIquitos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+    <linearGradient id="jungleGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#16a34a" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgIquitos)" />
+
+  <!-- Amazon River curves & Digital Connection Grid -->
+  <g stroke="#06b6d4" stroke-width="1.5" opacity="0.25">
+    <path d="M0,380 C300,300 400,500 700,420 C950,350 1100,480 1200,450" fill="none" stroke-width="2" />
+    <path d="M0,410 C300,330 400,530 700,450 C950,380 1100,510 1200,480" fill="none" stroke-width="1.5" />
+    <circle cx="700" cy="420" r="6" fill="#22d3ee" />
+    <circle cx="300" cy="300" r="4" fill="#4ade80" />
+    <circle cx="950" cy="350" r="5" fill="#22d3ee" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#06b6d4" fill-opacity="0.2" stroke="#22d3ee" stroke-width="1" />
+    <text x="110" y="21" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN LORETO &amp; IQUITOS</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING IQUITOS: ECOTURISMO &amp; AMAZONÍA</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Velocidad Global LiteSpeed para Lodges de Selva, Cruceros Fluviales y Comercio Amazónico</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#06b6d4" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#06b6d4" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">🌿</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Reservas Internacionales de Alta Velocidad</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Carga rápida para turistas de EE.UU., Canadá y Europa con TTFB &lt; 150ms</text>
+      <text x="90" y="92" fill="#22d3ee" font-family="monospace" font-size="11">LiteSpeed Cache + HTTP/3 QUIC + NVMe PCIe 4.0</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Ecoturismo & Lodges -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="20" y="30" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">ECOTURISMO &amp; CRUCEROS</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Pasarelas de Pago</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">PayPal, Stripe, Culqi</text>
+      <text x="20" y="98" fill="#4ade80" font-family="monospace" font-size="11">Certificado SSL Ilimitado</text>
+
+      <!-- Box 2: Empresas Fluviales -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="290" y="30" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TRANSPORTE FLUVIAL</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Logística Amazónica</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Boletos online y tracking</text>
+      <text x="290" y="98" fill="#fbbf24" font-family="monospace" font-size="11">MySQL / MariaDB Rápido</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Planes Anuales en Soles con Yape y Plin</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Facturación electrónica SUNAT y atención inmediata por WhatsApp</text>
+      <text x="470" y="50" fill="#06b6d4" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">¿Por qué elegir Brayan Hosting?</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Ventajas para proyectos en la Amazonía</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#06b6d4" stroke-width="1" />
+      <text x="15" y="24" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SERVIDOR WEB</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">LiteSpeed Enterprise</text>
+      <text x="355" y="35" fill="#22d3ee" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">3x más veloz</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1" />
+      <text x="15" y="24" fill="#4ade80" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">MIGRACIÓN SIN COSTO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Traslado 100% Asistido</text>
+      <text x="355" y="35" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">0 minutos caída</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#fbbf24" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">RECURSOS AISLADOS</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">2 a 3 GB RAM + 2 a 3 Core CPU</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">CloudLinux</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#a855f7" stroke-width="1" />
+      <text x="15" y="24" fill="#c084fc" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ATENCIÓN EN PERÚ</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">WhatsApp directo +51 975 521 788</text>
+      <text x="355" y="35" fill="#22c55e" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">En Soles</text>
+    </g>
+  </g>
+</svg>

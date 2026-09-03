@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgGlow3" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="cardGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgGlow3)" />
+
+  <rect x="250" y="100" width="700" height="475" rx="24" fill="url(#cardGrad3)" stroke="#3f3f46" stroke-width="2" />
+  
+  <rect x="250" y="100" width="700" height="50" rx="24" fill="#18181b" />
+  <rect x="250" y="125" width="700" height="25" fill="#18181b" />
+  <circle cx="285" cy="125" r="7" fill="#ef4444" />
+  <circle cx="310" cy="125" r="7" fill="#eab308" />
+  <circle cx="335" cy="125" r="7" fill="#22c55e" />
+  <text x="600" y="130" fill="#a1a1aa" font-family="monospace" font-size="14" text-anchor="middle">DirectAdmin — Setup Python App (FastAPI / WSGI)</text>
+
+  <!-- Python Terminal Box -->
+  <g transform="translate(300, 180)">
+    <rect x="0" y="0" width="600" height="260" rx="14" fill="#09090b" stroke="#27272a" stroke-width="1.5" />
+    <text x="25" y="40" fill="#3b82f6" font-family="monospace" font-size="15" font-weight="bold">$ python -m venv env &amp;&amp; source env/bin/activate</text>
+    <text x="25" y="75" fill="#eab308" font-family="monospace" font-size="14">$ pip install fastapi uvicorn gunicorn</text>
+    <text x="25" y="110" fill="#a1a1aa" font-family="monospace" font-size="13">Collecting fastapi (0.115.x)... Done!</text>
+    <text x="25" y="145" fill="#22c55e" font-family="monospace" font-size="15" font-weight="bold">INFO:     Uvicorn running on http://127.0.0.1:8000</text>
+    <text x="25" y="180" fill="#22c55e" font-family="monospace" font-size="15" font-weight="bold">INFO:     Application startup complete. (DirectAdmin Passenger)</text>
+    <text x="25" y="220" fill="#ff9900" font-family="monospace" font-size="13">Swagger Docs: /docs (OpenAPI 3.1 Schema Generated)</text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(300, 480)">
+    <rect x="0" y="0" width="130" height="40" rx="10" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="65" y="25" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">PYTHON 3.12</text>
+
+    <rect x="150" y="0" width="130" height="40" rx="10" fill="#059669" fill-opacity="0.15" stroke="#059669" stroke-width="1.5" />
+    <text x="215" y="25" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">FASTAPI</text>
+
+    <rect x="300" y="0" width="140" height="40" rx="10" fill="#6366f1" fill-opacity="0.15" stroke="#6366f1" stroke-width="1.5" />
+    <text x="370" y="25" fill="#818cf8" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">DIRECTADMIN</text>
+
+    <rect x="460" y="0" width="140" height="40" rx="10" fill="#ff9900" fill-opacity="0.15" stroke="#ff9900" stroke-width="1.5" />
+    <text x="530" y="25" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">PASSENGER</text>
+  </g>
+</svg>

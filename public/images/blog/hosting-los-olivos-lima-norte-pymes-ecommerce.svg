@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgLosOlivos" cx="40%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#16a34a" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgLosOlivos)" />
+
+  <!-- Header -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="160" height="32" rx="16" fill="#16a34a" fill-opacity="0.2" stroke="#22c55e" stroke-width="1" />
+    <text x="80" y="21" fill="#86efac" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">LIMA NORTE</text>
+    <text x="0" y="70" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900">HOSTING LOS OLIVOS &amp; LIMA NORTE</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="sans-serif" font-size="15">Velocidad NVMe y Soporte Local para PYMES, Tiendas Online y Agencias Digitales</text>
+  </g>
+
+  <!-- Left: E-Commerce &amp; Commercial Strip -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="580" height="400" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 30)">
+      <!-- Speed Box -->
+      <rect x="0" y="0" width="520" height="110" rx="14" fill="#09090b" stroke="#16a34a" stroke-width="1.5" />
+      <circle cx="50" cy="55" r="25" fill="#16a34a" fill-opacity="0.2" />
+      <text x="50" y="62" fill="#4ade80" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">🚀</text>
+
+      <text x="90" y="42" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Impulsa tus Ventas en MegaPlaza &amp; Plaza Norte</text>
+      <text x="90" y="66" fill="#a1a1aa" font-family="sans-serif" font-size="13">Tiendas WooCommerce y Shopify integradas a inventarios locales</text>
+      <text x="90" y="90" fill="#4ade80" font-family="monospace" font-size="11">Carga en menos de 0.8 segundos • LiteSpeed LSCache</text>
+    </g>
+
+    <!-- SME Features -->
+    <g transform="translate(30, 160)">
+      <rect x="0" y="0" width="250" height="120" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="20" y="32" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">PRECIOS FIJOS SIN SORPRESAS</text>
+      <text x="20" y="60" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">Desde S/ 60/año</text>
+      <text x="20" y="82" fill="#a1a1aa" font-family="sans-serif" font-size="11">Renovación transparente</text>
+      <text x="20" y="102" fill="#fbbf24" font-family="monospace" font-size="11">Yape, Plin y BCP</text>
+
+      <rect x="270" y="0" width="250" height="120" rx="14" fill="#09090b" stroke="#3b82f6" stroke-width="1.5" />
+      <text x="290" y="32" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="bold">SOPORTE VÍA WHATSAPP</text>
+      <text x="290" y="60" fill="#ffffff" font-family="sans-serif" font-size="18" font-weight="bold">Atención en Minutos</text>
+      <text x="290" y="82" fill="#a1a1aa" font-family="sans-serif" font-size="11">Ingenieros peruanos 24/7</text>
+      <text x="290" y="102" fill="#60a5fa" font-family="monospace" font-size="11">+51 975 521 788</text>
+    </g>
+
+    <!-- Districts -->
+    <g transform="translate(30, 310)">
+      <rect x="0" y="0" width="115" height="36" rx="8" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1" />
+      <text x="57" y="22" fill="#4ade80" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LOS OLIVOS</text>
+
+      <rect x="125" y="0" width="115" height="36" rx="8" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1" />
+      <text x="182" y="22" fill="#60a5fa" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">INDEPENDENCIA</text>
+
+      <rect x="250" y="0" width="115" height="36" rx="8" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1" />
+      <text x="307" y="22" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">SMP / COMAS</text>
+
+      <rect x="375" y="0" width="115" height="36" rx="8" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="1" />
+      <text x="432" y="22" fill="#c084fc" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PUENTE PIEDRA</text>
+    </g>
+  </g>
+
+  <!-- Right: Shopping Cart &amp; High-Speed Highway Visual -->
+  <g transform="translate(700, 200)">
+    <rect x="0" y="0" width="420" height="400" rx="20" fill="#18181b" stroke="#16a34a" stroke-width="2" />
+    
+    <g transform="translate(40, 40)">
+      <!-- Shopping Cart &amp; Lightning -->
+      <circle cx="170" cy="110" r="60" fill="#09090b" stroke="#16a34a" stroke-width="2" />
+      <text x="170" y="122" fill="#4ade80" font-family="sans-serif" font-size="36" font-weight="bold" text-anchor="middle">🛒</text>
+
+      <rect x="20" y="200" width="300" height="60" rx="12" fill="#09090b" stroke="#334155" stroke-width="1.5" />
+      <text x="170" y="228" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">Migración Gratuita sin Caídas</text>
+      <text x="170" y="248" fill="#a1a1aa" font-family="sans-serif" font-size="11" text-anchor="middle">Nos encargamos de mudar tu web y correos</text>
+
+      <rect x="20" y="280" width="300" height="45" rx="10" fill="#16a34a" fill-opacity="0.2" stroke="#22c55e" stroke-width="1" />
+      <text x="170" y="308" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">ACTIVACIÓN EN MINUTOS</text>
+    </g>
+  </g>
+</svg>

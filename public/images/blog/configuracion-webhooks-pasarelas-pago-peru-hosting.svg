@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff9900" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0.95" />
+    </linearGradient>
+    <linearGradient id="neonOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffaa00" />
+      <stop offset="100%" stop-color="#ff6600" />
+    </linearGradient>
+    <linearGradient id="neonGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#15803d" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="16" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgGlow)" />
+
+  <!-- Grid lines -->
+  <g stroke="#27272a" stroke-width="1" opacity="0.4">
+    <line x1="0" y1="135" x2="1200" y2="135" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="0" y1="405" x2="1200" y2="405" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+    <line x1="240" y1="0" x2="240" y2="675" />
+    <line x1="480" y1="0" x2="480" y2="675" />
+    <line x1="720" y1="0" x2="720" y2="675" />
+    <line x1="960" y1="0" x2="960" y2="675" />
+  </g>
+
+  <!-- Central Card -->
+  <rect x="220" y="90" width="760" height="495" rx="24" fill="url(#cardGrad)" stroke="#3f3f46" stroke-width="2" />
+  
+  <!-- Window Header -->
+  <rect x="220" y="90" width="760" height="50" rx="24" fill="#18181b" />
+  <rect x="220" y="115" width="760" height="25" fill="#18181b" />
+  <circle cx="255" cy="115" r="7" fill="#ef4444" />
+  <circle cx="280" cy="115" r="7" fill="#eab308" />
+  <circle cx="305" cy="115" r="7" fill="#22c55e" />
+  <text x="600" y="120" fill="#a1a1aa" font-family="monospace" font-size="14" text-anchor="middle">POST /api/webhooks/payments — SSL Secured 200 OK</text>
+
+  <!-- Flow Visualizer -->
+  <g transform="translate(260, 160)">
+    <!-- Gateway Box -->
+    <rect x="0" y="0" width="180" height="90" rx="12" fill="#09090b" stroke="#009ee3" stroke-width="2" />
+    <text x="90" y="38" fill="#009ee3" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Mercado Pago / Culqi</text>
+    <text x="90" y="62" fill="#a1a1aa" font-family="monospace" font-size="11" text-anchor="middle">Webhook Event</text>
+
+    <!-- Arrow 1 -->
+    <path d="M 190 45 L 250 45" stroke="#ffaa00" stroke-width="3" stroke-dasharray="6,4" />
+    <polygon points="255,45 245,40 245,50" fill="#ffaa00" />
+
+    <!-- Server Box -->
+    <rect x="260" y="0" width="200" height="90" rx="12" fill="#09090b" stroke="#ffaa00" stroke-width="2" />
+    <text x="360" y="38" fill="#ffaa00" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">NVMe Server</text>
+    <text x="360" y="62" fill="#22c55e" font-family="monospace" font-size="11" text-anchor="middle">HMAC SHA-256 Valid</text>
+
+    <!-- Arrow 2 -->
+    <path d="M 470 45 L 530 45" stroke="#22c55e" stroke-width="3" stroke-dasharray="6,4" />
+    <polygon points="535,45 525,40 525,50" fill="#22c55e" />
+
+    <!-- DB Box -->
+    <rect x="540" y="0" width="140" height="90" rx="12" fill="#09090b" stroke="#22c55e" stroke-width="2" />
+    <text x="610" y="38" fill="#22c55e" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">MySQL NVMe</text>
+    <text x="610" y="62" fill="#a1a1aa" font-family="monospace" font-size="11" text-anchor="middle">Order: PAID</text>
+
+    <!-- Code Terminal -->
+    <rect x="0" y="115" width="680" height="175" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1.5" />
+    <text x="25" y="145" fill="#a1a1aa" font-family="monospace" font-size="13">// Verificación de firma criptográfica y respuesta instantánea &lt; 80ms</text>
+    <text x="25" y="175" fill="#22c55e" font-family="monospace" font-size="14" font-weight="bold">$hash = hash_hmac('sha256', $payload, $webhook_secret);</text>
+    <text x="25" y="205" fill="#ffaa00" font-family="monospace" font-size="14">if (hash_equals($hash, $signature)) { http_response_code(200); }</text>
+    <text x="25" y="235" fill="#38bdf8" font-family="monospace" font-size="13">dispatch_async_fulfillment($order_id); // Procesado en segundo plano</text>
+    <text x="25" y="265" fill="#4ade80" font-family="monospace" font-size="12">✓ HTTP/2 200 OK — LiteSpeed Web Server (Latencia 42ms)</text>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(260, 500)">
+    <rect x="0" y="0" width="125" height="38" rx="8" fill="#009ee3" fill-opacity="0.15" stroke="#009ee3" stroke-width="1.5" />
+    <text x="62" y="24" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">MERCADO PAGO</text>
+
+    <rect x="140" y="0" width="105" height="38" rx="8" fill="#ffaa00" fill-opacity="0.15" stroke="#ffaa00" stroke-width="1.5" />
+    <text x="192" y="24" fill="#ffaa00" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">CULQI / NIUBIZ</text>
+
+    <rect x="260" y="0" width="130" height="38" rx="8" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1.5" />
+    <text x="325" y="24" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">WEBHOOKS SSL</text>
+
+    <rect x="405" y="0" width="135" height="38" rx="8" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1.5" />
+    <text x="472" y="24" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">NODEJS &amp; PHP</text>
+
+    <rect x="555" y="0" width="125" height="38" rx="8" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1.5" />
+    <text x="617" y="24" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ANTI-TIMEOUT</text>
+  </g>
+
+  <!-- Glowing background nodes -->
+  <circle cx="160" cy="160" r="50" fill="#009ee3" opacity="0.15" filter="url(#glow)" />
+  <circle cx="1040" cy="500" r="70" fill="#ffaa00" opacity="0.15" filter="url(#glow)" />
+</svg>

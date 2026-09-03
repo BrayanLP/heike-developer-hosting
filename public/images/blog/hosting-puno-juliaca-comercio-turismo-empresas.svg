@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgPuno" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="punoBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+    <linearGradient id="juliacaAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" />
+      <stop offset="100%" stop-color="#18181b" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgPuno)" />
+
+  <!-- Wave lines representing Lake Titicaca & Digital Commerce Grid -->
+  <g stroke="#0284c7" stroke-width="1" opacity="0.2">
+    <path d="M0,450 Q300,420 600,450 T1200,450" fill="none" />
+    <path d="M0,480 Q300,450 600,480 T1200,480" fill="none" />
+    <path d="M0,510 Q300,480 600,510 T1200,510" fill="none" />
+    <line x1="150" y1="0" x2="150" y2="675" />
+    <line x1="450" y1="0" x2="450" y2="675" />
+    <line x1="750" y1="0" x2="750" y2="675" />
+    <line x1="1050" y1="0" x2="1050" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="230" height="32" rx="16" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+    <text x="115" y="21" fill="#7dd3fc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN PUNO &amp; JULIACA</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING PUNO &amp; JULIACA: COMERCIO &amp; TURISMO</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Velocidad NVMe PCIe 4.0 para Tiendas Mayoristas, Turismo en el Titicaca y Facturación SUNAT</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#0284c7" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#0284c7" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">⚡</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Centro Comercial de Juliaca &amp; E-Commerce</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Catálogos rápidos, sincronización de stock y cobros con Yape/Plin</text>
+      <text x="90" y="92" fill="#38bdf8" font-family="monospace" font-size="11">Lectura NVMe > 3500 MB/s • Cero caídas en campañas comerciales</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Turismo Puno -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="20" y="30" fill="#4ade80" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TURISMO TITICACA</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Reservas Globales</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Uros, Taquile, Amantaní</text>
+      <text x="20" y="98" fill="#4ade80" font-family="monospace" font-size="11">LiteSpeed Cache + SSL</text>
+
+      <!-- Box 2: Facturación SUNAT -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="290" y="30" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">FACTURACIÓN SUNAT</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">APIs PHP &amp; Node.js</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Comprobantes XML y CDR</text>
+      <text x="290" y="98" fill="#fbbf24" font-family="monospace" font-size="11">PHP 8.1 - 8.3 + OpenSSL</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Atención Directa y Factura RUC 10 / RUC 20</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Soporte por WhatsApp en Soles (PEN) sin cobros sorpresa de renovación</text>
+      <text x="470" y="50" fill="#22c55e" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Comparativa de Rendimiento</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Brayan Developer vs Proveedores Tradicionales</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#0284c7" stroke-width="1" />
+      <text x="15" y="24" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ALMACENAMIENTO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">NVMe PCIe 4.0 (3500 MB/s)</text>
+      <text x="355" y="35" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">SATA lento (500 MB/s)</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1" />
+      <text x="15" y="24" fill="#4ade80" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PAGOS &amp; MONEDA</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Yape, Plin y BCP en Soles</text>
+      <text x="355" y="35" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">USD + comisiones</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CERTIFICADO SSL</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">AutoSSL Gratis Ilimitado</text>
+      <text x="355" y="35" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">Cobro extra S/ 250/año</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#a855f7" stroke-width="1" />
+      <text x="15" y="24" fill="#c084fc" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SOPORTE LOCAL</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">WhatsApp Directo 24/7 en Perú</text>
+      <text x="355" y="35" fill="#ef4444" font-family="system-ui, sans-serif" font-size="11" text-anchor="end">Chatbot en inglés</text>
+    </g>
+  </g>
+</svg>

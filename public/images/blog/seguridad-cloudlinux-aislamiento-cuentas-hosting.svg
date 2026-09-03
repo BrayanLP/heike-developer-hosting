@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgGlow5" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.18" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="cardGrad5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#18181b" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgGlow5)" />
+
+  <rect x="250" y="100" width="700" height="475" rx="24" fill="url(#cardGrad5)" stroke="#3f3f46" stroke-width="2" />
+  
+  <rect x="250" y="100" width="700" height="50" rx="24" fill="#18181b" />
+  <rect x="250" y="125" width="700" height="25" fill="#18181b" />
+  <circle cx="285" cy="125" r="7" fill="#ef4444" />
+  <circle cx="310" cy="125" r="7" fill="#eab308" />
+  <circle cx="335" cy="125" r="7" fill="#22c55e" />
+  <text x="600" y="130" fill="#a1a1aa" font-family="monospace" font-size="14" text-anchor="middle">CloudLinux OS CageFS &amp; LVE Resource Isolation</text>
+
+  <!-- Security Shield &amp; Isolated Pods -->
+  <g transform="translate(300, 180)">
+    <!-- Security Shield -->
+    <path d="M 120 20 L 220 55 L 220 135 Q 220 200 120 240 Q 20 200 20 135 L 20 55 Z" fill="#09090b" stroke="#f59e0b" stroke-width="3" />
+    <text x="120" y="120" fill="#f59e0b" font-family="sans-serif" font-size="28" font-weight="bold" text-anchor="middle">100%</text>
+    <text x="120" y="150" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">AISLADO</text>
+    <text x="120" y="175" fill="#a1a1aa" font-family="sans-serif" font-size="10" text-anchor="middle">CAGEFS</text>
+
+    <!-- Isolation Container list -->
+    <g transform="translate(280, 20)">
+      <rect x="0" y="0" width="320" height="60" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="20" y="26" fill="#22c55e" font-family="monospace" font-size="13" font-weight="bold">● Tu Cuenta (LVE 101)</text>
+      <text x="20" y="46" fill="#a1a1aa" font-family="sans-serif" font-size="11">2 Core CPU | 2 GB RAM | NVMe SSD Protegido</text>
+
+      <rect x="0" y="80" width="320" height="60" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1" />
+      <text x="20" y="106" fill="#a1a1aa" font-family="monospace" font-size="13">○ Cuenta B (LVE 102 - Aislada)</text>
+      <text x="20" y="126" fill="#71717a" font-family="sans-serif" font-size="11">Sin acceso a tus archivos ni BD</text>
+
+      <rect x="0" y="160" width="320" height="60" rx="10" fill="#09090b" stroke="#3f3f46" stroke-width="1" />
+      <text x="20" y="186" fill="#a1a1aa" font-family="monospace" font-size="13">○ Cuenta C (LVE 103 - Aislada)</text>
+      <text x="20" y="206" fill="#71717a" font-family="sans-serif" font-size="11">Protección contra sobrecargas externas</text>
+    </g>
+  </g>
+
+  <!-- Badges -->
+  <g transform="translate(300, 480)">
+    <rect x="0" y="0" width="140" height="40" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1.5" />
+    <text x="70" y="25" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">CLOUDLINUX</text>
+
+    <rect x="160" y="0" width="130" height="40" rx="10" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1.5" />
+    <text x="225" y="25" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">CAGEFS</text>
+
+    <rect x="310" y="0" width="140" height="40" rx="10" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1.5" />
+    <text x="380" y="25" fill="#f87171" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ANTI-DDOS</text>
+
+    <rect x="470" y="0" width="130" height="40" rx="10" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1.5" />
+    <text x="535" y="25" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">SSL GRATIS</text>
+  </g>
+</svg>

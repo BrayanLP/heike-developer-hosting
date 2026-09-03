@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgIca" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgIca)" />
+
+  <!-- Header -->
+  <g transform="translate(80, 70)">
+    <rect x="0" y="0" width="160" height="32" rx="16" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+    <text x="80" y="21" fill="#fcd34d" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN ICA</text>
+    <text x="0" y="70" fill="#ffffff" font-family="sans-serif" font-size="28" font-weight="900">HOSTING ICA, CHINCHA &amp; PISCO</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="sans-serif" font-size="15">Alta Disponibilidad para Agroexportadoras, Bodegas Vitivinícolas y Hotelería en Paracas</text>
+  </g>
+
+  <!-- Left: Agro-Export &amp; Winery Tech Card -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="0" width="580" height="400" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 30)">
+      <!-- Agro-export Feature -->
+      <rect x="0" y="0" width="520" height="110" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <circle cx="50" cy="55" r="25" fill="#f59e0b" fill-opacity="0.2" />
+      <text x="50" y="62" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">🍇</text>
+
+      <text x="90" y="42" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Trazabilidad de Agroexportación &amp; Packing</text>
+      <text x="90" y="66" fill="#a1a1aa" font-family="sans-serif" font-size="13">APIs para control de lotes de uva, palta, arándano y espárragos</text>
+      <text x="90" y="90" fill="#fbbf24" font-family="monospace" font-size="11">Almacenamiento NVMe PCIe 4.0 • 99.9% Uptime</text>
+    </g>
+
+    <!-- Paracas Tourism &amp; Corporate Email -->
+    <g transform="translate(30, 160)">
+      <rect x="0" y="0" width="250" height="120" rx="14" fill="#09090b" stroke="#06b6d4" stroke-width="1.5" />
+      <text x="20" y="32" fill="#67e8f9" font-family="sans-serif" font-size="13" font-weight="bold">PARACAS &amp; HUACACHINA</text>
+      <text x="20" y="60" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Hoteles &amp; Ecoturismo</text>
+      <text x="20" y="82" fill="#a1a1aa" font-family="sans-serif" font-size="11">Reservas rápidas y seguras</text>
+      <text x="20" y="102" fill="#67e8f9" font-family="monospace" font-size="11">LiteSpeed LSCache</text>
+
+      <rect x="270" y="0" width="250" height="120" rx="14" fill="#09090b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="290" y="32" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="bold">CORREO CORPORATIVO</text>
+      <text x="290" y="60" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">Cero Spam / 100% Inbox</text>
+      <text x="290" y="82" fill="#a1a1aa" font-family="sans-serif" font-size="11">SPF, DKIM y DMARC activos</text>
+      <text x="290" y="102" fill="#4ade80" font-family="monospace" font-size="11">Webmail + IMAP/POP3</text>
+    </g>
+
+    <!-- Bottom Location Tags -->
+    <g transform="translate(30, 310)">
+      <rect x="0" y="0" width="100" height="36" rx="8" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1" />
+      <text x="50" y="22" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ICA</text>
+
+      <rect x="110" y="0" width="100" height="36" rx="8" fill="#06b6d4" fill-opacity="0.15" stroke="#06b6d4" stroke-width="1" />
+      <text x="160" y="22" fill="#67e8f9" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">CHINCHA</text>
+
+      <rect x="220" y="0" width="100" height="36" rx="8" fill="#22c55e" fill-opacity="0.15" stroke="#22c55e" stroke-width="1" />
+      <text x="270" y="22" fill="#4ade80" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PISCO</text>
+
+      <rect x="330" y="0" width="100" height="36" rx="8" fill="#8b5cf6" fill-opacity="0.15" stroke="#8b5cf6" stroke-width="1" />
+      <text x="380" y="22" fill="#c084fc" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">NAZCA</text>
+
+      <rect x="440" y="0" width="80" height="36" rx="8" fill="#ec4899" fill-opacity="0.15" stroke="#ec4899" stroke-width="1" />
+      <text x="480" y="22" fill="#f472b6" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">S/ 60/AÑO</text>
+    </g>
+  </g>
+
+  <!-- Right: Oasis &amp; High-Tech Agro Visual -->
+  <g transform="translate(700, 200)">
+    <rect x="0" y="0" width="420" height="400" rx="20" fill="#18181b" stroke="#f59e0b" stroke-width="2" />
+    
+    <g transform="translate(40, 40)">
+      <!-- Dune &amp; Sun Graphic -->
+      <circle cx="170" cy="100" r="60" fill="#f59e0b" fill-opacity="0.3" stroke="#fbbf24" stroke-width="2" />
+      <path d="M 0 160 Q 90 120 170 160 T 340 160 L 340 220 L 0 220 Z" fill="#d97706" fill-opacity="0.5" />
+      
+      <!-- Tech Badge Floating -->
+      <rect x="40" y="230" width="260" height="50" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1.5" />
+      <text x="170" y="261" fill="#4ade80" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">APIs SUNAT • FACTURA ELECTRÓNICA</text>
+
+      <rect x="40" y="295" width="260" height="45" rx="10" fill="#f59e0b" fill-opacity="0.2" stroke="#fbbf24" stroke-width="1" />
+      <text x="170" y="323" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">SOPORTE 24/7 EN PERÚ</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgCajamarca" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="emeraldCajamarca" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="amberCajamarca" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgCajamarca)" />
+
+  <!-- Mountainous & Digital Circuit Backdrop -->
+  <g stroke="#10b981" stroke-width="1" opacity="0.2">
+    <polygon points="100,500 300,320 500,500" fill="none" />
+    <polygon points="400,520 650,280 900,520" fill="none" />
+    <polygon points="800,500 1000,340 1200,500" fill="none" />
+    <line x1="200" y1="0" x2="200" y2="675" />
+    <line x1="600" y1="0" x2="600" y2="675" />
+    <line x1="1000" y1="0" x2="1000" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#10b981" fill-opacity="0.2" stroke="#34d399" stroke-width="1" />
+    <text x="110" y="21" fill="#6ee7b7" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN CAJAMARCA</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING CAJAMARCA: MINERÍA &amp; AGROINDUSTRIA</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Alta Disponibilidad 99.9% para Contratistas Mineros, Marcas Lácteas y Turismo Termal</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#10b981" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#10b981" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#34d399" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">⛰️</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Servicios a la Minería &amp; Portales Corporativos</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Correos corporativos SPF/DKIM para licitaciones y cotizaciones sin spam</text>
+      <text x="90" y="92" fill="#34d399" font-family="monospace" font-size="11">CloudLinux OS • Aislamiento total de recursos CPU y RAM</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Agroindustria Láctea -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#fbbf24" stroke-width="1.5" />
+      <text x="20" y="30" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">AGROINDUSTRIA &amp; LÁCTEOS</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Tiendas y Catálogos</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Quesos, café y derivados</text>
+      <text x="20" y="98" fill="#fcd34d" font-family="monospace" font-size="11">WooCommerce + NVMe</text>
+
+      <!-- Box 2: Turismo Baños del Inca -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#06b6d4" stroke-width="1.5" />
+      <text x="290" y="30" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">TURISMO HISTÓRICO</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Hoteles &amp; Baños del Inca</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Reservas rápidas y seguras</text>
+      <text x="290" y="98" fill="#67e8f9" font-family="monospace" font-size="11">LiteSpeed + HTTP/3</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Garantía de Uptime 99.9% y Migración Gratuita</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Trasladamos tu sitio web y correos desde GoDaddy o HostGator sin caídas</text>
+      <text x="470" y="50" fill="#10b981" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Beneficios Directos en Cajamarca</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Ahorro y rendimiento comprobado</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="24" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">VELOCIDAD DE DISCO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">NVMe SSD PCIe 4.0</text>
+      <text x="355" y="35" fill="#10b981" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">6x más rápido</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#06b6d4" stroke-width="1" />
+      <text x="15" y="24" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CORREO CORPORATIVO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">100% Entregabilidad SPF/DKIM</text>
+      <text x="355" y="35" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Sin Spam</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">TRANSPARENCIA</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Sin subidas de precio de renovación</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Precio Fijo</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#ec4899" stroke-width="1" />
+      <text x="15" y="24" fill="#f472b6" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ATENCIÓN EN PERÚ</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">WhatsApp directo (+51 975 521 788)</text>
+      <text x="355" y="35" fill="#22c55e" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">24/7 Activo</text>
+    </g>
+  </g>
+</svg>

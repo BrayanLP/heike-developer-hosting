@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgAyacucho" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="purpleAyacucho" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+    <linearGradient id="amberAyacucho" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgAyacucho)" />
+
+  <!-- Andean & Cultural Geometry Backdrop -->
+  <g stroke="#8b5cf6" stroke-width="1" opacity="0.2">
+    <polygon points="150,520 350,300 550,520" fill="none" />
+    <polygon points="450,530 700,260 950,530" fill="none" />
+    <polygon points="850,520 1050,320 1250,520" fill="none" />
+    <line x1="250" y1="0" x2="250" y2="675" />
+    <line x1="650" y1="0" x2="650" y2="675" />
+    <line x1="1050" y1="0" x2="1050" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="230" height="32" rx="16" fill="#8b5cf6" fill-opacity="0.2" stroke="#a78bfa" stroke-width="1" />
+    <text x="115" y="21" fill="#c4b5fd" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN AYACUCHO</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING AYACUCHO: TURISMO, ARTESANÍA &amp; EMPRESAS</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Alta Velocidad NVMe SSD y LiteSpeed para Hoteles, Exportadores de Retablos y Comercio en Huamanga</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#8b5cf6" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#8b5cf6" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">🏛️</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Turismo Histórico, Religioso y Portales Mypes</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Webs preparadas para picos de tráfico en Semana Santa y feriados patrios</text>
+      <text x="90" y="92" fill="#a78bfa" font-family="monospace" font-size="11">HTTP/3 + LiteSpeed Web Server • Carga instantánea en móviles</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: E-commerce Artesanía -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#fbbf24" stroke-width="1.5" />
+      <text x="20" y="30" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">ARTESANÍA &amp; RETABLOS</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Tiendas Online Globales</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Textiles, cerámica y arte</text>
+      <text x="20" y="98" fill="#fcd34d" font-family="monospace" font-size="11">WooCommerce + NVMe</text>
+
+      <!-- Box 2: Educación y Servicios -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#06b6d4" stroke-width="1.5" />
+      <text x="290" y="30" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">EDUCACIÓN &amp; SERVICIOS</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Academias y Consultorías</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Correos corporativos SPF</text>
+      <text x="290" y="98" fill="#67e8f9" font-family="monospace" font-size="11">CloudLinux + CageFS</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Uptime 99.9% y Facturación Electrónica SUNAT</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Emisión automática en Soles (RUC 10 y RUC 20) y soporte WhatsApp 24/7</text>
+      <text x="470" y="50" fill="#8b5cf6" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Ventajas Clave en Ayacucho</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Infraestructura optimizada para negocios locales</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#8b5cf6" stroke-width="1" />
+      <text x="15" y="24" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ALMACENAMIENTO</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Discos NVMe SSD PCIe 4.0</text>
+      <text x="355" y="35" fill="#a78bfa" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Ultrarrápido</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#06b6d4" stroke-width="1" />
+      <text x="15" y="24" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CORREOS PROFESIONALES</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">SPF, DKIM y DMARC activos</text>
+      <text x="355" y="35" fill="#67e8f9" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Cero Spam</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PRECIO TRANSPARENTE</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Tarifa fija en Soles sin trampas</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">S/ 60 Fijo</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#22c55e" stroke-width="1" />
+      <text x="15" y="24" fill="#4ade80" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PAGOS INSTANTÁNEOS</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Yape, Plin y Transferencia BCP/BBVA</text>
+      <text x="355" y="35" fill="#22c55e" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Activación Inmediata</text>
+    </g>
+  </g>
+</svg>

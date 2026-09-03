@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
+  <defs>
+    <radialGradient id="bgApurimac" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.35" />
+      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="indigoApurimac" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="amberApurimac" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="#09090b" />
+  <rect width="1200" height="675" fill="url(#bgApurimac)" />
+
+  <!-- Andean Highlands & Canyon Geometry -->
+  <g stroke="#4f46e5" stroke-width="1" opacity="0.2">
+    <polygon points="120,530 380,270 640,530" fill="none" />
+    <polygon points="460,540 740,230 1020,540" fill="none" />
+    <polygon points="860,530 1080,300 1250,530" fill="none" />
+    <line x1="240" y1="0" x2="240" y2="675" />
+    <line x1="640" y1="0" x2="640" y2="675" />
+    <line x1="1040" y1="0" x2="1040" y2="675" />
+  </g>
+
+  <!-- Header -->
+  <g transform="translate(80, 65)">
+    <rect x="0" y="0" width="220" height="32" rx="16" fill="#4f46e5" fill-opacity="0.2" stroke="#818cf8" stroke-width="1" />
+    <text x="110" y="21" fill="#c7d2fe" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">REGIÓN APURÍMAC</text>
+    <text x="0" y="70" fill="#ffffff" font-family="system-ui, sans-serif" font-size="28" font-weight="900">HOSTING APURÍMAC: ABANCAY, ANDAHUAYLAS &amp; MINERÍA</text>
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="15">Alta Disponibilidad NVMe SSD para Contratistas Mineros, Agroindustria de la Papa y Comercio</text>
+  </g>
+
+  <!-- Left: Main Feature Card -->
+  <g transform="translate(80, 195)">
+    <rect x="0" y="0" width="580" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <g transform="translate(30, 25)">
+      <!-- Main Metric -->
+      <rect x="0" y="0" width="520" height="115" rx="14" fill="#09090b" stroke="#4f46e5" stroke-width="1.5" />
+      <circle cx="50" cy="57" r="25" fill="#4f46e5" fill-opacity="0.2" />
+      <text x="50" y="65" fill="#818cf8" font-family="system-ui, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">⛏️</text>
+      <text x="90" y="42" fill="#ffffff" font-family="system-ui, sans-serif" font-size="16" font-weight="bold">Corredor Minero, Agroindustria y Empresas</text>
+      <text x="90" y="66" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13">Servidores de alta velocidad para licitaciones, cotizaciones B2B y comercio</text>
+      <text x="90" y="92" fill="#818cf8" font-family="monospace" font-size="11">CloudLinux Aislado + LiteSpeed • 99.9% Uptime y Cero Caídas</text>
+    </g>
+
+    <g transform="translate(30, 160)">
+      <!-- Box 1: Proveedores Mineros -->
+      <rect x="0" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#6366f1" stroke-width="1.5" />
+      <text x="20" y="30" fill="#a5b4fc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">PROVEEDORES MINEROS</text>
+      <text x="20" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Licitaciones y Cotizaciones</text>
+      <text x="20" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Abancay y Cotabambas</text>
+      <text x="20" y="98" fill="#a5b4fc" font-family="monospace" font-size="11">Correos SPF/DKIM/DMARC</text>
+
+      <!-- Box 2: Agroindustria Andahuaylas -->
+      <rect x="270" y="0" width="250" height="115" rx="14" fill="#09090b" stroke="#f59e0b" stroke-width="1.5" />
+      <text x="290" y="30" fill="#fcd34d" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">ANDAHUAYLAS AGRO</text>
+      <text x="290" y="58" fill="#ffffff" font-family="system-ui, sans-serif" font-size="15" font-weight="bold">Papas Nativas &amp; Mypes</text>
+      <text x="290" y="80" fill="#a1a1aa" font-family="system-ui, sans-serif" font-size="11">Tiendas online y catálogos</text>
+      <text x="290" y="98" fill="#fcd34d" font-family="monospace" font-size="11">WooCommerce + NVMe</text>
+    </g>
+
+    <!-- Bottom Stat Bar -->
+    <g transform="translate(30, 295)">
+      <rect x="0" y="0" width="520" height="90" rx="12" fill="#09090b" stroke="#27272a" stroke-width="1" />
+      <text x="25" y="35" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="14" font-weight="bold">Factura SUNAT Oficial en Soles (PEN)</text>
+      <text x="25" y="60" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Deduce costos corporativos con soporte directo por WhatsApp en Perú</text>
+      <text x="470" y="50" fill="#818cf8" font-family="system-ui, sans-serif" font-size="20" font-weight="bold" text-anchor="end">S/ 60<tspan font-size="12" fill="#94a3b8">/año</tspan></text>
+    </g>
+  </g>
+
+  <!-- Right: Comparison vs Competitors -->
+  <g transform="translate(690, 195)">
+    <rect x="0" y="0" width="430" height="410" rx="20" fill="#18181b" stroke="#3f3f46" stroke-width="2" />
+    
+    <text x="30" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="18" font-weight="bold">Por qué elegirnos en Apurímac</text>
+    <text x="30" y="68" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="12">Máxima estabilidad para minería y comercio</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(30, 95)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#4f46e5" stroke-width="1" />
+      <text x="15" y="24" fill="#818cf8" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">ALMACENAMIENTO NVME</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Lectura y escritura ultrarrápida</text>
+      <text x="355" y="35" fill="#818cf8" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">&gt; 3500 MB/s</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(30, 170)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#6366f1" stroke-width="1" />
+      <text x="15" y="24" fill="#a5b4fc" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">CORREOS CORPORATIVOS</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Seguridad SPF, DKIM y DMARC</text>
+      <text x="355" y="35" fill="#a5b4fc" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">Sin Spam</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(30, 245)">
+      <rect x="0" y="0" width="370" height="60" rx="10" fill="#09090b" stroke="#f59e0b" stroke-width="1" />
+      <text x="15" y="24" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">PRECIO FIJO ANUAL</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Paga en Soles con Yape o Plin</text>
+      <text x="355" y="35" fill="#fbbf24" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">S/ 60 Fijo</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(30, 320)">
+      <rect x="0" y="0" width="370" height="65" rx="10" fill="#09090b" stroke="#10b981" stroke-width="1" />
+      <text x="15" y="24" fill="#34d399" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">SOPORTE TÉCNICO PERÚ</text>
+      <text x="15" y="45" fill="#ffffff" font-family="system-ui, sans-serif" font-size="13" font-weight="bold">Atención personalizada por WhatsApp</text>
+      <text x="355" y="35" fill="#34d399" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="end">24/7 Activo</text>
+    </g>
+  </g>
+</svg>
