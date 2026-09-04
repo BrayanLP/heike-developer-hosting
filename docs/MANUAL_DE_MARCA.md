@@ -1,6 +1,6 @@
 # 🌸 Manual de Identidad Visual y Marca: PROISO Tech & Software Solutions
 
-> **Versión:** 2.0 • **Fecha de Emisión:** Septiembre 2026  
+> **Versión:** 3.0 • **Fecha de Emisión:** Septiembre 2026  
 > **Plataforma Oficial:** [proiso.pe](https://proiso.pe) • **Liderazgo & Dirección:** Brenda Developer  
 > **Especialidad:** Infraestructura Cloud, Hosting NVMe de Alto Rendimiento y Desarrollo de Software en Perú
 
@@ -26,65 +26,47 @@ Consolidar a **PROISO** como la agencia de ingeniería de software e infraestruc
 
 ## 2. Paleta Cromática Oficial
 
-La identidad de **PROISO** utiliza un sistema cromático **Cyber Rose & Amethyst Violet**, contrastado sobre un fondo profundo en obsidiana. Esta paleta transmite modernidad, autoridad técnica y una identidad femenina empoderada.
+La identidad de **PROISO** utiliza el color oficial **Electric Iris / Periwinkle Violet (`#7D83FD`)**, contrastado sobre fondos midnight navy / obsidian y blanco puro. Esta paleta transmite modernidad, autoridad técnica, creatividad y una identidad femenina vanguardista.
 
 ### 2.1 Colores Principales
 
 | Muestra | Nombre del Color | HEX | HSL | RGB | Aplicación Principal |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#ec4899;border-radius:3px;"></span> | **Cyber Rose (Primario)** | `#EC4899` | `336°, 84%, 57%` | `(236, 72, 153)` | Botones de acción principales (CTA), isotipo, enlaces y destaques |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#8b5cf6;border-radius:3px;"></span> | **Electric Violet (Secundario)** | `#8B5CF6` | `262°, 83%, 58%` | `(139, 92, 246)` | Subtítulos, degradados complementarios, badges y acentos |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#f43f5e;border-radius:3px;"></span> | **Vivid Coral-Pink (Acento)** | `#F43F5E` | `350°, 89%, 60%` | `(244, 63, 94)` | Luces LED de servidores, micro-acentos y puntos focales |
+| <span style="display:inline-block;width:32px;height:16px;background-color:#7d83fd;border-radius:3px;"></span> | **Electric Iris (Primario Oficial)** | `#7D83FD` | `237°, 97%, 74%` | `(125, 131, 253)` | Color oficial del logotipo, acentos principales, badges e isotipo |
+| <span style="display:inline-block;width:32px;height:16px;background-color:#5e66fc;border-radius:3px;"></span> | **Deep Iris (Interactivo/Botón)** | `#5E66FC` | `237°, 88%, 64%` | `(94, 102, 252)` | Botones de acción principales (CTA), enlaces con contraste WCAG |
+| <span style="display:inline-block;width:32px;height:16px;background-color:#ffffff;border-radius:3px;"></span> | **Pure Light (Texto & Letras)** | `#FFFFFF` | `0°, 0%, 100%` | `(255, 255, 255)` | Tipografía del logotipo PROISO y textos sobre fondos oscuros |
 
 ### 2.2 Colores de Fondo y Superficie
 
 | Muestra | Nombre del Color | HEX | HSL | RGB | Aplicación Principal |
 | :---: | :--- | :--- | :--- | :--- | :--- |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#09090b;border-radius:3px;"></span> | **Obsidian Base (Fondo Dark)** | `#09090B` | `240°, 10%, 4%` | `(9, 9, 11)` | Fondo principal de la web en modo oscuro |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#150a1c;border-radius:3px;"></span> | **Amethyst Night (Superficie)**| `#150A1C` | `278°, 47%, 7%` | `(21, 10, 28)` | Fondo de tarjetas de planes, modales y bloques de código |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#ffffff;border-radius:3px;"></span> | **Pure Light (Texto & Light)** | `#FFFFFF` | `0°, 0%, 100%` | `(255, 255, 255)` | Tipografía de alto contraste sobre fondos oscuros |
-| <span style="display:inline-block;width:32px;height:16px;background-color:#fdf2f8;border-radius:3px;"></span> | **Rose Milk (Superficie Light)**| `#FDF2F8` | `330°, 67%, 97%`| `(253, 242, 248)` | Fondos secundarios y bloques destacados claros |
-
-### 2.3 Gradientes Oficiales
-
-```css
-/* 1. PROISO Aurora Gradient (Logotipo y Encabezados H1) */
-background: linear-gradient(135deg, #f43f5e 0%, #ec4899 35%, #d946ef 70%, #a855f7 100%);
-
-/* 2. Cyber Rose Glow (Efectos de iluminación y bordes) */
-box-shadow: 0 10px 30px -10px rgba(236, 72, 153, 0.35);
-
-/* 3. Obsidian Amethyst Surface (Tarjetas y Contenedores) */
-background: linear-gradient(180deg, #1e0f29 0%, #120817 100%);
-```
+| <span style="display:inline-block;width:32px;height:16px;background-color:#0a0b16;border-radius:3px;"></span> | **Midnight Navy (Fondo Dark)** | `#0A0B16` | `237°, 35%, 6%` | `(10, 11, 22)` | Fondo principal de la web en modo oscuro |
+| <span style="display:inline-block;width:32px;height:16px;background-color:#141627;border-radius:3px;"></span> | **Iris Slate (Superficie)**| `#141627` | `237°, 25%, 11%` | `(20, 22, 39)` | Fondo de tarjetas de planes, modales y bloques de código |
+| <span style="display:inline-block;width:32px;height:16px;background-color:#f7f8ff;border-radius:3px;"></span> | **Iris Mist (Superficie Light)**| `#F7F8FF` | `237°, 30%, 99%` | `(247, 248, 255)` | Fondo del sitio en modo claro |
 
 ---
 
 ## 3. Arquitectura del Logotipo
 
-El logotipo oficial de **PROISO** es un **isologotipo armónico** de alta precisión:
+El logotipo oficial de **PROISO** presenta dos declinaciones principales:
 
-```text
-  [ ISOTIPO TÉCNICO ]                      [ LOGOTIPO TIPOGRÁFICO ]
-    </> [ NUBE ] </>                   P R O I S O .
-       [RACK NVMe]         [ TECH & CLOUD / BY BRENDA DEV ]
-```
+### 3.1 Versión Isologotipo Cuadrado (Social, Avatar & App Icon)
+- **Fondo:** Color sólido **Electric Iris (`#7D83FD`)**.
+- **Tipografía Central:** **`PROISO`** en caja alta, tipografía geométrica bold con cortes de precisión en las letras **P** y **R**, y geometría circular en las letras **O**.
+- **Color:** Blanco puro `#FFFFFF`.
+- **Archivo:** `public/logo-square.png` / `public/icon.png`.
 
-1. **El Isotipo (Símbolo):**
-   - **La Nube Suave en Degradado Rose-Violet:** Representa la infraestructura cloud escalable.
-   - **Los Racks de Servidores Blade:** 3 chasis estilizados en violeta obsidiana con luces LED de actividad, simbolizando potencia de hardware y fiabilidad.
-   - **Las Etiquetas de Código (`</>`):** Enmarcan la infraestructura, recordando el ADN de desarrollo de software y personalización.
-2. **El Logotipo Tipográfico:**
-   - **"PROISO.":** Tipografía *Sans-Serif Geometric Bold* con gradiente *PROISO Aurora* (`#f43f5e` a `#a855f7`) y punto final distintivo.
-   - **Cinta Inferior "TECH & CLOUD / BY BRENDA DEV":** Cinta en corte angular con separador en diagonal y la firma de autoría de **Brenda Developer**.
+### 3.2 Versión Horizontal (Header Web & Documentos)
+- **Wordmark:** Tipografía **PROISO** en `#7D83FD` o blanco sobre fondo transparente.
+- **Cinta Inferior:** *"TECH & CLOUD SOLUTIONS"* con el badge de autoría *"BY BRENDA DEVELOPER"*.
+- **Archivos:** `public/logo.png` y `public/logo-white.png`.
 
-### 3.1 Reglas de Uso y Área de Reserva
-- **Área de Reserva:** La distancia mínima alrededor del logo debe ser equivalente a la altura de la letra **"O"** de PROISO.
-- **Tamaño Mínimo Digital:** 130px de ancho en pantallas estándar para garantizar la legibilidad de la cinta inferior.
+### 3.3 Reglas de Uso y Protección
+- **Área de Reserva:** La distancia mínima alrededor del logo debe ser equivalente al ancho de la letra **"I"** de PROISO.
 - **Usos Prohibidos:**
-  - ❌ No alterar los colores del gradiente por tonos amarillos o verdosos.
-  - ❌ No distorsionar las proporciones entre el isotipo y el texto.
-  - ❌ No retirar la firma de autoría *"BY BRENDA DEV"*.
+  - ❌ No cambiar el color oficial `#7D83FD` por tonos genéricos no normalizados.
+  - ❌ No alterar la relación de aspecto o deformar horizontalmente la tipografía.
+  - ❌ No omitir el crédito de liderazgo *"BY BRENDA DEVELOPER"* en las comunicaciones corporativas oficiales.
 
 ---
 
@@ -117,19 +99,19 @@ La comunicación de **PROISO** refleja el estilo de **Brenda Developer**:
 
 ```css
 :root {
-  --primary: 336 84% 57%;       /* #ec4899 Cyber Rose */
-  --secondary: 262 83% 58%;     /* #8b5cf6 Electric Violet */
-  --accent: 336 84% 57%;        /* Rose Accent */
-  --background: 330 20% 99%;    /* Clean Light */
-  --foreground: 240 10% 4%;
+  --primary: 237 88% 64%;       /* #5e66fc Electric Iris Focus */
+  --secondary: 237 97% 74%;     /* #7d83fd Electric Iris Oficial */
+  --accent: 237 88% 64%;        /* Accent */
+  --background: 237 30% 99%;    /* #f7f8ff Iris Mist */
+  --foreground: 237 30% 8%;
 }
 
 .dark {
-  --primary: 336 84% 57%;       /* #ec4899 Cyber Rose */
-  --secondary: 262 83% 62%;     /* #a855f7 Luminous Violet */
-  --background: 240 10% 4%;     /* #09090b Obsidian Base */
-  --foreground: 330 20% 98%;
-  --card: 250 15% 7%;           /* #150a1c Amethyst Night */
+  --primary: 237 88% 64%;       /* #5e66fc Electric Iris */
+  --secondary: 237 97% 74%;     /* #7d83fd Electric Iris Oficial */
+  --background: 237 35% 6%;     /* #0a0b16 Midnight Navy */
+  --foreground: 237 20% 98%;
+  --card: 237 25% 10%;          /* #141627 Iris Slate */
 }
 ```
 
