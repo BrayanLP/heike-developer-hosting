@@ -5,6 +5,13 @@ const nextConfig: NextConfig = {
 
 
   trailingSlash: true,
+  allowedDevOrigins: [
+    '185.182.9.176',
+    'localhost:9008',
+    'localhost:3000',
+    '*.proiso.pe',
+    'proiso.pe',
+  ],
   typescript: {
     ignoreBuildErrors: true,
   },
