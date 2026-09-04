@@ -1,98 +1,76 @@
 ---
-title: "Optimización de Bases de Datos MySQL y MariaDB en Servidores con Discos NVMe"
-slug: "optimizacion-bases-de-datos-mysql-hosting-nvme"
-date: "2026-08-28"
-excerpt: "Guía para acelerar consultas complejas, índices adecuados, optimización de tablas InnoDB y aprovechamiento de los altos IOPS de los discos NVMe PCIe en MySQL y MariaDB."
-coverImage: "/images/blog/optimizacion-bases-de-datos-mysql-hosting-nvme.svg"
+title: 'Optimización de Bases de Datos MySQL y MariaDB en Hosting NVMe: Índices, Consultas
+  y Caché'
+slug: optimizacion-bases-de-datos-mysql-hosting-nvme
+date: '2026-09-04'
+excerpt: Aprende a diagnosticar consultas lentas (Slow Queries), optimizar índices
+  y configurar InnoDB Buffer Pool en MariaDB sobre almacenamiento NVMe para aplicaciones
+  de alto rendimiento.
+coverImage: /images/blog/optimizacion-bases-de-datos-mysql-hosting-nvme.svg
 categories:
-  - "Desarrollo"
-  - "Servidores"
-  - "DevOps"
+- Bases de Datos
+- MySQL
+- NVMe
 tags:
-  - "mysql"
-  - "mariadb"
-  - "bases de datos"
-  - "optimizacion sql"
-  - "nvme"
-author: "PROISO Tech & Software Solutions"
-readingTime: "6 min de lectura"
+- optimizacion mysql mariadb
+- slow query log cpanel
+- indices innodb buffer pool
+- bases de datos nvme proiso
+- brenda developer
+author: Brenda Developer - PROISO
+readingTime: 9 min de lectura
+intentStage: SEE
+searchIntent: SEE
+targetKeyword: optimizacion bases datos mysql mariadb hosting nvme
 ---
 
-> En aplicaciones con catálogos amplios o plataformas con alto volumen de usuarios, el 90% de los cuellos de botella no provienen del código PHP o Node.js, sino de **consultas SQL lentas y falta de índices en la base de datos**.
+> El 80% de los cuellos de botella en aplicaciones web no provienen del código del frontend, sino de consultas a la base de datos que tardan segundos en escanear tablas sin índices. **Alojar bases de datos MySQL y MariaDB sobre unidades NVMe PCIe 4.0 con afinamiento de InnoDB Buffer Pool multiplica la velocidad de consulta por 10 y elimina bloqueos de concurrencia.**
 
-![Portada](/images/blog/optimizacion-bases-de-datos-mysql-hosting-nvme.svg)
+![Optimización de Bases de Datos MySQL](/images/blog/optimizacion-bases-de-datos-mysql-hosting-nvme.svg)
 
-## 1. El Rol de los Discos NVMe en el Rendimiento de MySQL
-
-A diferencia del procesamiento en memoria, las operaciones de bases de datos relacionales (**MySQL 8.0 y MariaDB**) dependen críticamente de la velocidad de entrada/salida (**I/O Operations Per Second - IOPS**):
-- Lectura de índices dispersos en disco.
-- Escritura y sincronización de transacciones ACID (`ibdata1` y `redo logs`).
-- Creación de tablas temporales en disco durante operaciones `JOIN` y `GROUP BY` masivas.
-
-Con los discos **NVMe PCIe 4.0** de **PROISO Tech & Software Solutions**, las operaciones de I/O se ejecutan a una velocidad hasta **10 veces superior** a los discos duros mecánicos y 4 veces más rápido que SSD SATA, eliminando las demoras de bloqueo de tablas.
+En esta guía técnica compartimos las mejores prácticas para mantener tus tablas optimizadas y tus tiempos de respuesta por debajo de los 10 milisegundos.
 
 ---
 
-## 2. Creación y Uso Estratégico de Índices
+## 1. El Impacto del Almacenamiento NVMe en Operaciones I/O de MySQL
 
-El error más común en bases de datos es realizar escaneos completos de tabla (`Full Table Scans`).
+Las bases de datos relacionales son extremadamente dependientes de las operaciones de Entrada/Salida por segundo (IOPS):
+- Cada escritura en el log de transacciones (`ib_logfile`) y cada lectura en tablas no cacheadas exige acceso a disco.
+- En un disco SSD SATA (50,000 IOPS), un pico de 100 consultas simultáneas genera cola de espera en disco.
+- En **PROISO Tech Solutions**, las unidades NVMe Gen4 superan los **850,000 IOPS**, respondiendo a lecturas complejas de forma casi instantánea.
 
-### Ejemplo: Búsqueda sin índice vs con índice
+---
 
-Si ejecutas frecuentemente:
+## 2. Las 3 Directivas Clave de Afinamiento en MariaDB
+
+1. **`innodb_buffer_pool_size`:** Debe dimensionarse para almacenar entre el 70% y el 80% de las tablas más consultadas en memoria RAM pura.
+2. **`query_cache_type`:** En versiones modernas es preferible utilizar Redis Object Cache para no generar cuellos de botella por invalidación de caché de consultas globales.
+3. **`innodb_flush_log_at_trx_commit = 2`:** En entornos que priorizan el rendimiento web, permite agrupar la escritura a disco cada segundo, multiplicando las inserciones por segundo.
+
+---
+
+## 3. Identificación de Consultas Lentas con `EXPLAIN`
+
+Nunca adivines el rendimiento de una consulta; examina su plan de ejecución:
+
 ```sql
-SELECT id, nombre, email FROM usuarios WHERE email = 'cliente@empresa.com';
+EXPLAIN SELECT o.id, o.total, u.email 
+FROM orders o 
+JOIN users u ON o.user_id = u.id 
+WHERE o.status = 'COMPLETED' 
+ORDER BY o.created_at DESC LIMIT 20;
 ```
 
-En una tabla con 100,000 registros sin índice, MySQL debe leer 100,000 filas una por una. Creando un índice B-Tree:
-
+Si la columna `type` muestra `ALL`, significa que MySQL está realizando un escaneo de tabla completa (*Full Table Scan*). La solución inmediata es agregar un índice compuesto:
 ```sql
-CREATE INDEX idx_usuarios_email ON usuarios(email);
-```
-
-MySQL encontrará el registro exacto en solo **1 o 2 lecturas de bloques**, reduciendo el tiempo de 450ms a **0.8ms**.
-
----
-
-## 3. Uso del Comando `EXPLAIN` para Detectar Consultas Lentas
-
-Antes de publicar cualquier consulta SQL en tu aplicación, evalúala con `EXPLAIN`:
-
-```sql
-EXPLAIN SELECT o.id, o.monto, c.nombre 
-FROM pedidos o 
-JOIN clientes c ON o.cliente_id = c.id 
-WHERE o.estado = 'completado' AND o.fecha >= '2026-01-01';
-```
-
-### Qué debes revisar en la salida:
-- **`type`**: Evita que diga `ALL`. Busca que sea `ref`, `eq_ref` o `range`.
-- **`possible_keys` y `key`**: Confirma que MySQL esté usando el índice que creaste.
-- **`rows`**: Representa la cantidad estimada de filas analizadas; cuanto menor sea el número, mayor será la velocidad.
-
----
-
-## 4. Mantenimiento y Optimización de Tablas InnoDB
-
-Con el tiempo, las operaciones de borrado (`DELETE`) y actualización (`UPDATE`) generan fragmentación de espacio en los archivos `.ibd`.
-
-### Optimización vía phpMyAdmin o Terminal:
-```sql
--- Reconstruye los índices y libera espacio no utilizado en disco
-OPTIMIZE TABLE pedidos, detalles_pedidos, productos;
+CREATE INDEX idx_orders_status_created ON orders (status, created_at);
 ```
 
 ---
 
-## 5. Parámetros del Servidor en PROISO Tech & Software Solutions
+## Conclusión
 
-Nuestros servidores MySQL y MariaDB vienen preconfigurados con parámetros optimizados para alto rendimiento:
-- **`innodb_buffer_pool_size`**: Tamaño de búfer generoso para mantener las tablas más consultadas en memoria RAM.
-- **`innodb_flush_log_at_trx_commit = 2`**: Escritura eficiente en discos NVMe para transacciones ultra rápidas.
-- **`query_cache_type = 0` (en MySQL 8)**: Eliminación de bloqueos globales en favor del optimizador de costes de última generación.
+El rendimiento de tu aplicación depende de la sinergia entre consultas bien escritas y una infraestructura de disco de baja latencia.
 
----
-
-## 6. Conclusión
-
-Aprovechar la velocidad bruta de los discos NVMe junto con buenas prácticas de indexación SQL garantizará que tu web responda de forma instantánea, incluso en días de alta demanda comercial como Cyber Days o Black Friday.
+> **Tus bases de datos merecen la velocidad del almacenamiento NVMe:**  
+> Acompaña tus sistemas con los planes de hosting cloud de **[proiso.pe](https://proiso.pe)** por Brenda Developer.

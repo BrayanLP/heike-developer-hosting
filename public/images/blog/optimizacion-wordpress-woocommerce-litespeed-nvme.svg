@@ -1,52 +1,60 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675">
   <defs>
-    <radialGradient id="bgGlow2" cx="50%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.18" />
-      <stop offset="60%" stop-color="#18181b" stop-opacity="0.95" />
-      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
-    </radialGradient>
-    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#27272a" stop-opacity="0.8" />
-      <stop offset="100%" stop-color="#18181b" stop-opacity="0.95" />
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b16" />
+      <stop offset="100%" stop-color="#1e1b4b" />
     </linearGradient>
+    <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7d83fd" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#7d83fd" stop-opacity="0.2" />
+    </linearGradient>
+    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur" />
+    </filter>
   </defs>
 
-  <rect width="1200" height="675" fill="#09090b" />
-  <rect width="1200" height="675" fill="url(#bgGlow2)" />
+  <!-- Background Base -->
+  <rect width="1200" height="675" fill="url(#bg)" />
 
-  <!-- Speedometer &amp; LiteSpeed Performance Visual -->
-  <rect x="250" y="100" width="700" height="475" rx="24" fill="url(#cardGrad2)" stroke="#3f3f46" stroke-width="2" />
-  
-  <rect x="250" y="100" width="700" height="50" rx="24" fill="#18181b" />
-  <rect x="250" y="125" width="700" height="25" fill="#18181b" />
-  <circle cx="285" cy="125" r="7" fill="#ef4444" />
-  <circle cx="310" cy="125" r="7" fill="#eab308" />
-  <circle cx="335" cy="125" r="7" fill="#22c55e" />
-  <text x="600" y="130" fill="#a1a1aa" font-family="monospace" font-size="14" text-anchor="middle">LiteSpeed Web Server + LSCache Benchmarks</text>
+  <!-- Ambient Glow -->
+  <circle cx="1050" cy="150" r="220" fill="#7d83fd" opacity="0.15" filter="url(#blurGlow)" />
+  <circle cx="150" cy="520" r="260" fill="#7d83fd" opacity="0.1" filter="url(#blurGlow)" />
 
-  <!-- Speed Gauge Mockup -->
-  <g transform="translate(600, 310)">
-    <!-- Arc gauge -->
-    <circle cx="0" cy="0" r="110" fill="none" stroke="#27272a" stroke-width="16" />
-    <path d="M -95 55 A 110 110 0 1 1 95 55" fill="none" stroke="#06b6d4" stroke-width="16" stroke-linecap="round" />
-    
-    <text x="0" y="-15" fill="#ffffff" font-family="sans-serif" font-size="44" font-weight="extrabold" text-anchor="middle">3.2x</text>
-    <text x="0" y="18" fill="#06b6d4" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">MÁS RÁPIDO</text>
-    <text x="0" y="42" fill="#a1a1aa" font-family="sans-serif" font-size="12" text-anchor="middle">TTFB &lt; 150ms</text>
+  <!-- Grid Pattern -->
+  <g stroke="#ffffff" stroke-width="1" opacity="0.04">
+    <line x1="120" y1="0" x2="120" y2="675" />
+    <line x1="240" y1="0" x2="240" y2="675" />
+    <line x1="360" y1="0" x2="360" y2="675" />
+    <line x1="480" y1="0" x2="480" y2="675" />
+    <line x1="600" y1="0" x2="600" y2="675" />
+    <line x1="720" y1="0" x2="720" y2="675" />
+    <line x1="840" y1="0" x2="840" y2="675" />
+    <line x1="960" y1="0" x2="960" y2="675" />
+    <line x1="1080" y1="0" x2="1080" y2="675" />
+    <line x1="0" y1="135" x2="1200" y2="135" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="0" y1="405" x2="1200" y2="405" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
   </g>
 
-  <!-- Metric Badges -->
-  <g transform="translate(300, 480)">
-    <rect x="0" y="0" width="140" height="40" rx="10" fill="#06b6d4" fill-opacity="0.15" stroke="#06b6d4" stroke-width="1.5" />
-    <text x="70" y="25" fill="#22d3ee" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">LITESPEED</text>
+  <!-- Accent Top Border -->
+  <rect x="0" y="0" width="1200" height="6" fill="#7d83fd" />
 
-    <rect x="160" y="0" width="130" height="40" rx="10" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="1.5" />
-    <text x="225" y="25" fill="#60a5fa" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">WORDPRESS</text>
-
-    <rect x="310" y="0" width="140" height="40" rx="10" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="1.5" />
-    <text x="380" y="25" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">WOOCOMMERCE</text>
-
-    <rect x="470" y="0" width="130" height="40" rx="10" fill="#ff9900" fill-opacity="0.15" stroke="#ff9900" stroke-width="1.5" />
-    <text x="535" y="25" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">NVMe SSD</text>
+  <!-- Category Tag -->
+  <g transform="translate(100, 110)">
+    <rect x="0" y="0" width="157" height="36" rx="18" fill="#7d83fd" fill-opacity="0.15" stroke="#7d83fd" stroke-width="1.5" />
+    <text x="18" y="23" fill="#7d83fd" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">WOOCOMMERCE</text>
   </g>
+
+  <!-- Title Text -->
+  <text x="100" y="230" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">Optimización Extrema de WooCommerce con LiteSpeed Cache</text>
+  <text x="100" y="295" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="800" letter-spacing="-1">y NVMe: De 4 Segundos a 400 Milisegundos</text>
+
+  <!-- Decorative Line -->
+  <rect x="100" y="340" width="80" height="4" rx="2" fill="#7d83fd" />
+
+  <!-- Bottom Brand Footprint -->
+  <text x="100" y="580" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" letter-spacing="0.5">ARTÍCULO EDITORIAL • ACTUALIZADO 2026-09-04</text>
+  <circle cx="1080" cy="575" r="8" fill="#7d83fd" />
+  <circle cx="1105" cy="575" r="4" fill="#7d83fd" opacity="0.5" />
 </svg>
