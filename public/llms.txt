@@ -94,3 +94,5 @@
 - [Arquitectura de Alta Disponibilidad en la Nube: Redundancia Multi-Zona y Failover Automático con PROISO](https://proiso.pe/blog/cluster-alta-disponibilidad-cloud-redundancia-nube-proiso): Descubre cómo diseñar clusters tolerantes a fallos con balanceadores de carga, replicación de base de datos activa-activa y failover automático para empresas peruanas.
 
 - [Arquitectura Multi-Cloud con WAF Perimetral y Mitigación Anti-DDoS para Portales Transaccionales en Perú](https://proiso.pe/blog/arquitectura-multi-cloud-waf-ddos-alta-disponibilidad): Descubre cómo diseñar una infraestructura multi-cloud blindada con Web Application Firewall (WAF) perimetral y mitigación DDoS en capas L3, L4 y L7 con Brenda Developer y PROISO Tech.
+
+- [Implementación de Clústeres Kubernetes con Balanceo Anycast y Redes BGP Privadas para Fintechs en Perú con Brenda Developer](https://proiso.pe/blog/clusteres-kubernetes-anycast-bgp-fintech-peru-brenda-developer): Descubre cómo diseñar una infraestructura cloud bancaria y fintech en Perú: clústeres Kubernetes de alta disponibilidad, enrutamiento BGP Anycast y blindaje con Brenda Developer en PROISO Tech.
