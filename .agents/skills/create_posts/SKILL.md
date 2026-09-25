@@ -216,7 +216,7 @@ Para captar clientes orgánicos en cada región del país, el skill debe generar
    ```
 
 3. **Paso 1: Generate cover image**
-   El skill invoca la herramienta **`generate_image`** con el `coverPrompt` (relación de aspecto 16:9, estética tecnológica moderna, oscura y profesional con toques de color naranja y ámbar corporativos).
+   El skill invoca la redacción del prompt en el frontmatter (NO generar la imagen directamente) con el `coverPrompt` (relación de aspecto 16:9, estética tecnológica moderna, oscura y profesional con toques de color naranja y ámbar corporativos).
 
 3. **Rename & move the image**
    - **Directorio de Imágenes**: `/Users/brayanlaureanopaucar/Proyectos/12 apps/heike-developer-hosting/public/images/blog/`
